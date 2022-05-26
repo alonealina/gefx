@@ -37,4 +37,51 @@ function clickContactButton() {
         document.getElementById("error_message").innerHTML = "不足している項目があります";
     }
 }
+
+// 口座種類切り替えについて
+let indiBtn = document.querySelector(".indi_btn");
+let corpBtn = document.querySelector(".corp_btn");
+let indiForm = document.getElementById("indi_form");
+let corpForm = document.getElementById("corp_form");
+
+indiBtn.addEventListener("click", function () {
+    indiBtn.classList.remove("not");
+    corpBtn.classList.add("not");
+    indiForm.hidden = false;
+    corpForm.hidden = true;
+});
+
+corpBtn.addEventListener("click", function () {
+    indiBtn.classList.add("not");
+    corpBtn.classList.remove("not");
+    indiForm.hidden = true;
+    corpForm.hidden = false;
+});
+
+$('input[name="indi_copy_img1"]').on('change', function () {
+    var file = $(this).prop('files')[0];
+    $('.indi_file_p1').text(file.name);
+});
+
+$('input[name="indi_copy_img2"]').on('change', function () {
+    var file = $(this).prop('files')[0];
+    $('.indi_file_p2').text(file.name);
+});
+
+$('input[name="indi_copy_img3"]').on('change', function () {
+    var file = $(this).prop('files')[0];
+    $('.indi_file_p3').text(file.name);
+});
+
+// function clickFormButton() {
+//     check1 = document.faraday_form.Check1.checked;
+//     if (check1) {
+//       document.forms.faraday_form.submit();
+//     }
+// }
+
+// 仮処理
+function clickIndiFormButton() {
+    
+}
   
