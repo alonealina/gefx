@@ -18,14 +18,19 @@ class GefxController extends Controller
         return view('new_acount');
     }
 
-    public function news()
+    public function demo_acount()
     {
-        return view('news');
+        return view('demo_acount');
     }
 
-    public function news_detail()
+    public function login()
     {
-        return view('news_detail');
+        return view('login');
+    }
+
+    public function company()
+    {
+        return view('company');
     }
 
     public function games()

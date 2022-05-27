@@ -198,12 +198,71 @@ p {
     margin-top:134px;
 }
 
+.pt100 {
+    padding-top: 100px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
 .header_padding_sp {
     padding-top:83px;
 }
 
 .header_margin_sp {
     margin-top: 48px;
+}
+
+.login_div {
+    width:700px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border-left: 1px solid #A5A5A5;
+    border-right: 1px solid #A5A5A5;
+    border-bottom: 1px solid #A5A5A5;
+    border-top: 7px solid #6A0DFF;
+    margin:auto;
+    padding:50px 100px;
+}
+
+.login_logo {
+    display: block;
+    margin:auto;
+    width:75px;
+}
+
+.login_title {
+    font: normal normal bold 42px/76px Open Sans;
+    letter-spacing: 0px;
+    color: #66008D;
+    text-align: center;
+}
+
+.login_text {
+    font: normal normal 600 16px/32px Open Sans;
+    letter-spacing: -0.16px;
+    color: #262626;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login_item_name {
+    font: normal normal normal 16px/26px Arial;
+    letter-spacing: -0.18px;
+    color: #66008D;
+}
+
+.login_form_text {
+    font: normal normal normal 20px/30px Arial;
+    letter-spacing: -0.2px;
+    color: #262626;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
 }
 
 .acount_div {
@@ -377,6 +436,24 @@ input[type=checkbox] {
     text-align: center;
 }
 
+.complete_text {
+    font: normal normal normal 22px/30px Arial;
+    letter-spacing: -0.24px;
+    color: #262626;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.demo_explain {
+    font: normal normal bold 20px/30px Open Sans;
+    color: #262626;
+    text-align: center;
+}
+
+.demo_span {
+    color: #66008D;
+}
+
 .btn_a {
     width:400px;
     margin:auto;
@@ -393,6 +470,71 @@ input[type=checkbox] {
     color: #FFFFFF;
     text-align: center;
     padding:30px;
+}
+
+.login_btn_a {
+    width:100%;
+    margin:auto;
+    display: block;
+    cursor: pointer;
+}
+
+.login_btn {
+    background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #7D0DFFB9;
+    border: 2px solid #6A0DFF;
+    border-radius: 5px;
+    font: normal normal normal 26px/36px Open Sans;
+    color: #FFFFFF;
+    text-align: center;
+    width:100%;
+    padding:20px;
+    margin-bottom: 40px;
+}
+
+.reminder_a {
+    font: normal normal normal 16px/28px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+    text-align: center;
+    margin:10px;
+}
+
+.reminder_a a {
+    text-decoration: underline;
+    color: #66008D;
+}
+
+textarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.6000000238418579px solid #222222;
+    border-radius: 3px;
+    width: 850px;
+    height: 230px;
+}
+
+.company_flex {
+    display: flex;
+    width:100%;
+    border-top: 1px solid #A5A5A5;
+}
+
+.company_before {
+    width: 200px;
+    margin: 10px 50px;
+    padding: 10px;
+    font: normal normal 600 18px/40px Open Sans;
+    letter-spacing: 1.35px;
+    color: #363833;
+    border-right: 1px solid #A5A5A5;
+}
+
+.company_after {
+    margin: 10px 50px;
+    padding: 10px;
+    font: normal normal normal 18px/30px Open Sans;
+    letter-spacing: 1.35px;
+    color: #363833;
 }
 
 #registration_pc {

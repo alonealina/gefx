@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="div_bg header_margin">
+<div class="div_bg header_margin pb100">
     <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">新規口座開設</div>
     <div class="acount_div">

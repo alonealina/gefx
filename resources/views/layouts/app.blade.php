@@ -38,10 +38,10 @@
                     <a href="{{ route('new_acount') }}" class="header_a header_btn1">
                         <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 130px;">新規口座開設</p>
                     </a>
-                    <a href="{{ route('news') }}" class="header_a header_btn2">
+                    <a href="{{ route('demo_acount') }}" class="header_a header_btn2">
                         <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 130px;">デモ口座開設</p>
                     </a>
-                    <a href="{{ route('news') }}" class="header_a header_btn1">
+                    <a href="{{ route('login') }}" class="header_a header_btn1">
                         <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 90px;">Login</p>
                     </a>
                     <a href="{{ route('news') }}" class="header_a header_btn3">
@@ -75,7 +75,7 @@
                         <p class="@if (strpos($now_route,'technology') !== false) current @endif">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('partner') }}" class="footer_a">
+                    <a href="{{ route('company') }}" class="footer_a">
                         <p class="@if (strpos($now_route,'partner') !== false) current @endif">会社概要</p>
                     </a>
                 </div>
