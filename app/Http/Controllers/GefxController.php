@@ -13,6 +13,11 @@ class GefxController extends Controller
         return view('index');
     }
 
+    public function faq()
+    {
+        return view('faq');
+    }
+
     public function new_acount()
     {
         return view('new_acount');
@@ -33,25 +38,11 @@ class GefxController extends Controller
         return view('company');
     }
 
-    public function games()
-    {
-        return view('games');
-    }
-
-    public function technology()
-    {
-        return view('technology');
-    }
-
-    public function partner()
-    {
-        return view('partner');
-    }
-
     public function contact()
     {
         return view('contact');
     }
+
 
 
 

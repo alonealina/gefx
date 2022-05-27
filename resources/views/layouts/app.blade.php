@@ -26,26 +26,26 @@
                     <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                 </a>
                 <div class="header_menu">
-                    <a href="{{ route('index') }}" class="header_a">
-                        <p class="menu_name @if (strpos($now_route,'index') !== false) current @endif">TOP</p>
+                    <a href="/" class="header_a">
+                        <p class="menu_name">TOP</p>
                     </a>
-                    <a href="{{ route('index') }}" class="header_a">
-                        <p class="menu_name @if (strpos($now_route,'about') !== false) current @endif" style="width: 175px;">GOOD ENOUGH FX 案内</p>
+                    <a href="/" class="header_a">
+                        <p class="menu_name" style="width: 175px;">GOOD ENOUGH FX 案内</p>
                     </a>
-                    <a href="{{ route('news') }}" class="header_a">
-                        <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 105px;">よくあるご質問</p>
+                    <a href="{{ route('faq') }}" class="header_a">
+                        <p class="menu_name" style="width: 105px;">よくあるご質問</p>
                     </a>
                     <a href="{{ route('new_acount') }}" class="header_a header_btn1">
-                        <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 130px;">新規口座開設</p>
+                        <p class="menu_name" style="width: 130px;">新規口座開設</p>
                     </a>
                     <a href="{{ route('demo_acount') }}" class="header_a header_btn2">
-                        <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 130px;">デモ口座開設</p>
+                        <p class="menu_name" style="width: 130px;">デモ口座開設</p>
                     </a>
                     <a href="{{ route('login') }}" class="header_a header_btn1">
-                        <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 90px;">Login</p>
+                        <p class="menu_name" style="width: 90px;">Login</p>
                     </a>
-                    <a href="{{ route('news') }}" class="header_a header_btn3">
-                        <p class="menu_name @if (strpos($now_route,'news') !== false) current @endif" style="width: 30px;">JP</p>
+                    <a href="/" class="header_a header_btn3">
+                        <p class="menu_name" style="width: 30px;">JP</p>
                     </a>
 
                 </div>
@@ -55,28 +55,28 @@
             <div class="footer_border"></div>
             <footer>
                 <div class="footer_menu">
-                    <a href="{{ route('index') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'index') !== false) current @endif">金融サービスガイド(FSG)</p>
+                    <a href="/" class="footer_a">
+                        <p class="">金融サービスガイド(FSG)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('index') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'about') !== false) current @endif">金融商品開示文書(PDS)</p>
+                    <a href="/" class="footer_a">
+                        <p class="">金融商品開示文書(PDS)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('news') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'news') !== false) current @endif">取引規約</p>
+                    <a href="/" class="footer_a">
+                        <p class="">取引規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('games') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'games') !== false) current @endif">ウェブサイト個人情報保護方針</p>
+                    <a href="/" class="footer_a">
+                        <p class="">ウェブサイト個人情報保護方針</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('technology') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'technology') !== false) current @endif">ウェブサイト利用規約</p>
+                    <a href="/" class="footer_a">
+                        <p class="">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
                     <a href="{{ route('company') }}" class="footer_a">
-                        <p class="@if (strpos($now_route,'partner') !== false) current @endif">会社概要</p>
+                        <p class="">会社概要</p>
                     </a>
                 </div>
                 <div class="footer_explain">

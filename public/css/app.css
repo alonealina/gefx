@@ -265,6 +265,36 @@ p {
     margin-bottom: 20px;
 }
 
+.faq_div {
+    width:1200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border-left: 1px solid #A5A5A5;
+    border-right: 1px solid #A5A5A5;
+    border-bottom: 1px solid #A5A5A5;
+    border-top: 7px solid #6A0DFF;
+    margin:auto;
+    padding:60px 80px;
+}
+
+.faq_q {
+    padding:30px 20px;
+    width:100%;
+    font: normal normal normal 18px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #313131E5 0%, #373737 100%) 0% 0% no-repeat padding-box;
+}
+
+.faq_a {
+    padding:25px 20px;
+    width:100%;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #262626;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+}
+
 .acount_div {
     width:1080px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -459,6 +489,10 @@ input[type=checkbox] {
     margin:auto;
     display: block;
     cursor: pointer;
+}
+
+.btn_a:hover {
+    text-decoration: none;
 }
 
 .btn_purple {
