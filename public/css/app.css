@@ -71,7 +71,6 @@ footer {
     width:100%;
     position: fixed;
     z-index: 9000;
-    padding:10px;
     background: transparent linear-gradient(180deg, #222222 0%, #393939 100%) 0% 0% no-repeat padding-box;
 }
 
@@ -91,6 +90,7 @@ a {
 .logo_a {
     display: inline-block;
     margin-left: 100px;
+    margin-top: 20px;
 }
 
 img {
@@ -112,6 +112,15 @@ p {
     align-items: center;
     width: 900px;
     margin: auto;
+}
+
+.header_menu_user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .header_a {
@@ -191,7 +200,170 @@ p {
     font: normal normal normal 14px/18px Arial;
 }
 
+.user_div {
+    font: normal normal 600 16px/36px Open Sans;
+    padding:50px 20px 40px;
+    background: #505050 0% 0% no-repeat padding-box;
+    border-left: 1px solid #A5A5A5;
+    width:230px;
+    color: #FFFFFF;
+    margin-right: 200px;
+}
+
+.user_name {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.user_span {
+    vertical-align: top;
+}
+
+.user_detail {
+    font: normal normal normal 16px/30px Arial;
+    letter-spacing: -0.16px;
+    padding:30px 10px;
+    background: #505050 0% 0% no-repeat padding-box;
+    border-top: 1px solid #A5A5A5;
+    width:230px;
+    color: #FFFFFF;
+    top: 136px;
+    right: 200px;
+    position: fixed;
+    z-index: 9000;
+}
+
+.user_detail_content {
+    font: normal normal 600 18px/28px Open Sans;
+    letter-spacing: -0.2px;
+    color: #68009F;
+    text-align: center;
+    padding: 10px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    margin-bottom: 15px;
+}
+
+.user_content_div {
+    background: transparent linear-gradient(180deg, #7B7B7B 0%, #9A9999 52%, #626262 100%) 0% 0% no-repeat padding-box;
+    padding:0 200px;
+}
+
+.user_content_flex {
+    display: flex;
+    width:100%;
+}
+
+.user_sidebar {
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px #00000029;
+    background: transparent linear-gradient(90deg, #6A0DFF 0%, #66008D 100%) 0% 0% no-repeat padding-box;
+    min-width: 200px;
+    padding-left: 50px;
+    min-height: 600px;
+}
+
+.user_a {
+    display: block;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.user_content_main {
+    background: transparent linear-gradient(88deg, #FFFFFF 0%, #EFEFEF 54%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border: 1px solid #A5A5A5;
+    width:1052px;
+    font: normal normal bold 18px/30px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+    padding: 50px 200px 90px 40px;
+    width: 1100px;
+    min-width: 1000px;
+}
+
+.user_content_title {
+    font: normal normal bold 24px/46px Open Sans;
+    color: #66008D;
+    width:100%;
+    border-bottom: 1px solid #A5A5A5;
+    margin-bottom: 15px;
+}
+
+.user_item_flex {
+    display: flex;
+    width: 100%;
+}
+
+.user_item {
+    width:50%;
+    margin-bottom: 24px;
+}
+
+.user_item_name {
+    font: normal normal bold 16px/28px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+}
+
+.history_item_name {
+    font: normal normal bold 16px/30px Arial;
+    letter-spacing: -0.16px;
+    color: #262626;
+    position: absolute
+}
+
+.user_item_content {
+    font: normal normal 600 18px/28px Open Sans;
+    letter-spacing: -0.2px;
+    color: #66008D;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6000000238418579px solid #222222;
+    border-radius: 3px;
+    padding:14px 24px;
+    width: 85%;
+}
+
+.history_item_content {
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: -0.2px;
+    color: #66008D;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6000000238418579px solid #222222;
+    border-radius: 3px;
+    padding:8px 24px;
+    width: 100%;
+    position: absolute
+}
+
+.history_img {
+    width: 65%;
+}
+
+.history_item {
+    width: 100%;
+    padding-left: 15px;
+    position: relative;
+}
+
+.pagenate {
+    width:65%;
+    text-align: center;
+    margin-top: 20px;
+    font: normal normal bold 16px/28px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+}
+
+.page_current {
+    color: #66008D;
+}
+
 .current {
+    text-decoration: underline;
+    opacity: 0.6;
 }
 
 .header_margin {

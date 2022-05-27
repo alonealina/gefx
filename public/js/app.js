@@ -73,13 +73,6 @@ $('input[name="indi_copy_img3"]').on('change', function () {
     $('.indi_file_p3').text(file.name);
 });
 
-// function clickFormButton() {
-//     check1 = document.faraday_form.Check1.checked;
-//     if (check1) {
-//       document.forms.faraday_form.submit();
-//     }
-// }
-
 // 仮処理
 function clickIndiFormButton() {
     $(".acount_div").empty();

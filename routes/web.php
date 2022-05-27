@@ -9,3 +9,6 @@ Route::get('login', 'App\Http\Controllers\GefxController@login')->name('login');
 Route::get('contact', 'App\Http\Controllers\GefxController@contact')->name('contact');
 Route::get('company', 'App\Http\Controllers\GefxController@company')->name('company');
 Route::get('faq', 'App\Http\Controllers\GefxController@faq')->name('faq');
+
+Route::get('summary', 'App\Http\Controllers\GefxController@summary')->name('summary');
+Route::get('history', 'App\Http\Controllers\GefxController@history')->name('history');

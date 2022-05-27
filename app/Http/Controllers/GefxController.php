@@ -44,6 +44,17 @@ class GefxController extends Controller
     }
 
 
+    public function summary()
+    {
+        return view('summary');
+    }
+
+    public function history()
+    {
+        return view('history');
+    }
+
+
 
 
 
