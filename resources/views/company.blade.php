@@ -17,7 +17,7 @@
         <div class="company_flex" style="border-bottom: 1px solid #A5A5A5;">
             <div class="company_before">会社名</div>
             <div class="company_after">
-                1. Business related to foreign exchange / CFD <br>
+                1. Business related to foreign exchange / CFD<br>
                 　/ trading on the Internet<br>
                 2. Forex / CFD / trading business<br>
                 3. Forex / CFD / Trading information service
