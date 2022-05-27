@@ -94,3 +94,5 @@ function clickContactFormButton() {
     $(".acount_div").append('<div class="complete_text">３営業日以内にメールにてご連絡致します</div>');
     $(".acount_div").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
 }
+
+

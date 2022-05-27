@@ -54,6 +54,11 @@ class GefxController extends Controller
         return view('history');
     }
 
+    public function deposit()
+    {
+        return view('deposit');
+    }
+
 
 
 

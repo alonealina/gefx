@@ -366,6 +366,125 @@ p {
     opacity: 0.6;
 }
 
+.deposit_btn_flex {
+    display: flex;
+    width:96%;
+    justify-content: space-between;
+}
+
+.deposit_btn {
+    font: normal normal 600 16px/22px Open Sans;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #6A0DFF;
+    border-radius: 5px;
+    padding: 20px 0;
+    cursor: pointer;
+    text-align: center;
+    width:30%;
+}
+
+.card_banner {
+    width:96%;
+    margin-bottom: 40px;
+}
+
+.deposit_title {
+    font: normal normal bold 22px/70px Open Sans;
+    letter-spacing: 0px;
+    color: #66008D;
+    text-align: center;
+}
+
+.deposit_text {
+    font: normal normal normal 16px/28px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+    text-align: center;
+}
+
+.deposit_red {
+    font: normal normal bold 15px/23px Arial;
+    letter-spacing: -0.16px;
+    color: #FF0000;
+    text-align: center;
+}
+
+.bank_detail {
+    width: 470px;
+    display: flex;
+    padding:30px 80px;
+    font: normal normal 600 16px/36px Open Sans;
+    letter-spacing: -0.18px;
+    color: #262626;
+    justify-content: space-between;
+    margin: 15px auto;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+}
+
+.bank_text {
+    font: normal normal normal 13px/20px Arial;
+    letter-spacing: -0.14px;
+    color: #262626;
+    margin:auto;
+}
+
+.deposit_item_flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.deposit_item {
+    width: 45%;
+    margin-bottom: 24px;
+}
+
+.deposit_item_content {
+    font: normal normal 600 18px/28px Open Sans;
+    letter-spacing: -0.2px;
+    color: #66008D;
+    border-radius: 3px;
+    padding: 14px 24px;
+    width: 85%;
+}
+
+.deposit_input_text {
+    font: normal normal 600 18px/28px Open Sans;
+    letter-spacing: -0.2px;
+    color: #000;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    padding: 14px 24px;
+    width: 85%;
+}
+
+.t_mark {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.t_box {
+    padding:30px;
+    width:500px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    text-align: center;
+    font: normal normal 600 16px/36px Open Sans;
+    letter-spacing: -0.18px;
+    color: #262626;
+    margin: 15px auto 50px;
+}
+
+#withdraw_div {
+    width:95%;
+    margin:auto;
+}
+
 .header_margin {
     margin-top:134px;
 }

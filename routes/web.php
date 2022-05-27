@@ -12,3 +12,4 @@ Route::get('faq', 'App\Http\Controllers\GefxController@faq')->name('faq');
 
 Route::get('summary', 'App\Http\Controllers\GefxController@summary')->name('summary');
 Route::get('history', 'App\Http\Controllers\GefxController@history')->name('history');
+Route::get('deposit', 'App\Http\Controllers\GefxController@deposit')->name('deposit');
