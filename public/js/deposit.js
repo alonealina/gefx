@@ -71,6 +71,13 @@ function clickCryptoFormButton2() {
 }
 
 
+function clickBankFormButton() {
+    $("#bank_div2").empty();
+    $("#bank_div2").append('<div class="head_title">出金を受け付けました。</div>');
+    $("#bank_div2").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
+    $("#bank_div2").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>');
+}
+
 function clickCryptoFormButton3() {
     $("#crypto_div2").empty();
     $("#crypto_div2").append('<div class="head_title">出金を受け付けました。</div>');

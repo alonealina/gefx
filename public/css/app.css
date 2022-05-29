@@ -462,6 +462,21 @@ p {
     width: 85%;
 }
 
+.withdraw_input_text {
+    font: normal normal 600 18px/28px Open Sans;
+    letter-spacing: -0.2px;
+    color: #000;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    padding: 14px 24px;
+    width: 100%;
+}
+
+.checkbox_item {
+    text-align: center;
+}
+
 .t_mark {
     display: block;
     margin: 0 auto 20px;
@@ -474,6 +489,19 @@ p {
     border: 0.6px solid #222222;
     border-radius: 3px;
     text-align: center;
+    font: normal normal 600 16px/36px Open Sans;
+    letter-spacing: -0.18px;
+    color: #262626;
+    margin: 15px auto 50px;
+}
+
+.withdraw_box {
+    padding:20px;
+    width:750px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    text-align: left;
     font: normal normal 600 16px/36px Open Sans;
     letter-spacing: -0.18px;
     color: #262626;
