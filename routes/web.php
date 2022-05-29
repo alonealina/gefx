@@ -16,3 +16,4 @@ Route::get('deposit', 'App\Http\Controllers\GefxController@deposit')->name('depo
 Route::get('transfer', 'App\Http\Controllers\GefxController@transfer')->name('transfer');
 Route::get('add_acount', 'App\Http\Controllers\GefxController@add_acount')->name('add_acount');
 Route::get('setting', 'App\Http\Controllers\GefxController@setting')->name('setting');
+Route::get('setting2', 'App\Http\Controllers\GefxController@setting2')->name('setting2');

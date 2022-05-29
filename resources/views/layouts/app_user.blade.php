@@ -63,7 +63,7 @@
                         <a href="{{ route('deposit') }}" class="user_a @if (strpos($now_route,'deposit') !== false) current @endif">入出金</a>
                         <a href="{{ route('transfer') }}" class="user_a @if (strpos($now_route,'transfer') !== false) current @endif">資金移動</a>
                         <a href="{{ route('add_acount') }}" class="user_a @if (strpos($now_route,'add_acount') !== false) current @endif">追加口座</a>
-                        <a href="{{ route('summary') }}" class="user_a @if (strpos($now_route,'asdfasdfa') !== false) current @endif">設 定</a>
+                        <a href="{{ route('setting') }}" class="user_a @if (strpos($now_route,'setting') !== false) current @endif">設 定</a>
                     </div>
                     <div class="user_content_main">
                     @yield('content')

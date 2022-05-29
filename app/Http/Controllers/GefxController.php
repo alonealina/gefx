@@ -74,6 +74,11 @@ class GefxController extends Controller
         return view('setting');
     }
 
+    public function setting2()
+    {
+        return view('setting2');
+    }
+
 
 
 
