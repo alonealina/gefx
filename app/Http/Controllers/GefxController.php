@@ -64,6 +64,16 @@ class GefxController extends Controller
         return view('transfer');
     }
 
+    public function add_acount()
+    {
+        return view('add_acount');
+    }
+
+    public function setting()
+    {
+        return view('setting');
+    }
+
 
 
 

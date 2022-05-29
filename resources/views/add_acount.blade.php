@@ -7,22 +7,37 @@
 <div class="withdraw_box">
     <div class="deposit_item_flex">
         <div class="deposit_item2">
-            <div class="user_item_name">出金元口座番号</div>
+            <div class="user_item_name">お名前（ローマ字）</div>
             {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
         </div>
         <div class="deposit_item2">
-            <div class="user_item_name">移動元口座番号</div>
+            <div class="user_item_name">メールアドレス</div>
             {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
         </div>
     </div>
     <div class="deposit_item_flex">
         <div class="deposit_item2">
-            <div class="user_item_name">移動申請金額</div>
-            {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'style' => 'width: 85%;']) }}
-            <span style="vertical-align: bottom;">USD</span>
+            <div class="user_item_name">取引プラットフォーム</div>
+            <select name="indi_leverage" style="width: 100%;">
+                <option value="">選択してください</option>
+            </select>
         </div>
         <div class="deposit_item2">
-            <div class="user_item_name"><span class="required">＊</span>銀行名</div>
+            <div class="user_item_name">レバレッジ</div>
+            <select name="indi_leverage" style="width: 100%;">
+                <option value="">選択してください</option>
+            </select>
+        </div>
+    </div>
+    <div class="deposit_item_flex">
+        <div class="deposit_item2">
+            <div class="user_item_name">口座種類</div>
+            <select name="indi_leverage" style="width: 100%;">
+                <option value="">選択してください</option>
+            </select>
+        </div>
+        <div class="deposit_item2">
+            <div class="user_item_name">紹介者コード</div>
             {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
         </div>
     </div>

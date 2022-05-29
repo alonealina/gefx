@@ -442,6 +442,11 @@ p {
     margin-bottom: 24px;
 }
 
+.deposit_item2 {
+    width: 45%;
+    margin-bottom: 16px;
+}
+
 .deposit_item_content {
     font: normal normal 600 18px/28px Open Sans;
     letter-spacing: -0.2px;
