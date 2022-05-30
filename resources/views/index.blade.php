@@ -13,6 +13,8 @@
 
 @section('content_sp')
 
+<div class="header_margin_sp">
 
+</div>
 
 @endsection
