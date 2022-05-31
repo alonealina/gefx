@@ -121,6 +121,111 @@
     $now_route = \Route::currentRouteName();
     @endphp
         <body>
+            <header class="header_sp">
+                <a href="/" class="header_a header_btn3_sp">
+                    <p class="">JP　<span style="font-size:10px;">▼</span></p>
+                </a>
+                <a class="logo_a_sp" href="/">
+                    <img src="{{ asset('img/logo_white.png') }}" class="logo_img_sp" alt="">
+                </a>
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                    <div class="menu-content" style="background: transparent linear-gradient(90deg, #6A0DFF 0%, #66008D 100%) 0% 0% no-repeat padding-box;">
+                        <ul>
+                            <li>
+                                <a href ="{{ route('summary') }}" class="menu_content_header_sp">口座サマリー</a>
+                            </li>
+                            <li>
+                                <a href ="{{ route('history') }}" class="menu_content_header_sp">履 歴</a>
+                            </li>
+                            <li>
+                                <a href ="{{ route('deposit') }}" class="menu_content_header_sp">入出金</a>
+                            </li>
+                            <li>
+                                <a href ="{{ route('transfer') }}" class="menu_content_header_sp">資金移動</a>
+                            </li>
+                            <li>
+                                <a href ="{{ route('add_acount') }}" class="menu_content_header_sp">追加口座</a>
+                            </li>
+                            <li>
+                                <a href ="{{ route('setting') }}" class="menu_content_header_sp">設 定</a>
+                            </li>
+                        </ul>
+                        <a href ="{{ route('index') }}" class="menu_content_sp" style="text-align:center">よくあるご質問</a>
+                        <a href="{{ route('demo_acount') }}" class="header_a_sp header_btn2_sp">
+                            <p class="menu_btn_name_sp">Logout</p>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="user_div_sp header_margin_sp">
+                <img src="{{ asset('img/human.png') }}" class="" alt="">
+                <span class="user_span user_name">test test</span>
+                <span class="user_span user_tab" style="float: right;" id="user_detail_span_sp">▼</span>
+                <input type="checkbox" id="user_detail_check_sp" class="user_detail_check" hidden>
+                <label for="user_detail_check_sp" class="user_detail_label"></label>
+            </div>
+            <div class="user_detail_div" id="user_detail_sp" hidden>
+                口座番号
+                <div class="user_detail_content">2131905483</div>
+                口座種類
+                <div class="user_detail_content">USD</div>
+                レバレッジ
+                <div class="user_detail_content">0</div>
+                メールアドレス
+                <div class="user_detail_content">example@gmail.com</div>
+                開設日
+                <div class="user_detail_content">2021-09-28 13:09:30</div>
+            </div>
+            <div class="user_content_div padding_sp_2" id="user_content_sp">
+                <div class="user_content_main_sp">
+                @yield('content_sp')
+                </div>
+            </div>
+
+            <footer class="footer_sp">
+
+                <div class="footer_menu_sp">
+                    <ul>
+                        <li>
+                            <a href ="{{ route('index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('index') }}" class="menu_content_sp">取引規約</a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
+                        </li>
+                        <li>
+                            <a href ="{{ route('company') }}" class="menu_content_sp">会社概要</a>
+                        </li>
+                    </ul>
+                    <div class="footer_text_sp">
+                        リスクに関する警告: 外国為替金取引やデリバティブ取引は高リスクを伴います。
+                        損失に耐えうる範囲の資金でお取引されることをお勧め致します。
+                        デリバティブ取引は全ての投資家に適しているわけではございません。
+                        取引に伴うリスクを充分に理解された上で、必要に応じて専門家にご相談下さい。
+                        金融サービスガイド(FSG)および金融商品開示文書(PDS)は、
+                        当GOOD ENOUGH FX Ltdのウェブサイトよりご確認ください。<br>
+                        GOOD ENOUGH FX Ltdでデリバティブ取引を始められる前に、
+                        金融サービスガイド(FSG)および金融商品開示文書(PDS)の内容を慎重に考慮してください。<br><br>
+                        制限地域:<br>
+                        米国、オーストラリア、カナダ、ニュージーランド、朝鮮民主主義人民共和国、
+                        イラン、バヌアツ共和国のお客様もしくはFATFまたは同様の国際機関がAML-CFT対策が
+                        万全でないとしている特定管轄区地域在住のお客様を対象としておりませんので、ご注意ください。<br>
+                        当ウェブサイト上の情報は、FXおよび/またはCFD商品取引が法律や規制によって制限または禁止されている国在住のお客様を対象としておりません。
+                    </div>
+                    <img src="{{ asset('img/logo.png') }}" class="footer_logo" alt="">
+                    <div class="copyright_sp">Copyright © 2014-2022 GOOD ENOUGH. All rights reserved.</div>
+                </div>
+            </footer>
         </body>
     </div>
     @endif
@@ -129,5 +234,6 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
+    <script src="{{ asset('js/user_detail.js') }}"></script>
 
 </html>

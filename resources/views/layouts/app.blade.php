@@ -124,13 +124,13 @@
                         </a>
                         <ul>
                             <li>
-                                <a href ="{{ route('index') }}" class="menu_content_sp">TOP</a>
+                                <a href ="{{ route('index') }}" class="menu_content_header_sp">TOP</a>
                             </li>
                             <li>
-                                <a href ="{{ route('index') }}" class="menu_content_sp">GOOD ENOUGH FX 案内</a>
+                                <a href ="{{ route('index') }}" class="menu_content_header_sp">GOOD ENOUGH FX 案内</a>
                             </li>
                             <li>
-                                <a href ="{{ route('faq') }}" class="menu_content_sp">よくあるご質問</a>
+                                <a href ="{{ route('faq') }}" class="menu_content_header_sp">よくあるご質問</a>
                             </li>
                         </ul>
                     </div>
@@ -158,7 +158,7 @@
                             <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">会社概要</a>
+                            <a href ="{{ route('company') }}" class="menu_content_sp">会社概要</a>
                         </li>
                     </ul>
                     <div class="footer_text_sp">

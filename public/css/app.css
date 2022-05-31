@@ -273,6 +273,35 @@ p {
     margin-right: 200px;
 }
 
+.user_div_sp {
+    font: normal normal 600 16px/36px Open Sans;
+    padding: 13px 10px 2px 40px;
+    background: #505050 0% 0% no-repeat padding-box;
+    border-left: 1px solid #A5A5A5;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.user_detail_div {
+    font: normal normal 600 16px/36px Open Sans;
+    padding: 20px 25px;
+    background: #505050 0% 0% no-repeat padding-box;
+    border-left: 1px solid #A5A5A5;
+    width: 100%;
+    height:650px;
+    color: #FFFFFF;
+}
+
+.user_detail_label {
+    width: 100%;
+    display: block;
+    height: 60px;
+    padding:0;
+    margin:-60px 0 0;
+    border:none;
+    background:none;
+}
+
 .user_name {
     margin-left: 10px;
     margin-right: 40px;
@@ -338,13 +367,23 @@ p {
     background: transparent linear-gradient(88deg, #FFFFFF 0%, #EFEFEF 54%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
     box-shadow: 3px 3px 4px #00000019;
     border: 1px solid #A5A5A5;
-    width:1052px;
     font: normal normal bold 18px/30px Arial;
     letter-spacing: -0.18px;
     color: #262626;
     padding: 50px 200px 90px 40px;
     width: 1100px;
     min-width: 1000px;
+}
+
+.user_content_main_sp {
+    background: transparent linear-gradient(88deg, #FFFFFF 0%, #EFEFEF 54%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border: 1px solid #A5A5A5;
+    font: normal normal bold 18px/30px Arial;
+    letter-spacing: -0.18px;
+    color: #262626;
+    padding: 20px 10px;
+    width: 100%;
 }
 
 .user_content_title {
@@ -365,6 +404,11 @@ p {
     margin-bottom: 24px;
 }
 
+.user_item_sp {
+    width:100%;
+    margin-bottom: 24px;
+}
+
 .user_item_name {
     font: normal normal bold 16px/28px Arial;
     letter-spacing: -0.18px;
@@ -378,7 +422,7 @@ p {
     position: absolute
 }
 
-.user_item_content {
+.user_item_content, .user_item_content_sp {
     font: normal normal 600 18px/28px Open Sans;
     letter-spacing: -0.2px;
     color: #66008D;
@@ -386,7 +430,16 @@ p {
     border: 0.6000000238418579px solid #222222;
     border-radius: 3px;
     padding:14px 24px;
+}
+
+.user_item_content {
+
     width: 85%;
+}
+
+.user_item_content_sp {
+
+    width: 100%;
 }
 
 .history_item_content {
@@ -655,6 +708,14 @@ p {
     margin-top:134px;
 }
 
+.padding_sp {
+    padding: 50px 10px;
+}
+
+.padding_sp_2 {
+    padding: 10px 15px 50px;
+}
+
 .pt100 {
     padding-top: 100px;
 }
@@ -671,6 +732,10 @@ p {
     margin-top: 80px;
 }
 
+.header_margin_user_sp {
+    margin-top: 141px;
+}
+
 .login_div {
     width:700px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -681,6 +746,18 @@ p {
     border-top: 7px solid #6A0DFF;
     margin:auto;
     padding:50px 100px;
+}
+
+.login_div_sp {
+    width:100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border-left: 1px solid #A5A5A5;
+    border-right: 1px solid #A5A5A5;
+    border-bottom: 1px solid #A5A5A5;
+    border-top: 7px solid #6A0DFF;
+    margin:auto;
+    padding:40px 10px;
 }
 
 .login_logo {
@@ -764,6 +841,18 @@ p {
     padding:50px 70px;
 }
 
+.acount_div_sp {
+    width:100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border-left: 1px solid #A5A5A5;
+    border-right: 1px solid #A5A5A5;
+    border-bottom: 1px solid #A5A5A5;
+    border-top: 7px solid #6A0DFF;
+    margin:auto;
+    padding:40px 10px;
+}
+
 .acount_btn_flex {
     width:900px;
     display: flex;
@@ -779,6 +868,18 @@ p {
     border-radius: 5px;
     padding: 20px 150px;
     cursor: pointer;
+}
+
+.acount_btn_sp {
+    font: normal normal normal 20px/26px Open Sans;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #6A0DFF;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .not {
@@ -805,6 +906,11 @@ p {
     margin-right:90px;
     margin-bottom: 20px;
     width: 380px;
+}
+
+.form_item_sp {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .form_item_name {
@@ -847,6 +953,17 @@ select {
     padding: 15px 20px;
 }
 
+.form_text_sp {
+    font: normal normal normal 20px/30px Arial;
+    letter-spacing: -0.2px;
+    color: #262626;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.6px solid #222222;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px 20px;
+}
+
 ::placeholder {
     color: #262626;
     opacity: 0.5;
@@ -863,6 +980,12 @@ select {
 
 .form_radio_item {
     height:25px;
+}
+
+.form_radio_item_sp {
+    font: normal normal normal 18px/30px Arial;
+    text-indent: -1em;
+    padding-left: 1em;
 }
 
 .form_item_text {
@@ -963,14 +1086,14 @@ input[type=checkbox] {
     padding:30px;
 }
 
-.login_btn_a {
+.login_btn_a, .btn_sp_a {
     width:100%;
     margin:auto;
     display: block;
     cursor: pointer;
 }
 
-.login_btn {
+.login_btn, .btn_sp {
     background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 5px #7D0DFFB9;
     border: 2px solid #6A0DFF;
@@ -1026,6 +1149,23 @@ textarea {
     font: normal normal normal 18px/30px Open Sans;
     letter-spacing: 1.35px;
     color: #363833;
+}
+
+.company_before_sp {
+    width: 105px;
+    margin: 10px 0;
+    font: normal normal 600 18px/40px Open Sans;
+    letter-spacing: 1.35px;
+    color: #363833;
+    border-right: 1px solid #A5A5A5;
+}
+
+.company_after_sp {
+    width: 70%;
+    font: normal normal normal 18px/30px Open Sans;
+    letter-spacing: 1.35px;
+    color: #363833;
+    margin: 20px;
 }
 
 #registration_pc {
@@ -1140,13 +1280,17 @@ li {
     letter-spacing: -0.2px;
 }
 
-.menu_head_sp, .menu_content_sp {
+.menu_head_sp, .menu_content_sp, .menu_content_header_sp {
     display: block;
     width: 100%;
     box-sizing: border-box;
     color:#ffffff;
     text-decoration: none;
     position: relative;
+}
+
+.menu_content_header_sp {
+    padding:0 10px 4px;
 }
 
 .menu_head_sp {
