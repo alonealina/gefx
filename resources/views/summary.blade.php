@@ -59,7 +59,6 @@
     <div class="user_item_name">口座残高</div>
     <div class="user_item_content_sp">3496.69</div>
 </div>
-
 <div class="user_item_sp">
     <div class="user_item_name">有効証拠金</div>
     <div class="user_item_content_sp">3496.69</div>
@@ -68,8 +67,6 @@
     <div class="user_item_name">必要証拠金</div>
     <div class="user_item_content_sp">0.00</div>
 </div>
-
-
 <div class="user_item_sp">
     <div class="user_item_name">余剰証拠金</div>
     <div class="user_item_content_sp">3496.69</div>

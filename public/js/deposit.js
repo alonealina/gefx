@@ -70,6 +70,13 @@ function clickCryptoFormButton2() {
     $("#crypto_div").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>');
 }
 
+function clickCryptoFormButton2Sp() {
+    $("#crypto_div").empty();
+    $("#crypto_div").append('<div class="head_title_sp">入金を受け付けました。</div>');
+    $("#crypto_div").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
+    $("#crypto_div").append('<a href="/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>');
+}
+
 
 function clickBankFormButton() {
     $("#bank_div2").empty();
@@ -78,9 +85,23 @@ function clickBankFormButton() {
     $("#bank_div2").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>');
 }
 
+function clickBankFormButtonSp() {
+    $("#bank_div2").empty();
+    $("#bank_div2").append('<div class="head_title_sp">出金を受け付けました。</div>');
+    $("#bank_div2").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
+    $("#bank_div2").append('<a href="/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>');
+}
+
 function clickCryptoFormButton3() {
     $("#crypto_div2").empty();
     $("#crypto_div2").append('<div class="head_title">出金を受け付けました。</div>');
     $("#crypto_div2").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
     $("#crypto_div2").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>');
+}
+
+function clickCryptoFormButton3Sp() {
+    $("#crypto_div2").empty();
+    $("#crypto_div2").append('<div class="head_title_sp">出金を受け付けました。</div>');
+    $("#crypto_div2").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
+    $("#crypto_div2").append('<a href="/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>');
 }

@@ -34,6 +34,31 @@
 
 @section('content_sp')
 
+<div class="user_content_title">履 歴</div>
+
+<img src="{{ asset('img/history.png') }}" style="width:100%;">
+<div class="pagenate_sp"><< <span class="page_current">1</span>.　2.　3 >></div>
+
+<div class="user_item_sp">
+    <div class="user_item_name">ご入金</div>
+    <div class="user_item_content_sp">2573.88</div>
+</div>
+<div class="user_item_sp">
+    <div class="user_item_name">出金額</div>
+    <div class="user_item_content_sp">-480</div>
+</div>
+<div class="user_item_sp">
+    <div class="user_item_name">ADJ</div>
+    <div class="user_item_content_sp">0</div>
+</div>
+<div class="user_item_sp">
+    <div class="user_item_name">スワップ</div>
+    <div class="user_item_content_sp">-67.51</div>
+</div>
+<div class="user_item_sp">
+    <div class="user_item_name">確定損益</div>
+    <div class="user_item_content_sp">1470.32</div>
+</div>
 
 
 @endsection

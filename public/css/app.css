@@ -40,6 +40,12 @@ footer {
     text-align: center;
 }
 
+.head_title_sp {
+    font: normal normal bold 28px/60px Open Sans;
+    color: #66008D;
+    text-align: center;
+}
+
 .header_orange {
     padding:30px;
     height:20px;
@@ -473,6 +479,16 @@ p {
     color: #262626;
 }
 
+.pagenate_sp {
+    width:100%;
+    text-align: center;
+    margin-top: 20px;
+    font: normal normal bold 22px/28px Arial;
+    letter-spacing: -0.24px;
+    color: #262626;
+    margin-bottom: 50px;
+}
+
 .page_current {
     color: #66008D;
 }
@@ -498,6 +514,18 @@ p {
     cursor: pointer;
     text-align: center;
     width:30%;
+}
+
+.deposit_btn_sp {
+    font: normal normal 600 14px/20px Open Sans;
+    color: #FFFFFF;
+    background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #6A0DFF;
+    border-radius: 5px;
+    padding: 12px 0;
+    cursor: pointer;
+    text-align: center;
+    width: 32%;
 }
 
 .card_banner {
@@ -558,6 +586,11 @@ p {
     margin-bottom: 24px;
 }
 
+.deposit_item_sp {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .deposit_item2 {
     width: 45%;
     margin-bottom: 16px;
@@ -572,7 +605,7 @@ p {
     width: 85%;
 }
 
-.deposit_input_text {
+.deposit_input_text, .deposit_input_text_sp {
     font: normal normal 600 18px/28px Open Sans;
     letter-spacing: -0.2px;
     color: #000;
@@ -581,6 +614,16 @@ p {
     border-radius: 3px;
     padding: 14px 24px;
     width: 85%;
+}
+
+.deposit_input_text {
+    padding: 14px 24px;
+    width: 85%;
+}
+
+.deposit_input_text_sp {
+    padding: 10px 20px;
+    width: 100%;
 }
 
 .withdraw_input_text {
@@ -592,6 +635,14 @@ p {
     border-radius: 3px;
     padding: 14px 24px;
     width: 100%;
+}
+
+.bank_info_sp {
+    font: normal normal bold 22px/40px Open Sans;
+    letter-spacing: -0.22px;
+    color: #262626;
+    text-align: center;
+    margin: 10px;
 }
 
 .checkbox_item {
@@ -614,6 +665,13 @@ p {
     letter-spacing: -0.18px;
     color: #262626;
     margin: 15px auto 50px;
+    overflow-wrap: break-word;
+}
+
+.txid_sp {
+    color: #6E6E6E;
+    font: normal normal 600 16px/18px Open Sans;
+    text-align: left;
 }
 
 .withdraw_box {
@@ -1071,11 +1129,18 @@ input[type=checkbox] {
     cursor: pointer;
 }
 
+.btn_a_sp {
+    width:100%;
+    margin:auto;
+    display: block;
+    cursor: pointer;
+}
+
 .btn_a:hover {
     text-decoration: none;
 }
 
-.btn_purple {
+.btn_purple, .btn_purple_sp {
     background: transparent linear-gradient(90deg, #6A0DFF 0%, #68009F 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 5px #7D0DFFB9;
     border: 2px solid #6A0DFF;
@@ -1083,7 +1148,14 @@ input[type=checkbox] {
     font: normal normal normal 26px/36px Open Sans;
     color: #FFFFFF;
     text-align: center;
+}
+
+.btn_purple {
     padding:30px;
+}
+
+.btn_purple_sp {
+    padding:20px;
 }
 
 .login_btn_a, .btn_sp_a {
