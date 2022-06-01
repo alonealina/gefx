@@ -278,6 +278,14 @@ p {
     min-width: 1000px;
 }
 
+.top_bg1_sp {
+    background-image: url(../img/top1.png);
+    height: 1100px;
+    background-size: cover;
+    background-position: 50%;
+    padding:10px;
+}
+
 .top_bg2 {
     background-image: url(../img/top2.png);
     height: 1700px;
@@ -286,6 +294,15 @@ p {
     min-width: 1500px;
     margin-top: -10px;
     padding: 70px 100px 100px 100px;
+}
+
+.top_bg2_sp {
+    background-image: url(../img/top2.png);
+    height: 2050px;
+    background-size: cover;
+    background-position: 50%;
+    margin-top: -10px;
+    padding:70px 15px;
 }
 
 .top_bg3 {
@@ -297,14 +314,61 @@ p {
     padding: 100px 0;
 }
 
+.top_bg3_sp {
+    background-image: url(../img/top3.png);
+    height: 2000px;
+    background-size: cover;
+    background-position: 50%;
+    padding:70px 15px;
+}
+
+.top_bg3_sp {
+    background-image: url(../img/top3.png);
+    height: 1500px;
+    background-size: cover;
+    background-position: 50%;
+    padding:70px 15px;
+}
+
+.top_bg4_sp {
+    background-image: url(../img/bg.png);
+    height: 1200px;
+    background-size: cover;
+    background-position: 50%;
+    padding:70px 15px;
+}
+
+.top3_img_sp {
+    width: 390px;
+}
+
+.top3_img_list {
+    margin:auto;
+    width:350px;
+}
+
 .top_logo {
     display: block;
     margin: auto;
     padding-top: 200px;
 }
 
+.top_logo_sp {
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    width:100px;
+}
+
 .top_text_main {
     font: normal normal bold 52px/72px Open Sans;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top_text_main_sp {
+    font: normal normal bold 35px/45px Open Sans;
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
@@ -325,6 +389,13 @@ p {
     justify-content: space-between;
 }
 
+.top_btn_sp {
+    background:  rgba(44, 44, 44, 0.7);
+    width:100%;
+    margin:auto;
+    padding: 25px 10px;
+}
+
 .fx_bar {
     width: 100%;
     min-width: 1500px;
@@ -337,11 +408,25 @@ p {
     margin-bottom: 40px;
 }
 
+.top2_title_sp {
+    font: normal normal bold 60px/60px Open Sans;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 6px #000000E5;
+    margin-bottom: 40px;
+}
+
 .top2_title_sub {
     margin-left:30px;
     font: italic normal bold 32px/76px Open Sans;
     color: #FFFFFF;
     text-shadow: 3px 3px 6px #000000E5;
+}
+
+.top2_title_sub_sp {
+    font: italic normal bold 32px/46px Open Sans;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 6px #000000E5;
+    text-align: center;
 }
 
 .top2_text {
@@ -354,6 +439,12 @@ p {
 .top2_logo {
     width:60px;
     margin-right: 20px;
+}
+
+.top2_logo_sp {
+    width:60px;
+    display: block;
+    margin: 10px auto;
 }
 
 .top2_line {
@@ -369,6 +460,15 @@ p {
 .top2_img, .top3_img, .top4_img {
     margin: auto;
     display: block;
+}
+
+.top2_img_sp {
+    width:100%;
+}
+
+.top2_img_sp2 {
+    width: 170%;
+    margin-left: -125px;
 }
 
 .top3_text {
@@ -408,6 +508,21 @@ p {
     color: #222222;
 }
 
+.top4_div_sp {
+    width: 100%;
+    height: 380px;
+    margin: 40px auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 4px #00000019;
+    border-left: 1px solid #A5A5A5;
+    border-right: 1px solid #A5A5A5;
+    border-bottom: 1px solid #A5A5A5;
+    border-top: 7px solid #6A0DFF;
+    padding:20px;
+    font: normal normal normal 18px/28px Open Sans;
+    color: #222222;
+}
+
 .top4_text2 {
     font: normal normal bold 30px/34px Open Sans;
     letter-spacing: 0px;
@@ -415,6 +530,14 @@ p {
     height:70px;
     text-align: center;
     margin: 10px;
+}
+
+.top4_text2_sp {
+    font: normal normal bold 30px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #68009F;
+    text-align: center;
+    margin:30px 0
 }
 
 .user_div {
