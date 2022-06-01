@@ -1,17 +1,14 @@
 function valueChange(event){
-    if (userDetailCheckSp.checked){
-        userDetailSpanSp.innerText = '▲';
-        userDetailSp.hidden = false;
-        userContentSp.hidden = true;
+    if (userDetailCheck.checked){
+        userDetailSpan.innerText = '▲';
+        userDetail.hidden = false;
     }else{
-        userDetailSpanSp.innerText = '▼';
-        userDetailSp.hidden = true;
-        userContentSp.hidden = false;
+        userDetailSpan.innerText = '▼';
+        userDetail.hidden = true;
     }
 }
 
-let userDetailCheckSp = document.getElementById('user_detail_check_sp');
-userDetailCheckSp.addEventListener('change', valueChange);
-let userDetailSp = document.getElementById('user_detail_sp');
-let userContentSp = document.getElementById('user_content_sp');
-let userDetailSpanSp = document.getElementById('user_detail_span_sp');
+let userDetailCheck = document.getElementById('user_detail_check');
+userDetailCheck.addEventListener('change', valueChange);
+let userDetail = document.getElementById('user_detail');
+let userDetailSpan = document.getElementById('user_detail_span');

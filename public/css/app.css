@@ -579,6 +579,17 @@ p {
     background:none;
 }
 
+.user_detail_label_pc {
+    display: block;
+    height: 60px;
+    padding: 0;
+    margin: -2px 0 0;
+    border: none;
+    background: none;
+    margin-right: 200px;
+    width: 230px;
+}
+
 .user_name {
     margin-left: 10px;
     margin-right: 40px;
@@ -600,6 +611,7 @@ p {
     right: 200px;
     position: fixed;
     z-index: 9000;
+    margin-top: -3px;
 }
 
 .user_detail_content {

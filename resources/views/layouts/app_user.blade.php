@@ -36,13 +36,17 @@
                         <p class="menu_name" style="width: 30px;">JP</p>
                     </a>
                 </div>
-                <div class="user_div">
+                <input type="checkbox" id="user_detail_check" class="user_detail_check" hidden>
+                <label for="user_detail_check" class="user_detail_label_pc">
+                    <div class="user_div">
                     <img src="{{ asset('img/human.png') }}" class="" alt="">
                     <span class="user_span user_name">test test</span>
-                    <span class="user_span user_tab">▼</span>
-                </div>
+                    <span class="user_span user_tab" id="user_detail_span">▼</span>
+                    </div>
+                </label>
+
             </header>
-            <div class="user_detail" hidden>
+            <div class="user_detail" id="user_detail" hidden>
                 口座番号
                 <div class="user_detail_content">2131905483</div>
                 口座種類
@@ -114,7 +118,7 @@
 
         </body>
     </div>
-
+    <script src="{{ asset('js/user_detail.js') }}"></script>
     @else
     <div id="registration_sp">
     @php
@@ -228,12 +232,14 @@
             </footer>
         </body>
     </div>
+    <script src="{{ asset('js/user_detail_sp.js') }}"></script>
+
     @endif
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
-    <script src="{{ asset('js/user_detail.js') }}"></script>
+
 
 </html>
