@@ -333,8 +333,8 @@
 
 <div id="withdraw_div" hidden>
     <div class="deposit_btn_flex" style="width:100%; margin-bottom:30px;">
-        <div class="deposit_btn bank_btn2" style="width:47%;">銀行出金</div>
-        <div class="deposit_btn crypto_btn2 not" style="width:47%;">暗号通貨出金</div>
+        <div class="deposit_btn bank_btn2" style="width:47%; padding: 10px 0;">銀行出金</div>
+        <div class="deposit_btn crypto_btn2 not" style="width:47%; padding: 10px 0;">暗号通貨出金</div>
     </div>
     <div id="bank_div2">
         <div class="deposit_title">銀行出金</div>

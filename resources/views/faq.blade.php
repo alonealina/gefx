@@ -29,7 +29,7 @@
 
 @section('content_sp')
 
-<div class="div_bg header_margin_sp padding_sp">
+<div class="div_bg_sp header_margin_sp padding_sp">
     <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">よくあるご質問</div>
     <div class="acount_div_sp">

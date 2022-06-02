@@ -34,7 +34,7 @@
 <div class="setting_div" style="width: 100%;padding:30px 10px;">
     <img src="{{ asset('img/lock.png') }}" class="" alt="">
     <div class="setting_title">２段階認証使用方法</div>
-    <div class="setting_text" style="width: 310px;margin: auto;">
+    <div class="setting_text" style="width: 100%;margin: auto;">
         GOOD ENOUGH FX会員サイトにログインするたびに、<br>
         ユーザー名とパスワードに加えて、<br>
         スマートフォンのGoogle認証システムアプリによって<br>

@@ -501,7 +501,7 @@
 
 @section('content_sp')
 
-<div class="div_bg header_margin_sp padding_sp">
+<div class="div_bg_sp header_margin_sp padding_sp">
     <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">新規口座開設</div>
     <div class="acount_div_sp">
@@ -559,13 +559,13 @@
                     <span class="required">＊</span>身分証の有効期限
                 </div>
                 <div class="ymd_flex">
-                    <select name="indi_valid_d" class="select_ymd">
+                    <select name="indi_valid_d" class="select_ymd_sp">
                         <option value="">日</option>
                     </select>
-                    <select name="indi_valid_m" class="select_ymd">
+                    <select name="indi_valid_m" class="select_ymd_sp">
                         <option value="">月</option>
                     </select>
-                    <select name="indi_valid_y" class="select_ymd">
+                    <select name="indi_valid_y" class="select_ymd_sp">
                         <option value="">年</option>
                     </select>
                 </div>
@@ -575,13 +575,13 @@
                     <span class="required">＊</span>生年月日
                 </div>
                 <div class="ymd_flex">
-                    <select name="indi_birth_d" class="select_ymd">
+                    <select name="indi_birth_d" class="select_ymd_sp">
                         <option value="">日</option>
                     </select>
-                    <select name="indi_birth_m" class="select_ymd">
+                    <select name="indi_birth_m" class="select_ymd_sp">
                         <option value="">月</option>
                     </select>
-                    <select name="indi_birth_y" class="select_ymd">
+                    <select name="indi_birth_y" class="select_ymd_sp">
                         <option value="">年</option>
                     </select>
                 </div>
@@ -752,13 +752,13 @@
                     <span class="required">＊</span>設立日
                 </div>
                 <div class="ymd_flex">
-                    <select name="indi_valid_d" class="select_ymd">
+                    <select name="indi_valid_d" class="select_ymd_sp">
                         <option value="">日</option>
                     </select>
-                    <select name="indi_valid_m" class="select_ymd">
+                    <select name="indi_valid_m" class="select_ymd_sp">
                         <option value="">月</option>
                     </select>
-                    <select name="indi_valid_y" class="select_ymd">
+                    <select name="indi_valid_y" class="select_ymd_sp">
                         <option value="">年</option>
                     </select>
                 </div>
@@ -829,13 +829,13 @@
                     <span class="required">＊</span>身分証の有効期限
                 </div>
                 <div class="ymd_flex">
-                    <select name="indi_valid_d" class="select_ymd">
+                    <select name="indi_valid_d" class="select_ymd_sp">
                         <option value="">日</option>
                     </select>
-                    <select name="indi_valid_m" class="select_ymd">
+                    <select name="indi_valid_m" class="select_ymd_sp">
                         <option value="">月</option>
                     </select>
-                    <select name="indi_valid_y" class="select_ymd">
+                    <select name="indi_valid_y" class="select_ymd_sp">
                         <option value="">年</option>
                     </select>
                 </div>
@@ -845,13 +845,13 @@
                     <span class="required">＊</span>生年月日
                 </div>
                 <div class="ymd_flex">
-                    <select name="indi_birth_d" class="select_ymd">
+                    <select name="indi_birth_d" class="select_ymd_sp">
                         <option value="">日</option>
                     </select>
-                    <select name="indi_birth_m" class="select_ymd">
+                    <select name="indi_birth_m" class="select_ymd_sp">
                         <option value="">月</option>
                     </select>
-                    <select name="indi_birth_y" class="select_ymd">
+                    <select name="indi_birth_y" class="select_ymd_sp">
                         <option value="">年</option>
                     </select>
                 </div>

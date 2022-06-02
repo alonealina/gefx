@@ -129,7 +129,7 @@
         <div class="top4_text2_sp">最大レバレッジ200倍</div>
         資金効率を高めるため、FX取引最大200:1の取引を提供。真のDMA業者として、お客様の取引残高や司教によるレバレッジの一時的な変更は行ません
     </div>
-    <div class="top4_div_sp">
+    <div class="top4_div_sp" style="height: 400px;">
         <img src="{{ asset('img/top4_img2.png') }}" class="top4_img" alt="">
         <div class="top4_text2_sp">ゼロカット方式採用<br>安心の追証の請求なし</div>
         相場の急激な変動により、お客様の残高がマイナスになった場合でも、追証・追加入金の必要はありません。当社では、マイナス残高をゼロリセット対応いたします。
