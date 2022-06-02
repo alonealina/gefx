@@ -35,7 +35,7 @@
     <div class="top2_title_sub">
         <img src="{{ asset('img/logo_white.png') }}" class="top2_logo" alt="">
         GOOD ENOUGH FX は暗号通貨での入出金が可能
-        <div class="top2_line" style="width: 35%;"></div>
+        <div class="top2_line2"></div>
     </div>
     <div class="top2_text">
         GOOD ENOUGH FX での資金の入出金は現金振り込みの他に暗号通貨での入出金が可能です。<br>

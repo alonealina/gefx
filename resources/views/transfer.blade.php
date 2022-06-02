@@ -18,7 +18,7 @@
     <div class="deposit_item_flex">
         <div class="deposit_item2">
             <div class="user_item_name">移動申請金額</div>
-            {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'style' => 'width: 85%;']) }}
+            {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'style' => 'width: 83%;']) }}
             <span style="vertical-align: bottom;">USD</span>
         </div>
         <div class="deposit_item2">

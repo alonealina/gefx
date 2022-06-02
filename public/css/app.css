@@ -116,6 +116,12 @@ a {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 1500px) {
+    .logo_a {
+        margin-left: 20px;
+    }
+}
+
 img {
     vertical-align: unset!important;
 }
@@ -273,6 +279,14 @@ p {
 
 .menu_btn_name_sp {
     font: normal normal normal  20px/27px Open Sans;
+}
+
+.menu_btn_name1 {
+    width: 130px;
+}
+
+.menu_btn_name2 {
+    width: 90px;
 }
 
 .top_bg1 {
@@ -452,14 +466,21 @@ p {
     margin: 10px auto;
 }
 
-.top2_line {
+.top2_line, .top2_line2 {
     height:2px;
-    width: 40%;
     margin-left: 20px;
     display: inline-block;
     vertical-align: middle;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 3px 3px 6px #000000E5;
+}
+
+.top2_line {
+    width: 40%;
+}
+
+.top2_line2 {
+    width: 35%;
 }
 
 .top2_img, .top3_img, .top4_img {
@@ -1684,3 +1705,141 @@ li {
 #menu-btn-check:checked ~ .menu-content {
     left: 0px;/*メニューを画面内へ*/
 }
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .footer_explain {
+        width: 920px;
+    }
+    .footer_menu {
+        width: 940px;
+    }
+    .footer_a {
+        font: normal normal 600 13px/20px Open Sans;
+        padding: 0 10px;
+    }
+    .top_bg2 {
+        background-image: url(../img/top2.png);
+        height: 1450px;
+        background-size: cover;
+        background-position: 50%;
+        min-width: 1000px;
+        margin-top: -10px;
+        padding: 70px 40px 100px 40px;
+    }
+    .top2_title_sub {
+        margin-left: 20px;
+        font: italic normal bold 24px/76px Open Sans;
+    }
+    .top2_line {
+        width: 33%;
+    }
+    .top2_line2 {
+        width: 28%;
+    }
+    .top2_text {
+        margin: 30px 0 50px 40px;
+        font: normal normal 600 19px/35px Open Sans;
+    }
+    .top2_img, .top3_img {
+        width: 100%;
+    }
+    .top_bg3 {
+        background-image: url(../img/top3.png);
+        height: 550px;
+        background-size: cover;
+        background-position: 50%;
+        min-width: 1050px;
+        padding: 50px 0;
+    }
+    .div_bg {
+        background-image: url(../img/bg.png);
+        min-width: 1000px;
+    }
+    .top4_flex {
+        width: 950px;
+    }
+    .top4_div {
+        width: 450px;
+    }
+    .menu_btn_name1 {
+        width: 110px;
+    }
+    
+    .menu_btn_name2 {
+        width: 70px;
+    }
+    
+    .acount_div {
+        width: 950px;
+        padding: 50px 30px;
+    }
+    .acount_btn_flex {
+        width: 885px;
+    }
+    .form_item {
+        margin-right: 60px;
+    }
+    .supplement {
+        font: normal normal normal 11px/18px Arial;
+    }
+
+    .faq_div {
+        width: 900px;
+        padding: 40px 50px;
+    }
+    textarea {
+        width: 820px;
+    }
+    .user_detail_label_pc {
+        margin-right: 50px;
+    }
+    .user_content_div {
+        padding: 0px 50px;
+    }
+    .user_div {
+        margin-right: 50px;
+    }
+    .user_detail {
+        right: 50px;
+    }
+    .user_sidebar {
+        min-width: 170px;
+        padding-left: 30px;
+    }
+    .user_content_main {
+        padding: 50px 100px 90px 30px;
+        width: 1100px;
+        min-width: 700px;
+    }
+    .history_item_name {
+        font: normal normal bold 14px/24px Arial;
+    }
+    .history_item_content {
+        font: normal normal 600 15px/20px Open Sans;
+        padding: 5px 20px;
+    }
+    .history_img {
+        width: 73%;
+    }
+    .deposit_red {
+        font: normal normal bold 12px/18px Arial;
+    }
+    .deposit_text {
+        font: normal normal normal 13px/22px Arial;
+    }
+    .bank_text {
+        font: normal normal normal 11px/17px Arial;
+    }
+    .withdraw_box {
+        padding: 15px;
+        width: 540px;
+    }
+    .setting_text2 {
+        font: normal normal normal 13px/22px Arial;
+        width: 630px;
+    }
+}
+

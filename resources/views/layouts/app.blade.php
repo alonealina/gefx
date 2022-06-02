@@ -36,13 +36,13 @@
                         <p class="menu_name" style="width: 105px;">よくあるご質問</p>
                     </a>
                     <a href="{{ route('new_acount') }}" class="header_a header_btn1">
-                        <p class="menu_name" style="width: 130px;">新規口座開設</p>
+                        <p class="menu_name menu_btn_name1">新規口座開設</p>
                     </a>
                     <a href="{{ route('demo_acount') }}" class="header_a header_btn2">
-                        <p class="menu_name" style="width: 130px;">デモ口座開設</p>
+                        <p class="menu_name menu_btn_name1">デモ口座開設</p>
                     </a>
                     <a href="{{ route('login') }}" class="header_a header_btn1">
-                        <p class="menu_name" style="width: 90px;">Login</p>
+                        <p class="menu_name menu_btn_name2">Login</p>
                     </a>
                     <a href="/" class="header_a header_btn3">
                         <p class="menu_name" style="width: 30px;">JP</p>
