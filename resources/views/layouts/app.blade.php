@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Devanagari:wght@600&amp;display=swap">
         <link href="https://fonts.googleapis.com/css2?family=Devanagari:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/slick.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/v2/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/v2/slick.css') }}" rel="stylesheet">
     </head>
     @php
     $now_route = \Route::currentRouteName();
@@ -186,7 +186,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/slick.js') }}"></script>
+    <script src="{{ asset('js/v2/app.js') }}"></script>
+    <script src="{{ asset('js/v2/slick.js') }}"></script>
 
 </html>

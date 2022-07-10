@@ -202,7 +202,7 @@
     </div>
 </div>
 
-<script src="{{ asset('js/deposit.js') }}"></script>
+<script src="{{ asset('js/v2/deposit.js') }}"></script>
 
 
 @endsection
@@ -404,7 +404,7 @@
     </div>
 </div>
 
-<script src="{{ asset('js/deposit.js') }}"></script>
+<script src="{{ asset('js/v2/deposit.js') }}"></script>
 
 @endsection
 

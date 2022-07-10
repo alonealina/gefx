@@ -30,7 +30,7 @@
     </a>
 </div>
 
-<script src="{{ asset('js/faq.js') }}"></script>
+<script src="{{ asset('js/v2/faq.js') }}"></script>
 @endsection
 
 
