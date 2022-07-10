@@ -46,10 +46,6 @@
     </div>
 </div>
 
-<div class="deposit_item" style="margin: auto;">
-    <div class="deposit_red" style="text-align: left;">MT4パスワード入力</div>
-    {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
-</div>
 
 <a onclick="clickBankFormButton()" class="btn_a">
     <div class="btn_purple" style="margin-top:50px;">資金移動する</div>
@@ -101,11 +97,6 @@
 <div class="checkbox_item" style="margin:30px;">
     <input type="checkbox" id="check_policy" value="1">
     <span>利用規則に同意する</span>
-</div>
-
-<div class="deposit_item_sp" style="margin: auto;">
-    <div class="deposit_red" style="text-align: left;">MT4パスワード入力</div>
-    {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
 </div>
 
 <a onclick="clickBankFormButton()" class="btn_a_sp">

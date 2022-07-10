@@ -170,11 +170,6 @@
             </div>
         </div>
 
-        <div class="deposit_item" style="margin: auto;">
-            <div class="deposit_red" style="text-align: left;">MT4パスワード入力</div>
-            {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
-        </div>
-
         <a onclick="clickBankFormButton()" class="btn_a">
             <div class="btn_purple" style="margin-top:50px;">出金申請</div>
         </a>
@@ -375,11 +370,6 @@
                 <div class="user_item_name"><span class="required">＊</span>口座種類</div>
                 {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
             </div>
-        </div>
-
-        <div class="deposit_item_sp" style="margin: auto;">
-            <div class="deposit_red" style="text-align: left;">MT4パスワード入力</div>
-            {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
         </div>
 
         <a onclick="clickBankFormButtonSp()" class="btn_a_sp">
