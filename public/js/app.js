@@ -78,42 +78,42 @@ function clickIndiFormButton() {
     $(".acount_div").empty();
     $(".acount_div").append('<div class="head_title">ご登録ありがとうございました。</div>');
     $(".acount_div").append('<div class="complete_text">口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div").append('<a href="{{ route('v2_index') }}" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 function clickIndiFormButtonSp() {
     $(".acount_div_sp").empty();
     $(".acount_div_sp").append('<div class="head_title">ご登録ありがとうございました。</div>');
     $(".acount_div_sp").append('<div class="complete_text">口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div_sp").append('<a href="/" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div_sp").append('<a href="{{ route('v2_index') }}" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 function clickDemoFormButton() {
     $(".acount_div").empty();
     $(".acount_div").append('<div class="head_title">ご登録ありがとうございました。</div>');
     $(".acount_div").append('<div class="complete_text">デモ口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div").append('<a href="{{ route('v2_index') }}" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 function clickDemoFormButtonSp() {
     $(".acount_div_sp").empty();
     $(".acount_div_sp").append('<div class="head_title">ご登録ありがとうございました。</div>');
     $(".acount_div_sp").append('<div class="complete_text">デモ口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div_sp").append('<a href="/" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div_sp").append('<a href="{{ route('v2_index') }}" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 function clickContactFormButton() {
     $(".acount_div").empty();
     $(".acount_div").append('<div class="head_title">お問い合わせを受け付けました。</div>');
     $(".acount_div").append('<div class="complete_text">３営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div").append('<a href="/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div").append('<a href="{{ route('v2_index') }}" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 function clickContactFormButtonSp() {
     $(".acount_div_sp").empty();
     $(".acount_div_sp").append('<div class="head_title">お問い合わせを受け付けました。</div>');
     $(".acount_div_sp").append('<div class="complete_text">３営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div_sp").append('<a href="/" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
+    $(".acount_div_sp").append('<a href="{{ route('v2_index') }}" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
 }
 
 

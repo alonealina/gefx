@@ -22,29 +22,29 @@
     <div id="registration_pc">
         <body>
             <header class="header_pc">
-                <a class="logo_a" href="/">
+                <a class="logo_a" href="{{ route('v2_index') }}">
                     <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                 </a>
                 <div class="header_menu">
-                    <a href="/" class="header_a">
+                    <a href="{{ route('v2_index') }}" class="header_a">
                         <p class="menu_name">TOP</p>
                     </a>
-                    <a href="/" class="header_a">
+                    <a href="{{ route('v2_index') }}" class="header_a">
                         <p class="menu_name" style="width: 175px;">GOOD ENOUGH FX 案内</p>
                     </a>
-                    <a href="{{ route('faq') }}" class="header_a">
+                    <a href="{{ route('v2_faq') }}" class="header_a">
                         <p class="menu_name" style="width: 105px;">よくあるご質問</p>
                     </a>
-                    <a href="{{ route('new_acount') }}" class="header_a header_btn1">
+                    <a href="{{ route('v2_new_acount') }}" class="header_a header_btn1">
                         <p class="menu_name menu_btn_name1">新規口座開設</p>
                     </a>
-                    <a href="{{ route('demo_acount') }}" class="header_a header_btn2">
+                    <a href="{{ route('v2_demo_acount') }}" class="header_a header_btn2">
                         <p class="menu_name menu_btn_name1">デモ口座開設</p>
                     </a>
-                    <a href="{{ route('login') }}" class="header_a header_btn1">
+                    <a href="{{ route('v2_login') }}" class="header_a header_btn1">
                         <p class="menu_name menu_btn_name2">Login</p>
                     </a>
-                    <a href="/" class="header_a header_btn3">
+                    <a href="{{ route('v2_index') }}" class="header_a header_btn3">
                         <p class="menu_name" style="width: 30px;">JP</p>
                     </a>
 
@@ -55,27 +55,27 @@
             <div class="footer_border"></div>
             <footer>
                 <div class="footer_menu">
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">金融サービスガイド(FSG)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">金融商品開示文書(PDS)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">取引規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">ウェブサイト個人情報保護方針</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('company') }}" class="footer_a">
+                    <a href="{{ route('v2_company') }}" class="footer_a">
                         <p class="">会社概要</p>
                     </a>
                 </div>
@@ -103,23 +103,23 @@
     @endphp
         <body>
             <header class="header_sp">
-                <a href="/" class="header_a header_btn3_sp">
+                <a href="{{ route('v2_index') }}" class="header_a header_btn3_sp">
                     <p class="">JP　<span style="font-size:10px;">▼</span></p>
                 </a>
-                <a class="logo_a_sp" href="/">
+                <a class="logo_a_sp" href="{{ route('v2_index') }}">
                     <img src="{{ asset('img/logo_white.png') }}" class="logo_img_sp" alt="">
                 </a>
                 <div class="hamburger-menu">
                     <input type="checkbox" id="menu-btn-check">
                     <label for="menu-btn-check" class="menu-btn"><span></span></label>
                     <div class="menu-content">
-                        <a href="{{ route('new_acount') }}" class="header_a_sp header_btn1_sp">
+                        <a href="{{ route('v2_new_acount') }}" class="header_a_sp header_btn1_sp">
                             <p class="menu_btn_name_sp">新規口座開設</p>
                         </a>
-                        <a href="{{ route('demo_acount') }}" class="header_a_sp header_btn2_sp">
+                        <a href="{{ route('v2_demo_acount') }}" class="header_a_sp header_btn2_sp">
                             <p class="menu_btn_name_sp">デモ口座開設</p>
                         </a>
-                        <a href="{{ route('login') }}" class="header_a_sp header_btn1_sp">
+                        <a href="{{ route('v2_login') }}" class="header_a_sp header_btn1_sp">
                             <p class="menu_btn_name_sp">Login</p>
                         </a>
                         <ul>
@@ -130,7 +130,7 @@
                                 <a href ="{{ route('index') }}" class="menu_content_header_sp">GOOD ENOUGH FX 案内</a>
                             </li>
                             <li>
-                                <a href ="{{ route('faq') }}" class="menu_content_header_sp">よくあるご質問</a>
+                                <a href ="{{ route('v2_faq') }}" class="menu_content_header_sp">よくあるご質問</a>
                             </li>
                         </ul>
                     </div>
@@ -158,7 +158,7 @@
                             <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('company') }}" class="menu_content_sp">会社概要</a>
+                            <a href ="{{ route('v2_company') }}" class="menu_content_sp">会社概要</a>
                         </li>
                     </ul>
                     <div class="footer_text_sp">

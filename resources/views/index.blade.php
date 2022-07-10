@@ -7,10 +7,10 @@
     <div class="top_text_main">使いやすさとFXの「自由」を手に入れる</div>
     <div class="top_text_sub">多種「暗号通貨」での入出金を可能にした GOOD ENOUGH FXで新しい取引と資産形成を可能に !!</div>
     <div class="top_btn_flex">
-        <a href="{{ route('new_acount') }}" class="btn_a" style="margin:0;">
+        <a href="{{ route('v2_new_acount') }}" class="btn_a" style="margin:0;">
             <div class="btn_purple">新規口座開設はこちら</div>
         </a>
-        <a href="{{ route('demo_acount') }}" class="btn_a" style="margin:0;">
+        <a href="{{ route('v2_demo_acount') }}" class="btn_a" style="margin:0;">
             <div class="btn_purple" style="background:none;">デモ口座開設はこちら</div>
         </a>
     </div>
@@ -29,7 +29,7 @@
         MetaQueotesSoftware 社が開発した世界でも最も利用されている FX 取引のプラットフォームです。
     </div>
     <img src="{{ asset('img/top2_img1.png') }}" class="top2_img" alt="">
-    <a href="{{ route('new_acount') }}" class="btn_a" style="margin:50px auto;">
+    <a href="{{ route('v2_new_acount') }}" class="btn_a" style="margin:50px auto;">
         <div class="btn_purple" style="background: #3939399B;">ダウンロードはこちら</div>
     </a>
     <div class="top2_title_sub">
@@ -78,10 +78,10 @@
     <div class="top_text_main_sp">使いやすさとFXの<br>「自由」を手に入れる</div>
     <div class="top_text_sub" style="font: normal normal 600 18px/25px Open Sans;">多種「暗号通貨」での入出金を可能にした GOOD ENOUGH FXで新しい取引と資産形成を可能に !!</div>
     <div class="top_btn_sp">
-        <a href="{{ route('new_acount') }}" class="btn_a" style="margin-bottom:20px; width:100%;">
+        <a href="{{ route('v2_new_acount') }}" class="btn_a" style="margin-bottom:20px; width:100%;">
             <div class="btn_purple" style="font: normal normal normal 22px/30px Open Sans;">新規口座開設はこちら</div>
         </a>
-        <a href="{{ route('demo_acount') }}" class="btn_a" style="width:100%;">
+        <a href="{{ route('v2_demo_acount') }}" class="btn_a" style="width:100%;">
             <div class="btn_purple" style="background:none; font: normal normal normal 22px/30px Open Sans;">デモ口座開設はこちら</div>
         </a>
     </div>
@@ -99,7 +99,7 @@
     <img src="{{ asset('img/top2_sp1.png') }}" class="top2_img_sp" alt="">
     <img src="{{ asset('img/top2_sp2.png') }}" class="top2_img_sp" alt="">
     <img src="{{ asset('img/top2_sp3.png') }}" class="top2_img_sp" alt="">
-    <a href="{{ route('new_acount') }}" class="btn_a" style="width:100%; margin:50px auto;">
+    <a href="{{ route('v2_new_acount') }}" class="btn_a" style="width:100%; margin:50px auto;">
         <div class="btn_purple" style="background: #3939399B;">ダウンロードはこちら</div>
     </a>
     <img src="{{ asset('img/logo_white.png') }}" class="top2_logo_sp" alt="">

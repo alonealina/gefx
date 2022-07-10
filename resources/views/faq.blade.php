@@ -17,7 +17,7 @@
         <div class="faq_q">8. レバレッジ設定が変更されることはありますか？</div>
         <div class="faq_q">9. 入金が反映されるまで、どれくらい時間がかかりますか？</div>
     </div>
-    <a href="{{ route('contact') }}" class="btn_a">
+    <a href="{{ route('v2_contact') }}" class="btn_a">
         <div class="btn_purple" style="margin-top:50px;">お問い合わせはこちら</div>
     </a>
 </div>
@@ -44,7 +44,7 @@
         <div class="faq_q">8. レバレッジ設定が変更されることはありますか？</div>
         <div class="faq_q">9. 入金が反映されるまで、どれくらい時間がかかりますか？</div>
     </div>
-    <a href="{{ route('contact') }}" class="btn_sp_a">
+    <a href="{{ route('v2_contact') }}" class="btn_sp_a">
         <div class="btn_sp" style="margin-top:50px;">お問い合わせはこちら</div>
     </a>
 </div>

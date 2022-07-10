@@ -22,17 +22,17 @@
     <div id="registration_pc">
         <body>
             <header class="header_pc">
-                <a class="logo_a" href="/">
+                <a class="logo_a" href="{{ route('v2_index') }}">
                     <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
                 </a>
                 <div class="header_menu_user">
-                    <a href="{{ route('faq') }}" class="header_a">
+                    <a href="{{ route('v2_faq') }}" class="header_a">
                         <p class="menu_name" style="width: 105px;">よくあるご質問</p>
                     </a>
-                    <a href="{{ route('login') }}" class="header_a header_btn1">
+                    <a href="{{ route('v2_login') }}" class="header_a header_btn1">
                         <p class="menu_name" style="width: 90px;">Logout</p>
                     </a>
-                    <a href="/" class="header_a header_btn3">
+                    <a href="{{ route('v2_index') }}" class="header_a header_btn3">
                         <p class="menu_name" style="width: 30px;">JP</p>
                     </a>
                 </div>
@@ -62,12 +62,12 @@
             <div class="user_content_div header_margin">
                 <div class="user_content_flex">
                     <div class="user_sidebar">
-                        <a href="{{ route('summary') }}" class="user_a @if (strpos($now_route,'summary') !== false) current @endif">口座サマリー</a>
-                        <a href="{{ route('history') }}" class="user_a @if (strpos($now_route,'history') !== false) current @endif">履歴</a>
-                        <a href="{{ route('deposit') }}" class="user_a @if (strpos($now_route,'deposit') !== false) current @endif">入出金</a>
-                        <a href="{{ route('transfer') }}" class="user_a @if (strpos($now_route,'transfer') !== false) current @endif">資金移動</a>
-                        <a href="{{ route('add_acount') }}" class="user_a @if (strpos($now_route,'add_acount') !== false) current @endif">追加口座</a>
-                        <a href="{{ route('setting') }}" class="user_a @if (strpos($now_route,'setting') !== false) current @endif">設 定</a>
+                        <a href="{{ route('v2_summary') }}" class="user_a @if (strpos($now_route,'summary') !== false) current @endif">口座サマリー</a>
+                        <a href="{{ route('v2_history') }}" class="user_a @if (strpos($now_route,'history') !== false) current @endif">履歴</a>
+                        <a href="{{ route('v2_deposit') }}" class="user_a @if (strpos($now_route,'deposit') !== false) current @endif">入出金</a>
+                        <a href="{{ route('v2_transfer') }}" class="user_a @if (strpos($now_route,'transfer') !== false) current @endif">資金移動</a>
+                        <a href="{{ route('v2_add_acount') }}" class="user_a @if (strpos($now_route,'add_acount') !== false) current @endif">追加口座</a>
+                        <a href="{{ route('v2_setting') }}" class="user_a @if (strpos($now_route,'setting') !== false) current @endif">設 定</a>
                     </div>
                     <div class="user_content_main">
                     @yield('content')
@@ -78,27 +78,27 @@
             <div class="footer_border"></div>
             <footer>
                 <div class="footer_menu">
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">金融サービスガイド(FSG)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">金融商品開示文書(PDS)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">取引規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">ウェブサイト個人情報保護方針</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="/" class="footer_a">
+                    <a href="{{ route('v2_index') }}" class="footer_a">
                         <p class="">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('company') }}" class="footer_a">
+                    <a href="{{ route('v2_company') }}" class="footer_a">
                         <p class="">会社概要</p>
                     </a>
                 </div>
@@ -126,10 +126,10 @@
     @endphp
         <body>
             <header class="header_sp">
-                <a href="/" class="header_a header_btn3_sp">
+                <a href="{{ route('v2_index') }}" class="header_a header_btn3_sp">
                     <p class="">JP　<span style="font-size:10px;">▼</span></p>
                 </a>
-                <a class="logo_a_sp" href="/">
+                <a class="logo_a_sp" href="{{ route('v2_index') }}">
                     <img src="{{ asset('img/logo_white.png') }}" class="logo_img_sp" alt="">
                 </a>
                 <div class="hamburger-menu">
@@ -138,26 +138,26 @@
                     <div class="menu-content" style="background: transparent linear-gradient(90deg, #6A0DFF 0%, #66008D 100%) 0% 0% no-repeat padding-box;">
                         <ul>
                             <li>
-                                <a href ="{{ route('summary') }}" class="menu_content_header_sp">口座サマリー</a>
+                                <a href ="{{ route('v2_summary') }}" class="menu_content_header_sp">口座サマリー</a>
                             </li>
                             <li>
-                                <a href ="{{ route('history') }}" class="menu_content_header_sp">履 歴</a>
+                                <a href ="{{ route('v2_history') }}" class="menu_content_header_sp">履 歴</a>
                             </li>
                             <li>
-                                <a href ="{{ route('deposit') }}" class="menu_content_header_sp">入出金</a>
+                                <a href ="{{ route('v2_deposit') }}" class="menu_content_header_sp">入出金</a>
                             </li>
                             <li>
-                                <a href ="{{ route('transfer') }}" class="menu_content_header_sp">資金移動</a>
+                                <a href ="{{ route('v2_transfer') }}" class="menu_content_header_sp">資金移動</a>
                             </li>
                             <li>
-                                <a href ="{{ route('add_acount') }}" class="menu_content_header_sp">追加口座</a>
+                                <a href ="{{ route('v2_add_acount') }}" class="menu_content_header_sp">追加口座</a>
                             </li>
                             <li>
-                                <a href ="{{ route('setting') }}" class="menu_content_header_sp">設 定</a>
+                                <a href ="{{ route('v2_setting') }}" class="menu_content_header_sp">設 定</a>
                             </li>
                         </ul>
                         <a href ="{{ route('index') }}" class="menu_content_sp" style="text-align:center">よくあるご質問</a>
-                        <a href="{{ route('demo_acount') }}" class="header_a_sp header_btn2_sp">
+                        <a href="{{ route('v2_demo_acount') }}" class="header_a_sp header_btn2_sp">
                             <p class="menu_btn_name_sp">Logout</p>
                         </a>
                     </div>
@@ -208,7 +208,7 @@
                             <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('company') }}" class="menu_content_sp">会社概要</a>
+                            <a href ="{{ route('v2_company') }}" class="menu_content_sp">会社概要</a>
                         </li>
                     </ul>
                     <div class="footer_text_sp">
