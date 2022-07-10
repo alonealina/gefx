@@ -44,9 +44,9 @@
                     <a href="{{ route('v2_login') }}" class="header_a header_btn1">
                         <p class="menu_name menu_btn_name2">Login</p>
                     </a>
-                    <a href="{{ route('v2_index') }}" class="header_a header_btn3">
-                        <p class="menu_name" style="width: 30px;">JP</p>
-                    </a>
+                    <select class="header_a header_btn3">
+                        <option value="JP">JP</option>
+                    </select>
 
                 </div>
             </header>
@@ -103,9 +103,9 @@
     @endphp
         <body>
             <header class="header_sp">
-                <a href="{{ route('v2_index') }}" class="header_a header_btn3_sp">
-                    <p class="">JP　<span style="font-size:10px;">▼</span></p>
-                </a>
+                <select class="header_a header_btn3_sp">
+                    <option value="JP">JP</option>
+                </select>
                 <a class="logo_a_sp" href="{{ route('v2_index') }}">
                     <img src="{{ asset('img/logo_white.png') }}" class="logo_img_sp" alt="">
                 </a>
