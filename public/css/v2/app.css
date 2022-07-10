@@ -25,12 +25,12 @@ footer {
 }
 
 .div_bg {
-    background-image: url(../img/bg.png);
+    background-image: url(../../img/bg.png);
     min-width: 1500px;
 }
 
 .div_bg_sp {
-    background-image: url(../img/bg.png);
+    background-image: url(../../img/bg.png);
     width:100%;
 }
 
@@ -293,7 +293,7 @@ p {
 }
 
 .top_bg1 {
-    background-image: url(../img/top1.png);
+    background-image: url(../../img/top1.png);
     height: 1100px;
     background-size: cover;
     background-position: 50%;
@@ -301,7 +301,7 @@ p {
 }
 
 .top_bg1_sp {
-    background-image: url(../img/top1.png);
+    background-image: url(../../img/top1.png);
     height: 800px;
     background-size: cover;
     background-position: 50%;
@@ -309,7 +309,7 @@ p {
 }
 
 .top_bg2 {
-    background-image: url(../img/top2.png);
+    background-image: url(../../img/top2.png);
     height: 1700px;
     background-size: cover;
     background-position: 50%;
@@ -319,7 +319,7 @@ p {
 }
 
 .top_bg2_sp {
-    background-image: url(../img/top2.png);
+    background-image: url(../../img/top2.png);
     height: 2050px;
     background-size: cover;
     background-position: 50%;
@@ -328,7 +328,7 @@ p {
 }
 
 .top_bg3 {
-    background-image: url(../img/top3.png);
+    background-image: url(../../img/top3.png);
     height: 700px;
     background-size: cover;
     background-position: 50%;
@@ -337,7 +337,7 @@ p {
 }
 
 .top_bg3_sp {
-    background-image: url(../img/top3.png);
+    background-image: url(../../img/top3.png);
     height: 2000px;
     background-size: cover;
     background-position: 50%;
@@ -345,7 +345,7 @@ p {
 }
 
 .top_bg3_sp {
-    background-image: url(../img/top3.png);
+    background-image: url(../../img/top3.png);
     height: 1500px;
     background-size: cover;
     background-position: 50%;
@@ -353,7 +353,7 @@ p {
 }
 
 .top_bg4_sp {
-    background-image: url(../img/bg.png);
+    background-image: url(../../img/bg.png);
     height: 1200px;
     background-size: cover;
     background-position: 50%;
@@ -1737,7 +1737,7 @@ li {
         padding: 0 10px;
     }
     .top_bg2 {
-        background-image: url(../img/top2.png);
+        background-image: url(../../img/top2.png);
         height: 1450px;
         background-size: cover;
         background-position: 50%;
@@ -1763,7 +1763,7 @@ li {
         width: 100%;
     }
     .top_bg3 {
-        background-image: url(../img/top3.png);
+        background-image: url(../../img/top3.png);
         height: 550px;
         background-size: cover;
         background-position: 50%;
@@ -1771,7 +1771,7 @@ li {
         padding: 50px 0;
     }
     .div_bg {
-        background-image: url(../img/bg.png);
+        background-image: url(../../img/bg.png);
         min-width: 1000px;
     }
     .top4_flex {
