@@ -1191,15 +1191,28 @@ p {
     letter-spacing: 0px;
     color: #FFFFFF;
     background: transparent linear-gradient(90deg, #313131E5 0%, #373737 100%) 0% 0% no-repeat padding-box;
+    cursor: pointer;
 }
 
 .faq_a {
-    padding:25px 20px;
     width:100%;
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0px;
     color: #262626;
     background: #EFEFEF 0% 0% no-repeat padding-box;
+    transition: .6s;
+}
+
+.faq_close {
+    padding:0 20px;
+    display: none;
+    height:0px;
+}
+
+.faq_open {
+    display: block;
+    height:auto;
+    padding:25px 20px;
 }
 
 .acount_div {
@@ -1841,5 +1854,10 @@ li {
         font: normal normal normal 13px/22px Arial;
         width: 630px;
     }
+}
+
+.td6s {
+    transition: .6s;
+    transition-delay: .6s;
 }
 
