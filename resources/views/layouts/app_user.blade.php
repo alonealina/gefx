@@ -156,7 +156,7 @@
                                 <a href ="{{ route('v2_setting') }}" class="menu_content_header_sp">設 定</a>
                             </li>
                         </ul>
-                        <a href ="{{ route('index') }}" class="menu_content_sp" style="text-align:center">よくあるご質問</a>
+                        <a href ="{{ route('v2_index') }}" class="menu_content_sp" style="text-align:center">よくあるご質問</a>
                         <a href="{{ route('v2_demo_acount') }}" class="header_a_sp header_btn2_sp">
                             <p class="menu_btn_name_sp">Logout</p>
                         </a>
@@ -193,19 +193,19 @@
                 <div class="footer_menu_sp">
                     <ul>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">取引規約</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">取引規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
                             <a href ="{{ route('v2_company') }}" class="menu_content_sp">会社概要</a>

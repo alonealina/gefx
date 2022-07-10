@@ -124,10 +124,10 @@
                         </a>
                         <ul>
                             <li>
-                                <a href ="{{ route('index') }}" class="menu_content_header_sp">TOP</a>
+                                <a href ="{{ route('v2_index') }}" class="menu_content_header_sp">TOP</a>
                             </li>
                             <li>
-                                <a href ="{{ route('index') }}" class="menu_content_header_sp">GOOD ENOUGH FX 案内</a>
+                                <a href ="{{ route('v2_index') }}" class="menu_content_header_sp">GOOD ENOUGH FX 案内</a>
                             </li>
                             <li>
                                 <a href ="{{ route('v2_faq') }}" class="menu_content_header_sp">よくあるご質問</a>
@@ -143,19 +143,19 @@
                 <div class="footer_menu_sp">
                     <ul>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">取引規約</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">取引規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
                         </li>
                         <li>
-                            <a href ="{{ route('index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
+                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
                             <a href ="{{ route('v2_company') }}" class="menu_content_sp">会社概要</a>
