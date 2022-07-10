@@ -15,7 +15,7 @@
         これにより、アカウントのパスワードが漏洩した場合の<br>
         アカウントへの侵入を効果的に防ぐことができます。
     </div>
-    <a class="login_btn_a">
+    <a href="{{ route('setting2') }}" class="login_btn_a">
         <div class="login_btn" style="margin:50px auto 0;">Active</div>
     </a>
 
@@ -43,7 +43,7 @@
         これにより、アカウントのパスワードが漏洩した場合の<br>
         アカウントへの侵入を効果的に防ぐことができます。
     </div>
-    <a class="login_btn_a">
+    <a href="{{ route('setting2') }}" class="login_btn_a">
         <div class="login_btn" style="margin:50px auto 0;">Active</div>
     </a>
 
