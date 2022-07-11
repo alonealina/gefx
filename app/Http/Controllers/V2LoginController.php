@@ -10,4 +10,8 @@ class V2LoginController extends Controller
     {
         return view('v2/login');
     }
+    public function login2()
+    {
+        return view('v2/login2');
+    }
 }

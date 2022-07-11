@@ -6,6 +6,7 @@ Route::get('v2/', 'App\Http\Controllers\V2IndexController@index')->name('v2_inde
 Route::get('v2/new_acount', 'App\Http\Controllers\V2NewAcountController@new_acount')->name('v2_new_acount');
 Route::get('v2/demo_acount', 'App\Http\Controllers\V2DemoAcountController@demo_acount')->name('v2_demo_acount');
 Route::get('v2/login', 'App\Http\Controllers\V2LoginController@login')->name('v2_login');
+Route::get('v2/login2', 'App\Http\Controllers\V2LoginController@login2')->name('v2_login2');
 Route::get('v2/contact', 'App\Http\Controllers\V2ContactController@contact')->name('v2_contact');
 Route::get('v2/company', 'App\Http\Controllers\V2CompanyController@company')->name('v2_company');
 Route::get('v2/faq', 'App\Http\Controllers\V2FaqController@faq')->name('v2_faq');
