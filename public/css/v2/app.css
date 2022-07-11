@@ -274,6 +274,9 @@ p {
     margin-top: 8px;
     font: normal normal bold 15px/20px Open Sans;
     color: #FFFFFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .menu_name {
