@@ -12,13 +12,13 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>お名前
                 </div>
-                {{ Form::text('name', old('name'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '']) }}
+                {{ Form::text('name', old('name'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
             </div>
             <div class="form_item">
                 <div class="form_item_name">
                     <span class="required">＊</span>お名前（ローマ字）
                 </div>
-                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '']) }}
+                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
             </div>
         </div>
         <div class="form_flex">
@@ -26,13 +26,13 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>メールアドレス
                 </div>
-                {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
+                {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required']) }}
             </div>
             <div class="form_item">
                 <div class="form_item_name">
                     <span class="required">＊</span>お問い合わせジャンル
                 </div>
-                <select name="category">
+                <select name="category" required>
                     <option value="">選択してください</option>
                 </select>
             </div>
@@ -41,7 +41,7 @@
         <div class="form_item_name">
             <span class="required">＊</span>お問い合わせ内容
         </div>
-        <textarea name="message"></textarea>
+        <textarea name="message" required></textarea>
 
 
         <a onclick="clickContactFormButton()" class="btn_a">
@@ -65,26 +65,26 @@
             <div class="form_item_name">
                 <span class="required">＊</span>お名前
             </div>
-            {{ Form::text('name', old('name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '']) }}
+            {{ Form::text('name', old('name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
         </div>
         <div class="form_item_sp">
             <div class="form_item_name">
                 <span class="required">＊</span>お名前（ローマ字）
             </div>
-            {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '']) }}
+            {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
         </div>
 
         <div class="form_item_sp">
             <div class="form_item_name">
                 <span class="required">＊</span>メールアドレス
             </div>
-            {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
+            {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required']) }}
         </div>
         <div class="form_item_sp">
             <div class="form_item_name">
                 <span class="required">＊</span>お問い合わせジャンル
             </div>
-            <select name="category" style="width:100%;">
+            <select name="category" style="width:100%;" required>
                 <option value="">選択してください</option>
             </select>
         </div>
@@ -92,7 +92,7 @@
         <div class="form_item_name">
             <span class="required">＊</span>お問い合わせ内容
         </div>
-        <textarea name="message" style="width: 100%;"></textarea>
+        <textarea name="message" style="width: 100%;" required></textarea>
 
 
         <a onclick="clickContactFormButtonSp()" class="btn_sp_a">
