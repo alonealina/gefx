@@ -9,9 +9,9 @@
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 
         <div class="login_item_name">MT4口座番号</div>
-        {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+        {{ Form::text('accountnum', old('accountnum'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
         <div class="login_item_name">パスワード</div>
-        {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+        {{ Form::text('password', old('password'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
 
         <a onclick="clickDemoFormButton()" class="login_btn_a">
             <div class="login_btn" style="margin-top:30px;">Login</div>
@@ -35,9 +35,9 @@
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 
         <div class="login_item_name">MT4口座番号</div>
-        {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+        {{ Form::text('accountnum', old('accountnum'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
         <div class="login_item_name">パスワード</div>
-        {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+        {{ Form::text('password', old('password'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
 
         <a onclick="clickDemoFormButton()" class="login_btn_a">
             <div class="login_btn" style="margin-top:30px;">Login</div>
