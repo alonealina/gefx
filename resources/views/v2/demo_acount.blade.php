@@ -19,18 +19,18 @@
         <div class="form_flex">
             <div class="form_item">
                 <div class="form_item_name_sub">姓(ローマ字)</div>
-                {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+                {{ Form::text('first_name', old('first_name'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
             </div>
             <div class="form_item">
                 <div class="form_item_name_sub">名(ローマ字)</div>
-                {{ Form::text('indi_name_after', old('indi_name_after'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(taro)']) }}
+                {{ Form::text('last_name', old('last_name'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(taro)']) }}
             </div>
         </div>
         <div class="form_item">
             <div class="form_item_name">
                 <span class="required">＊</span>メールアドレス
             </div>
-            {{ Form::text('indi_mail', old('indi_mail'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
+            {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
         </div>
         <a onclick="clickDemoFormButton()" class="btn_a">
             <div class="btn_purple" style="margin-top:50px; padding: 10px 30px;">ダウンロードアドレスを<br>メールで受け取る</div>
@@ -62,18 +62,18 @@
 
         <div class="form_item_sp">
             <div class="form_item_name_sub">姓(ローマ字)</div>
-            {{ Form::text('indi_name_before', old('indi_name_before'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
+            {{ Form::text('first_name', old('first_name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)']) }}
         </div>
         <div class="form_item_sp">
             <div class="form_item_name_sub">名(ローマ字)</div>
-            {{ Form::text('indi_name_after', old('indi_name_after'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)']) }}
+            {{ Form::text('last_name', old('last_name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)']) }}
         </div>
 
         <div class="form_item_sp">
             <div class="form_item_name">
                 <span class="required">＊</span>メールアドレス
             </div>
-            {{ Form::text('indi_mail', old('indi_mail'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
+            {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)']) }}
         </div>
         <a onclick="clickDemoFormButtonSp()" class="btn_sp_a">
             <div class="btn_sp" style="margin-top:30px;">ダウンロードアドレスを<br>メールで受け取る</div>
