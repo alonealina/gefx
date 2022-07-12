@@ -1,4 +1,4 @@
-@extends('layouts.app_user')
+@extends('layouts.v2.app_user')
 
 @section('content')
 <div class="user_content_title">資金移動</div>
