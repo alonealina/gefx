@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<img src="{{ asset('img/qr.png') }}" class="qr_img" alt="">
+<img src="{{ asset('img/v2/qr.png') }}" class="qr_img" alt="">
 @endsection
 
 
@@ -72,7 +72,7 @@
 </div>
 
 
-<img src="{{ asset('img/qr.png') }}" class="qr_img" alt="">
+<img src="{{ asset('img/v2/qr.png') }}" class="qr_img" alt="">
 
 
 

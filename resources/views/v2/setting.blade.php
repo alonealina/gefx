@@ -4,7 +4,7 @@
 <div class="user_content_title">設定</div>
 
 <div class="setting_div">
-    <img src="{{ asset('img/lock.png') }}" class="" alt="">
+    <img src="{{ asset('img/v2/lock.png') }}" class="" alt="">
     <div class="setting_title">２段階認証使用方法</div>
     <div class="setting_text">
         GOOD ENOUGH FX会員サイトにログインするたびに、<br>
@@ -32,7 +32,7 @@
 <div class="user_content_title">設定</div>
 
 <div class="setting_div" style="width: 100%;padding:30px 10px;">
-    <img src="{{ asset('img/lock.png') }}" class="" alt="">
+    <img src="{{ asset('img/v2/lock.png') }}" class="" alt="">
     <div class="setting_title">２段階認証使用方法</div>
     <div class="setting_text" style="width: 100%;margin: auto;">
         GOOD ENOUGH FX会員サイトにログインするたびに、<br>

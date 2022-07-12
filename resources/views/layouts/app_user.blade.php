@@ -5,7 +5,7 @@
         <title>GOOD ENOUGH FX</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
 
-        <link rel="icon" type="image/jpg" href="{{ asset('img/favicon.jpg') }}">
+        <link rel="icon" type="image/jpg" href="{{ asset('img/v2/favicon.jpg') }}">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Devanagari:wght@600&amp;display=swap">
@@ -23,7 +23,7 @@
         <body>
             <header class="header_pc">
                 <a class="logo_a" href="{{ route('v2_index') }}">
-                    <img src="{{ asset('img/logo.png') }}" class="header_logo" alt="">
+                    <img src="{{ asset('img/v2/logo.png') }}" class="header_logo" alt="">
                 </a>
                 <div class="header_menu_user">
                     <a href="{{ route('v2_faq') }}" class="header_a">
@@ -39,7 +39,7 @@
                 <input type="checkbox" id="user_detail_check" class="user_detail_check" hidden>
                 <label for="user_detail_check" class="user_detail_label_pc">
                     <div class="user_div">
-                    <img src="{{ asset('img/human.png') }}" class="" alt="">
+                    <img src="{{ asset('img/v2/human.png') }}" class="" alt="">
                     <span class="user_span user_name">test test</span>
                     <span class="user_span user_tab" id="user_detail_span">▼</span>
                     </div>
@@ -112,7 +112,7 @@
                 米国、オーストラリア、カナダ、ニュージーランド、朝鮮民主主義人民共和国、イラン、バヌアツ共和国のお客様もしくはFATFまたは同様の国際機関がAML-CFT対策が万全でないとしている特定管轄区地域在住のお客様を対象としておりませんので、ご注意ください。<br>
                 当ウェブサイト上の情報は、FXおよび/またはCFD商品取引が法律や規制によって制限または禁止されている国在住のお客様を対象としておりません。
                 </div>
-                <img src="{{ asset('img/logo.png') }}" class="footer_logo" alt="">
+                <img src="{{ asset('img/v2/logo.png') }}" class="footer_logo" alt="">
                 <div class="copyright">Copyright © 2014-2022 GOOD ENOUGH. All rights reserved.</div>
             </footer>
 
@@ -130,7 +130,7 @@
                     <option value="JP">JP</option>
                 </select>
                 <a class="logo_a_sp" href="{{ route('v2_index') }}">
-                    <img src="{{ asset('img/logo_white.png') }}" class="logo_img_sp" alt="">
+                    <img src="{{ asset('img/v2/logo_white.png') }}" class="logo_img_sp" alt="">
                 </a>
                 <div class="hamburger-menu">
                     <input type="checkbox" id="menu-btn-check">
@@ -164,7 +164,7 @@
                 </div>
             </header>
             <div class="user_div_sp header_margin_sp">
-                <img src="{{ asset('img/human.png') }}" class="" alt="">
+                <img src="{{ asset('img/v2/human.png') }}" class="" alt="">
                 <span class="user_span user_name">test test</span>
                 <span class="user_span user_tab" style="float: right;" id="user_detail_span_sp">▼</span>
                 <input type="checkbox" id="user_detail_check_sp" class="user_detail_check" hidden>
@@ -226,7 +226,7 @@
                         万全でないとしている特定管轄区地域在住のお客様を対象としておりませんので、ご注意ください。<br>
                         当ウェブサイト上の情報は、FXおよび/またはCFD商品取引が法律や規制によって制限または禁止されている国在住のお客様を対象としておりません。
                     </div>
-                    <img src="{{ asset('img/logo.png') }}" class="footer_logo" alt="">
+                    <img src="{{ asset('img/v2/logo.png') }}" class="footer_logo" alt="">
                     <div class="copyright_sp">Copyright © 2014-2022 GOOD ENOUGH. All rights reserved.</div>
                 </div>
             </footer>

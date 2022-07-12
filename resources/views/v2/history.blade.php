@@ -3,7 +3,7 @@
 @section('content')
 <div class="user_content_title">履 歴</div>
 <div class="user_item_flex">
-    <img src="{{ asset('img/history.png') }}" class="history_img" alt="">
+    <img src="{{ asset('img/v2/history.png') }}" class="history_img" alt="">
     <div class="history_item">
 
         <div class="history_item_name" style="bottom: 360px;">ご入金</div>
@@ -36,7 +36,7 @@
 
 <div class="user_content_title">履 歴</div>
 
-<img src="{{ asset('img/history.png') }}" style="width:100%;">
+<img src="{{ asset('img/v2/history.png') }}" style="width:100%;">
 <div class="pagenate_sp"><< <span class="page_current">1</span>.　2.　3 >></div>
 
 <div class="user_item_sp">

@@ -7,7 +7,7 @@
     <div class="deposit_btn crypto_btn not">暗号通貨入金</div>
     <div class="deposit_btn withdraw_btn not" style="letter-spacing: 6.12px;">出金</div>
 </div>
-<img src="{{ asset('img/card_banner.png') }}" class="card_banner" alt="">
+<img src="{{ asset('img/v2/card_banner.png') }}" class="card_banner" alt="">
 
 <div id="bank_div">
     <div class="deposit_title">銀行入金</div>
@@ -83,7 +83,7 @@
     </div>
 
     <div id="crypto2" hidden>
-        <img src="{{ asset('img/t_mark.png') }}" class="t_mark" alt="">
+        <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <div class="deposit_text">
             お客様の Tether(USDT) 預入用アドレスです。<br>
             コピーするか、2次元バーコードをスキャンしてご利用ください。<br>
@@ -95,7 +95,7 @@
         </div>
         <div class="t_box">
             <div>お客様用Tetherアドレス</div>
-            <img src="{{ asset('img/qr.png') }}" class="t_mark" alt="">
+            <img src="{{ asset('img/v2/qr.png') }}" class="t_mark" alt="">
             <div style="color: #6E6E6E;">0xD3A272Bc0AC3FFf9F00c2Ebc8f2F2D8A573B97ef</div>
         </div>
         <div class="deposit_red">
@@ -183,7 +183,7 @@
     </div>
 
     <div id="crypto_div2" hidden>
-        <img src="{{ asset('img/t_mark.png') }}" class="t_mark" alt="">
+        <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <div class="deposit_text">お客様の Tether(USDT) アドレスを以下にご入力下さい。</div>
         <div class="t_box">
             <div style="text-align:left;"><span class="required">＊</span>Tether(USDT) アドレス</div>
@@ -218,7 +218,7 @@
     <div class="deposit_btn_sp crypto_btn not">暗号通貨入金</div>
     <div class="deposit_btn_sp withdraw_btn not" style="letter-spacing: 6.12px;">出金</div>
 </div>
-<img src="{{ asset('img/card_banner.png') }}" class="card_banner" alt="">
+<img src="{{ asset('img/v2/card_banner.png') }}" class="card_banner" alt="">
 
 <div id="bank_div">
     <div class="deposit_title">銀行入金</div>
@@ -289,7 +289,7 @@
     </div>
 
     <div id="crypto2" hidden>
-        <img src="{{ asset('img/t_mark.png') }}" class="t_mark" alt="">
+        <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <div class="deposit_text">
             お客様の Tether(USDT) 預入用アドレスです。<br>
             コピーするか、2次元バーコードをスキャンしてご利用ください。<br>
@@ -301,7 +301,7 @@
         </div>
         <div class="t_box" style="width: 100%;">
             <div>お客様用Tetherアドレス</div>
-            <img src="{{ asset('img/qr.png') }}" class="t_mark" alt="">
+            <img src="{{ asset('img/v2/qr.png') }}" class="t_mark" alt="">
             <div class="txid_sp">0xD3A272Bc0AC3FFf9F00c2Ebc8f2F2D8A573B97ef</div>
         </div>
         <div class="deposit_red" style="margin-bottom:50px;">
@@ -385,7 +385,7 @@
     </div>
 
     <div id="crypto_div2" hidden>
-        <img src="{{ asset('img/t_mark.png') }}" class="t_mark" alt="">
+        <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <div class="deposit_text">お客様の Tether(USDT) アドレスを以下にご入力下さい。</div>
         <div class="t_box" style="padding: 10px;width: 100%;">
             <div style="text-align:left;"><span class="required">＊</span>Tether(USDT) アドレス</div>

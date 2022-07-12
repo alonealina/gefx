@@ -4,7 +4,7 @@
 
 <div class="div_bg header_margin pt100 pb100">
     <div class="login_div">
-        <img src="{{ asset('img/logo2.png') }}" class="login_logo" alt="">
+        <img src="{{ asset('img/v2/logo2.png') }}" class="login_logo" alt="">
         <div class="login_title">Login</div>
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 
@@ -32,7 +32,7 @@
 
 <div class="div_bg_sp header_margin_sp padding_sp">
     <div class="login_div_sp">
-        <img src="{{ asset('img/logo2.png') }}" class="login_logo" alt="">
+        <img src="{{ asset('img/v2/logo2.png') }}" class="login_logo" alt="">
         <div class="login_title">Login</div>
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 

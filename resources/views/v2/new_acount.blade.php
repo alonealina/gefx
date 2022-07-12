@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="div_bg header_margin pb100">
-    <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
+    <img src="{{ asset('img/v2/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">新規口座開設</div>
     <div class="acount_div">
         <div class="acount_btn_flex">
@@ -526,7 +526,7 @@
 @section('content_sp')
 
 <div class="div_bg_sp header_margin_sp padding_sp">
-    <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
+    <img src="{{ asset('img/v2/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">新規口座開設</div>
     <div class="acount_div_sp">
         <div class="acount_btn_sp indi_btn">個人口座</div>

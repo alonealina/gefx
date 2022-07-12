@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="div_bg header_margin pb100">
-    <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
+    <img src="{{ asset('img/v2/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">よくあるご質問</div>
     <div class="faq_div">
         <div id="faq_q1" class="faq_q">1. アカウントへの入出金はどうすればよいですか？</div>
@@ -39,7 +39,7 @@
 @section('content_sp')
 
 <div class="div_bg_sp header_margin_sp padding_sp">
-    <img src="{{ asset('img/logo2.png') }}" class="head_logo" alt="">
+    <img src="{{ asset('img/v2/logo2.png') }}" class="head_logo" alt="">
     <div class="head_title">よくあるご質問</div>
     <div class="acount_div_sp">
     <div id="faq_q1" class="faq_q">1. アカウントへの入出金はどうすればよいですか？</div>
