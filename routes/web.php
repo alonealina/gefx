@@ -9,6 +9,7 @@ use App\Http\Controllers\v2\V2ContactController;
 use App\Http\Controllers\v2\V2FaqController;
 use App\Http\Controllers\v2\V2UserController;
 use App\Http\Controllers\v2\V2TransferController;
+use App\Http\Controllers\v2\V2AddAcountController;
 
 
 Route::get('v2/', [V2IndexController::class, 'index'])->name('v2_index');
@@ -41,6 +42,9 @@ Route::get('v2/transfer', [V2TransferController::class, 'transfer'])->name('v2_t
 Route::post('v2/transfer_confirm', [V2TransferController::class, 'transfer_confirm'])->name('v2_transfer_confirm');
 Route::get('v2/transfer_complete', [V2TransferController::class, 'transfer_complete'])->name('v2_transfer_complete');
 
-Route::get('v2/add_acount', [V2UserController::class, 'add_acount'])->name('v2_add_acount');
+Route::get('v2/add_acount', [V2AddAcountController::class, 'add_acount'])->name('v2_add_acount');
+Route::post('v2/add_confirm', [V2AddAcountController::class, 'add_confirm'])->name('v2_add_confirm');
+Route::get('v2/add_acount_complete', [V2AddAcountController::class, 'add_acount_complete'])->name('v2_add_acount_complete');
+
 Route::get('v2/setting', [V2UserController::class, 'setting'])->name('v2_setting');
 Route::get('v2/setting2', [V2UserController::class, 'setting2'])->name('v2_setting2');

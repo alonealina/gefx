@@ -3,7 +3,8 @@
 @section('content')
 <div class="user_content_title">追加口座</div>
 
-<div id="add_acount_div">
+<form id="add_form" name="add_form" action="{{ route('v2_add_confirm') }}" method="post">
+@csrf
     <div class="withdraw_box">
         <div class="deposit_item_flex">
             <div class="deposit_item2">
@@ -51,7 +52,7 @@
     <a onclick="clickAddAcountFormButton()" class="btn_a">
         <div class="btn_purple" style="margin-top:50px;">追加口座申請</div>
     </a>
-</div>
+</form>
 <script src="{{ asset('js/v2/add_acount.js') }}"></script>
 @endsection
 
@@ -62,7 +63,8 @@
 
 <div class="user_content_title">追加口座</div>
 
-<div id="add_acount_div">
+<form id="add_form" name="add_form" action="{{ route('v2_add_confirm') }}" method="post">
+@csrf
     <div class="deposit_item_sp">
         <div class="user_item_name">お名前（ローマ字）</div>
         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
@@ -104,7 +106,7 @@
     <a onclick="clickAddAcountFormButtonSp()" class="btn_a_sp">
         <div class="btn_purple_sp" style="margin-top:50px;">追加口座申請</div>
     </a>
-</div>
+</form>
 
 <script src="{{ asset('js/v2/add_acount.js') }}"></script>
 @endsection
