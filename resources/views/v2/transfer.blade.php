@@ -3,7 +3,8 @@
 @section('content')
 <div class="user_content_title">資金移動</div>
 
-<div id="transfer_div">
+<form id="transfer_form" name="transfer_form" action="{{ route('v2_transfer_confirm') }}" method="post">
+@csrf
     <div class="withdraw_box">
         <div class="deposit_item_flex">
             <div class="deposit_item2">
@@ -35,7 +36,7 @@
     <a onclick="clickTransferFormButton()" class="btn_a">
         <div class="btn_purple" style="margin-top:50px;">資金移動する</div>
     </a>
-</div>
+</form>
 
 <script src="{{ asset('js/v2/transfer.js') }}"></script>
 @endsection
@@ -47,7 +48,8 @@
 
 <div class="user_content_title">資金移動</div>
 
-<div id="transfer_div">
+<form id="transfer_form" name="transfer_form" action="{{ route('v2_transfer_confirm') }}" method="post">
+@csrf
     <div class="deposit_item_sp">
         <div class="user_item_name">出金元口座番号</div>
         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
@@ -74,7 +76,7 @@
     <a onclick="clickTransferFormButtonSp()" class="btn_a_sp">
         <div class="btn_purple_sp" style="margin-top:50px;">資金移動する</div>
     </a>
-</div>
+</form>
 
 <script src="{{ asset('js/v2/transfer.js') }}"></script>
 @endsection

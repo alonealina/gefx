@@ -8,6 +8,7 @@ use App\Http\Controllers\v2\V2LoginController;
 use App\Http\Controllers\v2\V2ContactController;
 use App\Http\Controllers\v2\V2FaqController;
 use App\Http\Controllers\v2\V2UserController;
+use App\Http\Controllers\v2\V2TransferController;
 
 
 Route::get('v2/', [V2IndexController::class, 'index'])->name('v2_index');
@@ -28,14 +29,18 @@ Route::get('v2/contact', [V2ContactController::class, 'contact'])->name('v2_cont
 Route::post('v2/contact_confirm', [V2ContactController::class, 'contact_confirm'])->name('v2_contact_confirm');
 Route::get('v2/contact_complete', [V2ContactController::class, 'contact_complete'])->name('v2_contact_complete');
 
-
 Route::get('v2/company', [V2CompanyController::class, 'company'])->name('v2_company');
 Route::get('v2/faq', [V2FaqController::class, 'faq'])->name('v2_faq');
+
 
 Route::get('v2/summary', [V2UserController::class, 'summary'])->name('v2_summary');
 Route::get('v2/history', [V2UserController::class, 'history'])->name('v2_history');
 Route::get('v2/deposit', [V2UserController::class, 'deposit'])->name('v2_deposit');
-Route::get('v2/transfer', [V2UserController::class, 'transfer'])->name('v2_transfer');
+
+Route::get('v2/transfer', [V2TransferController::class, 'transfer'])->name('v2_transfer');
+Route::post('v2/transfer_confirm', [V2TransferController::class, 'transfer_confirm'])->name('v2_transfer_confirm');
+Route::get('v2/transfer_complete', [V2TransferController::class, 'transfer_complete'])->name('v2_transfer_complete');
+
 Route::get('v2/add_acount', [V2UserController::class, 'add_acount'])->name('v2_add_acount');
 Route::get('v2/setting', [V2UserController::class, 'setting'])->name('v2_setting');
 Route::get('v2/setting2', [V2UserController::class, 'setting2'])->name('v2_setting2');

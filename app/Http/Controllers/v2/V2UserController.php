@@ -21,11 +21,6 @@ class V2UserController extends Controller
         return view('v2/deposit');
     }
 
-    public function transfer()
-    {
-        return view('v2/transfer');
-    }
-
     public function add_acount()
     {
         return view('v2/add_acount');
