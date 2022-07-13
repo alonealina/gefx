@@ -7,6 +7,7 @@
     <div class="head_title">デモ口座開設</div>
     <div class="acount_div">
         <form id="demo_form" name="demo_form" action="{{ route('v2_demo_confirm') }}" method="post">
+        @csrf
             <div class="demo_explain">
                 GOOD ENOUGH FX 専用MT4<br>
                 世界最小スプレッドとユーザビリティー重視の取引環境を提供!!<br>
@@ -52,6 +53,7 @@
     <div class="head_title">デモ口座開設</div>
     <div class="acount_div_sp">
         <form id="demo_form" name="demo_form" action="{{ route('v2_demo_confirm') }}" method="post">
+            @csrf
             <div class="demo_explain">
                 GOOD ENOUGH FX 専用MT4<br>
                 世界最小スプレッドとユーザビリティー重視の取引環境を提供!!<br>
