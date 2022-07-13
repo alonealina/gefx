@@ -103,7 +103,7 @@
         <span>利用規則に同意する</span>
     </div>
 
-    <a onclick="clickAddAcountFormButtonSp()" class="btn_a_sp">
+    <a onclick="clickAddAcountFormButton()" class="btn_a_sp">
         <div class="btn_purple_sp" style="margin-top:50px;">追加口座申請</div>
     </a>
 </form>

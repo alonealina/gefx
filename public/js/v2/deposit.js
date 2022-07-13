@@ -17,20 +17,6 @@ cryptoBtn2.addEventListener("click", function () {
     cryptoDiv2.hidden = false;
 });
 
-function clickCryptoFormButton2() {
-    $("#crypto_div").empty();
-    $("#crypto_div").append('<div class="head_title">入金を受け付けました。</div>');
-    $("#crypto_div").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
-    $("#crypto_div").append('<a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>');
-}
-
-function clickCryptoFormButton2Sp() {
-    $("#crypto_div").empty();
-    $("#crypto_div").append('<div class="head_title_sp">入金を受け付けました。</div>');
-    $("#crypto_div").append('<div class="complete_text">３営業日以内に残高へ反映を致します。</div>');
-    $("#crypto_div").append('<a href="/v2/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>');
-}
-
 function clickCryptoPaymentFormButton() {
     document.forms.crypto_payment_form.submit();
 }
@@ -38,7 +24,6 @@ function clickCryptoPaymentFormButton() {
 function clickTxidButton() {
     document.forms.txid_form.submit();
 }
-
 
 function clickBankWithdrawFormButton() {
     document.forms.bank_withdraw_form.submit();

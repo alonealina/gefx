@@ -73,7 +73,7 @@
         <span>利用規則に同意する</span>
     </div>
 
-    <a onclick="clickTransferFormButtonSp()" class="btn_a_sp">
+    <a onclick="clickTransferFormButton()" class="btn_a_sp">
         <div class="btn_purple_sp" style="margin-top:50px;">資金移動する</div>
     </a>
 </form>

@@ -29,7 +29,7 @@
 </div>
 <img src="{{ asset('img/v2/card_banner.png') }}" class="card_banner" alt="">
 
-<div class="head_title">入金を受け付けました。</div>
+<div class="head_title_sp">入金を受け付けました。</div>
 <div class="complete_text">３営業日以内に残高へ反映を致します。</div>
 <a href="/v2/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>
 
