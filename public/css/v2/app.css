@@ -321,7 +321,6 @@ p {
     background-size: cover;
     background-position: 50%;
     min-width: 1500px;
-    margin-top: -10px;
     padding: 70px 100px 100px 100px;
 }
 
@@ -427,7 +426,32 @@ p {
 
 .fx_bar {
     width: 100%;
-    min-width: 1500px;
+    min-width: 1400px;
+    padding: 15px 0;
+    background: #1F222C 0% 0% no-repeat padding-box;
+    display: flex;
+}
+
+.fx_box {
+    width:10%;
+    padding:0 15px;
+    border-left: 1px solid #41434D ;
+    border-right: 1px solid #41434D ;
+}
+
+.fx_currency {
+    font: normal normal normal 16px/18px Open Sans;
+    color: #FFFFFF;
+}
+
+.fx_rate {
+    font: normal normal 600 18px/22px Open Sans;
+    color: #D2D4DB;
+}
+
+.fx_fluctuation {
+    font: normal normal normal 14px/22px Open Sans;
+    color: #B43D40;
 }
 
 .top2_title {
@@ -1768,7 +1792,6 @@ li {
         background-size: cover;
         background-position: 50%;
         min-width: 1000px;
-        margin-top: -10px;
         padding: 70px 40px 100px 40px;
     }
     .top2_title_sub {

@@ -15,7 +15,59 @@
         </a>
     </div>
 </div>
-<img src="{{ asset('img/v2/fx_bar.png') }}" class="fx_bar" alt="">
+
+<div class="fx_bar">
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box">
+        <div class="fx_currency">EUR/JPY</div>
+        <div class="fx_rate">1.05213</div>
+        <div class="fx_fluctuation">-0.00284(-0.27%)</div>
+    </div>
+</div>
 
 <div class="top_bg2">
     <div class="top2_title">Service</div>
