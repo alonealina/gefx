@@ -155,13 +155,13 @@
             <div class="form_item_name">
                 <span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="c"> (c) 米国市民権や永住権はありません
             </div>
             <div class="form_item_text">
@@ -454,13 +454,13 @@
             <div class="form_item_name">
                 <span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
             </div>
-            <div class="form_radio_item">
+            <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="c"> (c) 米国市民権や永住権はありません
             </div>
             <div class="form_item_text">
