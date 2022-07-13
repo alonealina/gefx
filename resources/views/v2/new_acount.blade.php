@@ -225,7 +225,7 @@
             </a>
         </form>
 
-        <form id="corp_form" name="corporate_confirm" hidden>
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post">
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
             <div class="form_flex">
@@ -531,7 +531,7 @@
     <div class="acount_div_sp">
         <div class="acount_btn_sp indi_btn">個人口座</div>
         <div class="acount_btn_sp corp_btn not">法人口座</div>
-        <div id="indi_form">
+        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post">
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
             <div class="form_item_sp">
@@ -734,9 +734,9 @@
             <a onclick="clickIndiFormButtonSp()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">個人口座を申し込む</div>
             </a>
-        </div>
+        </form>
 
-        <div id="corp_form" hidden>
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post">
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
             <div class="form_item_sp">
@@ -1006,10 +1006,10 @@
                 <input type="checkbox" id="check_indi" value="1">
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
-            <a onclick="clickIndiFormButtonSp()" class="btn_sp_a">
+            <a onclick="clickIndiFormButton()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">法人口座を申し込む</div>
             </a>
-        </div>
+        </form>
     </div>
 </div>
 

@@ -14,5 +14,18 @@ class V2NewAcountController extends Controller
     public function indi_confirm(Request $request)
     {
         $request;
+        return redirect()->to('v2/new_acount_complete');
     }
+
+    public function corp_confirm(Request $request)
+    {
+        $request;
+        return redirect()->to('v2/new_acount_complete');
+    }
+
+    public function new_acount_complete()
+    {
+        return view('v2/new_acount_complete');
+    }
+
 }
