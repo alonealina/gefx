@@ -70,7 +70,7 @@
                         <a href="{{ route('v2_add_acount') }}" class="user_a @if (strpos($now_route,'add_acount') !== false) current @endif">追加口座</a>
                         <a href="{{ route('v2_setting') }}" class="user_a @if (strpos($now_route,'setting') !== false) current @endif">設 定</a>
                     </div>
-                    <div class="user_content_main">
+                    <div class="@if (strpos($now_route,'history') !== false) history_content @else user_content_main @endif">
                     @yield('content')
                     </div>
                 </div>
