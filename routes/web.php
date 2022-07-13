@@ -21,10 +21,14 @@ Route::get('v2/demo_acount', [V2DemoAcountController::class, 'demo_acount'])->na
 Route::post('v2/demo_confirm', [V2DemoAcountController::class, 'demo_confirm'])->name('v2_demo_confirm');
 Route::get('v2/demo_acount_complete', [V2DemoAcountController::class, 'demo_acount_complete'])->name('v2_demo_acount_complete');
 
-
 Route::get('v2/login', [V2LoginController::class, 'login'])->name('v2_login');
 Route::get('v2/login2', [V2LoginController::class, 'login2'])->name('v2_login2');
+
 Route::get('v2/contact', [V2ContactController::class, 'contact'])->name('v2_contact');
+Route::post('v2/contact_confirm', [V2ContactController::class, 'contact_confirm'])->name('v2_contact_confirm');
+Route::get('v2/contact_complete', [V2ContactController::class, 'contact_complete'])->name('v2_contact_complete');
+
+
 Route::get('v2/company', [V2CompanyController::class, 'company'])->name('v2_company');
 Route::get('v2/faq', [V2FaqController::class, 'faq'])->name('v2_faq');
 

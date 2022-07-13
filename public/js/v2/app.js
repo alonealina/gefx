@@ -87,17 +87,5 @@ function clickDemoFormButton() {
 }
 
 function clickContactFormButton() {
-    $(".acount_div").empty();
-    $(".acount_div").append('<div class="head_title">お問い合わせを受け付けました。</div>');
-    $(".acount_div").append('<div class="complete_text">３営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div").append('<a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    document.forms.contact_form.submit();
 }
-
-function clickContactFormButtonSp() {
-    $(".acount_div_sp").empty();
-    $(".acount_div_sp").append('<div class="head_title">お問い合わせを受け付けました。</div>');
-    $(".acount_div_sp").append('<div class="complete_text">３営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div_sp").append('<a href="/v2/" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>');
-}
-
-
