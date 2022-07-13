@@ -64,7 +64,8 @@
                     <div class="user_sidebar">
                         <a href="{{ route('v2_summary') }}" class="user_a @if (strpos($now_route,'summary') !== false) current @endif">口座サマリー</a>
                         <a href="{{ route('v2_history') }}" class="user_a @if (strpos($now_route,'history') !== false) current @endif">履歴</a>
-                        <a href="{{ route('v2_deposit') }}" class="user_a @if (strpos($now_route,'deposit') !== false) current @endif">入出金</a>
+                        <a href="{{ route('v2_deposit') }}" class="user_a @if (strpos($now_route,'deposit') !== false || strpos($now_route,'crypto') !== false 
+                            || strpos($now_route,'txid') !== false || strpos($now_route,'payment') !== false || strpos($now_route,'withdraw') !== false ) current @endif">入出金</a>
                         <a href="{{ route('v2_transfer') }}" class="user_a @if (strpos($now_route,'transfer') !== false) current @endif">資金移動</a>
                         <a href="{{ route('v2_add_acount') }}" class="user_a @if (strpos($now_route,'add_acount') !== false) current @endif">追加口座</a>
                         <a href="{{ route('v2_setting') }}" class="user_a @if (strpos($now_route,'setting') !== false) current @endif">設 定</a>
