@@ -10,6 +10,7 @@ use App\Http\Controllers\v2\V2FaqController;
 use App\Http\Controllers\v2\V2UserController;
 use App\Http\Controllers\v2\V2TransferController;
 use App\Http\Controllers\v2\V2AddAcountController;
+use App\Http\Controllers\v2\V2DepositController;
 
 
 Route::get('v2/', [V2IndexController::class, 'index'])->name('v2_index');
@@ -36,7 +37,18 @@ Route::get('v2/faq', [V2FaqController::class, 'faq'])->name('v2_faq');
 
 Route::get('v2/summary', [V2UserController::class, 'summary'])->name('v2_summary');
 Route::get('v2/history', [V2UserController::class, 'history'])->name('v2_history');
-Route::get('v2/deposit', [V2UserController::class, 'deposit'])->name('v2_deposit');
+
+Route::get('v2/deposit', [V2DepositController::class, 'deposit'])->name('v2_deposit');
+Route::get('v2/crypto_payment', [V2DepositController::class, 'crypto_payment'])->name('v2_crypto_payment');
+Route::post('v2/crypto_payment_confirm', [V2DepositController::class, 'crypto_payment_confirm'])->name('v2_crypto_payment_confirm');
+Route::get('v2/txid', [V2DepositController::class, 'txid'])->name('v2_txid');
+Route::post('v2/txid_confirm', [V2DepositController::class, 'txid_confirm'])->name('v2_txid_confirm');
+Route::get('v2/payment_complete', [V2DepositController::class, 'payment_complete'])->name('v2_payment_complete');
+Route::get('v2/withdraw', [V2DepositController::class, 'withdraw'])->name('v2_withdraw');
+Route::post('v2/bank_withdraw_confirm', [V2DepositController::class, 'bank_withdraw_confirm'])->name('v2_bank_withdraw_confirm');
+Route::post('v2/crypto_withdraw_confirm', [V2DepositController::class, 'crypto_withdraw_confirm'])->name('v2_crypto_withdraw_confirm');
+Route::get('v2/withdraw_complete', [V2DepositController::class, 'withdraw_complete'])->name('v2_withdraw_complete');
+
 
 Route::get('v2/transfer', [V2TransferController::class, 'transfer'])->name('v2_transfer');
 Route::post('v2/transfer_confirm', [V2TransferController::class, 'transfer_confirm'])->name('v2_transfer_confirm');

@@ -847,6 +847,12 @@ p {
     width: 32%;
 }
 
+@media screen and (max-width: 400px) {
+    .deposit_btn_sp {
+        font: normal normal 600 12px/16px Open Sans;
+    }
+}
+
 .card_banner {
     width:96%;
     margin-bottom: 40px;
@@ -891,6 +897,12 @@ p {
     background: #F5F5F5 0% 0% no-repeat padding-box;
     border: 0.6px solid #222222;
     border-radius: 3px;
+}
+
+@media screen and (max-width: 400px) {
+    .bank_detail {
+        font:normal normal 600 13px/30px Open Sans
+    }
 }
 
 .bank_text {
@@ -1506,6 +1518,13 @@ input[type=checkbox] {
 .btn_purple_sp {
     padding:20px;
 }
+
+@media screen and (max-width: 400px) {
+    .btn_purple_sp {
+        font: normal normal normal 20px/30px Open Sans;
+    }
+}
+
 
 .login_btn_a, .btn_sp_a {
     width:100%;
