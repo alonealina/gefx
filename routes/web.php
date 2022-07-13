@@ -12,6 +12,7 @@ use App\Http\Controllers\v2\V2UserController;
 
 Route::get('v2/', [V2IndexController::class, 'index'])->name('v2_index');
 Route::get('v2/new_acount', [V2NewAcountController::class, 'new_acount'])->name('v2_new_acount');
+Route::post('v2/indi_confirm', [V2NewAcountController::class, 'indi_confirm'])->name('v2_indi_confirm');
 Route::get('v2/demo_acount', [V2DemoAcountController::class, 'demo_acount'])->name('v2_demo_acount');
 Route::get('v2/login', [V2LoginController::class, 'login'])->name('v2_login');
 Route::get('v2/login2', [V2LoginController::class, 'login2'])->name('v2_login2');

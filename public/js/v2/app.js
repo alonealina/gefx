@@ -75,10 +75,11 @@ $('input[name="indi_copy_img3"]').on('change', function () {
 
 // 仮処理
 function clickIndiFormButton() {
-    $(".acount_div").empty();
-    $(".acount_div").append('<div class="head_title">ご登録ありがとうございました。</div>');
-    $(".acount_div").append('<div class="complete_text">口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
-    $(".acount_div").append('<a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    // $(".acount_div").empty();
+    // $(".acount_div").append('<div class="head_title">ご登録ありがとうございました。</div>');
+    // $(".acount_div").append('<div class="complete_text">口座申請いただき、誠にありがとうございます。<br>２営業日以内にメールにてご連絡致します</div>');
+    // $(".acount_div").append('<a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>');
+    document.forms.indi_form.submit();
 }
 
 function clickIndiFormButtonSp() {

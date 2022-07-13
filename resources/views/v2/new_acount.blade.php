@@ -10,7 +10,8 @@
             <div class="acount_btn indi_btn">個人口座</div>
             <div class="acount_btn corp_btn not">法人口座</div>
         </div>
-        <div id="indi_form">
+        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post">
+            @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
             <div class="form_flex">
@@ -222,10 +223,9 @@
             <a onclick="clickIndiFormButton()" class="btn_a">
                 <div class="btn_purple" style="margin-top:50px;">個人口座を申し込む</div>
             </a>
+        </form>
 
-        </div>
-
-        <div id="corp_form" hidden>
+        <form id="corp_form" name="corporate_confirm" hidden>
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
             <div class="form_flex">
@@ -514,7 +514,7 @@
             <a onclick="clickIndiFormButton()" class="btn_a">
                 <div class="btn_purple" style="margin-top:50px;">法人口座を申し込む</div>
             </a>
-        </div>
+        </form>
     </div>
 </div>
 

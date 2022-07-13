@@ -10,4 +10,9 @@ class V2NewAcountController extends Controller
     {
         return view('v2/new_acount');
     }
+
+    public function indi_confirm(Request $request)
+    {
+        $request;
+    }
 }
