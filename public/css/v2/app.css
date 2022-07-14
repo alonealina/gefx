@@ -719,7 +719,7 @@ p {
     font: normal normal bold 18px/30px Arial;
     letter-spacing: -0.18px;
     color: #262626;
-    padding: 50px 200px 90px 40px;
+    padding: 50px 150px 90px 40px;
     width: 1100px;
     min-width: 1000px;
 }
@@ -782,7 +782,6 @@ p {
 }
 
 .user_item_content {
-
     width: 85%;
 }
 
@@ -803,8 +802,57 @@ p {
     position: absolute
 }
 
-.history_img {
-    width: 80%;
+.history_box {
+    width: 200%;
+    min-width: 680px;
+    height: 650px;
+    background: #FFFFFF;
+    padding:10px;
+}
+
+.history_header, .history_column {
+    width:100%;
+    border-bottom: 1px solid #A5A5A5;
+    display: flex;
+}
+
+.history_header {
+    padding-bottom:15px;
+}
+
+.history_header, .order_number {
+    color: #68009F;
+    font: normal normal bold 10px/10px Open Sans;
+    text-align: center;
+}
+
+.history_column {
+    color: #000000E5;
+    font: normal normal 600 10px/10px Open Sans;
+    text-align: center;
+    padding:14px 0;
+}
+
+.order_number, .order_time, .settle_time {
+    width:9%;
+}
+
+.order_type, .order_size, .commission, .profit {
+    width:6.5%;
+}
+
+.swap {
+    width:6%;
+}
+
+.order_brand, .order_price, .s_l, .t_p, .settle_price {
+    width:8%;
+}
+
+.history_column_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .history_item {
@@ -1880,7 +1928,7 @@ li {
         min-width: 700px;
     }
     .history_content {
-        padding: 50px 100px 90px 30px;
+        padding: 50px 50px 90px 30px;
         width: 1100px;
         min-width: 850px;
     }
@@ -1891,9 +1939,9 @@ li {
         font: normal normal 600 15px/20px Open Sans;
         padding: 5px 20px;
     }
-    .history_img {
-        width: 83%;
-    }
+    .history_box {
+        min-width: 660px;
+    } 
     .deposit_red {
         font: normal normal bold 12px/18px Arial;
     }
