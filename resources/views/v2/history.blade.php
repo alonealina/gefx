@@ -233,7 +233,7 @@
 <div class="user_content_title">履 歴</div>
 
 <div class="history_box_sp">
-    <div class="history_header">
+    <div class="history_header" style="font: normal normal bold 12px/14px Open Sans;">
         <div class="history_column_item order_number_sp">注文番号</div>
         <div class="history_column_item order_time_sp">発注時刻</div>
         <div class="history_column_item order_type_sp">注文<br>種類</div>
