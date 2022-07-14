@@ -183,7 +183,7 @@
                 開設日
                 <div class="user_detail_content">2021-09-28 13:09:30</div>
             </div>
-            <div class="user_content_div padding_sp_2" id="user_content_sp">
+            <div class="user_content_div_sp padding_sp_2" id="user_content_sp">
                 <div class="user_content_main_sp">
                 @yield('content_sp')
                 </div>

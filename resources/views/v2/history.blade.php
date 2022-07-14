@@ -232,7 +232,112 @@
 
 <div class="user_content_title">履 歴</div>
 
-<img src="{{ asset('img/v2/history.png') }}" style="width:100%;">
+<div class="history_box_sp">
+    <div class="history_header">
+        <div class="history_column_item order_number_sp">注文番号</div>
+        <div class="history_column_item order_time_sp">発注時刻</div>
+        <div class="history_column_item order_type_sp">注文<br>種類</div>
+        <div class="history_column_item order_size_sp">サイズ</div>
+        <div class="history_column_item order_brand_sp">銘柄</div>
+        <div class="history_column_item order_price_sp">発注価格</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+    <div class="history_column">
+        <div class="history_column_item order_number_sp">20132650</div>
+        <div class="history_column_item order_time_sp">2022-02-21 23:30:01</div>
+        <div class="history_column_item order_type_sp">BUY</div>
+        <div class="history_column_item order_size_sp">0.02</div>
+        <div class="history_column_item order_brand_sp">XAUUSD</div>
+        <div class="history_column_item order_price_sp">1910.45</div>
+    </div>
+</div>
 <div class="pagenate_sp"><< <span class="page_current">1</span>.　2.　3 >></div>
 
 <div class="user_item_sp">
