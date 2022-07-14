@@ -43,6 +43,7 @@ let indiBtn = document.querySelector(".indi_btn");
 let corpBtn = document.querySelector(".corp_btn");
 let indiForm = document.getElementById("indi_form");
 let corpForm = document.getElementById("corp_form");
+let demoForm = document.getElementById("demo_form");
 
 indiBtn.addEventListener("click", function () {
     indiBtn.classList.remove("not");
@@ -75,17 +76,29 @@ $('input[name="indi_copy_img3"]').on('change', function () {
 
 // 仮処理
 function clickIndiFormButton() {
+    if (! indiForm.reportValidity()) {
+        return false;
+    }
     document.forms.indi_form.submit();
 }
 
 function clickCorpFormButton() {
+    if (! corpForm.reportValidity()) {
+        return false;
+    }
     document.forms.corp_form.submit();
 }
 
 function clickDemoFormButton() {
+    if (! demoForm.reportValidity()) {
+        return false;
+    }
     document.forms.demo_form.submit();
 }
 
 function clickContactFormButton() {
+    if (! contact_form.reportValidity()) {
+        return false;
+    }
     document.forms.contact_form.submit();
 }

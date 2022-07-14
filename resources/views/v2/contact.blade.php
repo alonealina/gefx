@@ -19,7 +19,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>お名前（ローマ字）
                     </div>
-                    {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
+                    {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
                 </div>
             </div>
             <div class="form_flex">
@@ -27,7 +27,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>メールアドレス
                     </div>
-                    {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required']) }}
+                    {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[0-9A-Za-z\-@.]+$" ]) }}
                 </div>
                 <div class="form_item">
                     <div class="form_item_name">
@@ -35,6 +35,7 @@
                     </div>
                     <select name="category" required>
                         <option value="">選択してください</option>
+                        <option value="1">ジャンル1</option>
                     </select>
                 </div>
             </div>
@@ -68,20 +69,20 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>お名前
                 </div>
-                {{ Form::text('name', old('name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
+                {{ Form::text('name', old('name'), ['class' => 'form_text_sp', 'maxlength' => 30, 'required']) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">
                     <span class="required">＊</span>お名前（ローマ字）
                 </div>
-                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '', 'required']) }}
+                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
 
             <div class="form_item_sp">
                 <div class="form_item_name">
                     <span class="required">＊</span>メールアドレス
                 </div>
-                {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required']) }}
+                {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[0-9A-Za-z\-@.]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">

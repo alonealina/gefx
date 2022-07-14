@@ -55,18 +55,18 @@
             <div class="form_flex">
                 <div class="form_item">
                     <div class="form_item_name_sub">姓(ローマ字)</div>
-                    {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required']) }}
+                    {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
                 </div>
                 <div class="form_item">
                     <div class="form_item_name_sub">名(ローマ字)</div>
-                    {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required']) }}
+                    {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
                 </div>
             </div>
             <div class="form_item">
                 <div class="form_item_name">
                     <span class="required">＊</span>身分証番号(パスポート,免許等)
                 </div>
-                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required']) }}
+                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$"]) }}
             </div>
             <div class="form_flex">
                 <div class="form_item">
@@ -269,7 +269,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>会社名
                     </div>
-                    {{ Form::text('company[name]', old('company[name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(good enough fx)', 'required']) }}
+                    {{ Form::text('company[name]', old('company[name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英字(good enough fx)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
                 </div>
                 <div class="form_item">
                     <div class="form_item_name">
@@ -449,7 +449,7 @@
             <div class="form_line"></div>
             <div class="form_item">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '']) }}
+                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_text">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
@@ -512,7 +512,7 @@
                 <input type="checkbox" id="check_indi" value="1">
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
-            <a onclick="clickIndiFormButton()" class="btn_a">
+            <a onclick="clickCorpFormButton()" class="btn_a">
                 <div class="btn_purple" style="margin-top:50px;">法人口座を申し込む</div>
             </a>
         </form>
@@ -574,17 +574,17 @@
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">姓(ローマ字)</div>
-                {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required']) }}
+                {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">名(ローマ字)</div>
-                {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required']) }}
+                {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">
                     <span class="required">＊</span>身分証番号(パスポート,免許等)
                 </div>
-                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required']) }}
+                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">
                 <div class="form_item_name">
@@ -733,7 +733,7 @@
                 <input type="checkbox" id="check_indi" value="1">
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
-            <a onclick="clickIndiFormButtonSp()" class="btn_sp_a">
+            <a onclick="clickIndiFormButton()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">個人口座を申し込む</div>
             </a>
         </form>
@@ -779,7 +779,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>会社名
                 </div>
-                {{ Form::text('company[name]', old('company[name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(good enough fx)', 'required']) }}
+                {{ Form::text('company[name]', old('company[name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(good enough fx)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">
@@ -859,17 +859,17 @@
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">姓(ローマ字)</div>
-                {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required']) }}
+                {{ Form::text('primary_holder[last_name]', old('primary_holder[last_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(suzuki)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">名(ローマ字)</div>
-                {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required']) }}
+                {{ Form::text('primary_holder[first_name]', old('primary_holder[first_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英字(taro)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">
                     <span class="required">＊</span>身分証番号(パスポート,免許等)
                 </div>
-                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required']) }}
+                {{ Form::text('primary_holder[from]', old('primary_holder[from]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(AB12345678)', 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">
                 <div class="form_item_name">
@@ -948,7 +948,7 @@
             <div class="form_line"></div>
             <div class="form_item_sp">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '']) }}
+                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
@@ -1009,7 +1009,7 @@
                 <input type="checkbox" id="check_indi" value="1">
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
-            <a onclick="clickIndiFormButton()" class="btn_sp_a">
+            <a onclick="clickCorpFormButton()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">法人口座を申し込む</div>
             </a>
         </form>
