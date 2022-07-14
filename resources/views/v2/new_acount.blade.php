@@ -225,7 +225,7 @@
             </a>
         </form>
 
-        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post">
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" hidden>
         @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
@@ -738,7 +738,7 @@
             </a>
         </form>
 
-        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post">
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" hidden>
         @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
