@@ -35,7 +35,13 @@
                     </div>
                     <select name="category" required>
                         <option value="">選択してください</option>
-                        <option value="1">ジャンル1</option>
+                        <option value="口座開設について">口座開設について</option>
+                        <option value="入出金について">入出金について</option>
+                        <option value="登録情報変更について">登録情報変更について</option>
+                        <option value="システムについて">システムについて</option>
+                        <option value="口座解約について">口座解約について</option>
+                        <option value="ログインID・パスワードについて">ログインID・パスワードについて</option>
+                        <option value="その他">その他</option>
                     </select>
                 </div>
             </div>
