@@ -329,7 +329,6 @@ p {
     height: 2050px;
     background-size: cover;
     background-position: 50%;
-    margin-top: -10px;
     padding:70px 15px;
 }
 
@@ -439,6 +438,20 @@ p {
     border-right: 1px solid #41434D ;
 }
 
+.fx_bar_sp {
+    width: 100%;
+    padding: 15px 0;
+    background: #1F222C 0% 0% no-repeat padding-box;
+    display: flex;
+}
+
+.fx_box_sp {
+    width:50%;
+    padding:0 15px;
+    border-left: 1px solid #41434D ;
+    border-right: 1px solid #41434D ;
+}
+
 .fx_currency {
     font: normal normal normal 16px/18px Open Sans;
     color: #FFFFFF;
@@ -451,6 +464,21 @@ p {
 
 .fx_fluctuation {
     font: normal normal normal 14px/22px Open Sans;
+    color: #B43D40;
+}
+
+.fx_currency_sp {
+    font: normal normal normal 18px/22px Open Sans;
+    color: #FFFFFF;
+}
+
+.fx_rate_sp {
+    font: normal normal 600 28px/32px Open Sans;
+    color: #D2D4DB;
+}
+
+.fx_fluctuation_sp {
+    font: normal normal normal 20px/24px Open Sans;
     color: #B43D40;
 }
 

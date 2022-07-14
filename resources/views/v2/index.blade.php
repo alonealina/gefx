@@ -138,7 +138,20 @@
         </a>
     </div>
 </div>
-<img src="{{ asset('img/v2/fx_bar.png') }}" class="fx_bar" alt="">
+<div class="fx_bar_sp">
+    <div class="fx_box_sp">
+        <div class="fx_currency_sp">EUR/JPY</div>
+        <div class="fx_rate_sp">1.05213</div>
+        <div class="fx_fluctuation_sp">-0.00284(-0.27%)</div>
+    </div>
+    <div class="fx_box_sp">
+        <div class="fx_currency_sp">EUR/JPY</div>
+        <div class="fx_rate_sp">1.05213</div>
+        <div class="fx_fluctuation_sp">-0.00284(-0.27%)</div>
+    </div>
+</div>
+
+
 
 <div class="top_bg2_sp">
     <div class="top2_title_sp">Service</div>
