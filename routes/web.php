@@ -6,6 +6,7 @@ use App\Http\Controllers\v2\V2NewAcountController;
 use App\Http\Controllers\v2\V2DemoAcountController;
 use App\Http\Controllers\v2\V2LoginController;
 use App\Http\Controllers\v2\V2ContactController;
+use App\Http\Controllers\v2\V2CompanyController;
 use App\Http\Controllers\v2\V2FaqController;
 use App\Http\Controllers\v2\V2UserController;
 use App\Http\Controllers\v2\V2TransferController;
