@@ -102,3 +102,11 @@ function clickContactFormButton() {
     }
     document.forms.contact_form.submit();
 }
+
+function clickLoginFormButton() {
+    if (! document.forms.login_form.reportValidity()) {
+        return false;
+    }
+    document.forms.login_form.submit();
+}
+

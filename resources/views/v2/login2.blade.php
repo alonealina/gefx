@@ -18,8 +18,8 @@
         <a onclick="clickDemoFormButton()" class="login_btn_a">
             <div class="login_btn" style="margin-top:30px;">Login</div>
         </a>
-        <div class="reminder_a"><a href="">ログインパスワードを忘れた方はこちら</a></div>
-        <div class="reminder_a">口座をお持ちでないですか？ <a href="">取引口座を今すぐ開設する</a></div>
+        <div class="reminder_a"><a href="{{ route('v2_contact') }}">ログインパスワードを忘れた方はこちら</a></div>
+        <div class="reminder_a">口座をお持ちでないですか？ <a href="{{ route('v2_new_acount') }}">取引口座を今すぐ開設する</a></div>
    </div>
 </div>
 
@@ -46,8 +46,8 @@
         <a onclick="clickDemoFormButton()" class="login_btn_a">
             <div class="login_btn" style="margin-top:30px;">Login</div>
         </a>
-        <div class="reminder_a"><a href="">ログインパスワードを忘れた方はこちら</a></div>
-        <div class="reminder_a">口座をお持ちでないですか？<br><a href="">取引口座を今すぐ開設する</a></div>
+        <div class="reminder_a"><a href="{{ route('v2_contact') }}">ログインパスワードを忘れた方はこちら</a></div>
+        <div class="reminder_a">口座をお持ちでないですか？<br><a href="{{ route('v2_new_acount') }}">取引口座を今すぐ開設する</a></div>
    </div>
 </div>
 

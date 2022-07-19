@@ -9,7 +9,7 @@
         <div class="deposit_item_flex">
             <div class="deposit_item2">
                 <div class="user_item_name">お名前（ローマ字）</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
             </div>
             <div class="deposit_item2">
                 <div class="user_item_name">メールアドレス</div>
@@ -19,22 +19,28 @@
         <div class="deposit_item_flex">
             <div class="deposit_item2">
                 <div class="user_item_name">取引プラットフォーム</div>
-                <select name="indi_leverage" style="width: 100%;">
-                    <option value="">選択してください</option>
+                <select name="basic_information[platform]" style="width: 100%;" required>
+                    <option value="" selected="" disabled="">選択してください</option>
+                    <option value="メタトレーダー4">メタトレーダー 4</option>
+                    <option value="アフィリエイト">IB口座</option>
                 </select>
             </div>
             <div class="deposit_item2">
                 <div class="user_item_name">レバレッジ</div>
-                <select name="indi_leverage" style="width: 100%;">
+                <select name="basic_information[leverage]" style="width: 100%;" required>
                     <option value="">選択してください</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
                 </select>
             </div>
         </div>
         <div class="deposit_item_flex">
             <div class="deposit_item2">
                 <div class="user_item_name">口座種類</div>
-                <select name="indi_leverage" style="width: 100%;">
-                    <option value="">選択してください</option>
+                <select name="basic_information[currency]" style="width: 100%;" required>
+                    <option value="">選択して下さい</option>
+                    <option value="USD">USD</option>
                 </select>
             </div>
             <div class="deposit_item2">
@@ -43,7 +49,7 @@
             </div>
         </div>
         <div class="checkbox_item">
-            <input type="checkbox" id="check_policy" value="1">
+            <input type="checkbox" id="check_policy" value="1" required>
             <span>利用規則に同意する</span>
         </div>
     </div>
@@ -67,7 +73,7 @@
 @csrf
     <div class="deposit_item_sp">
         <div class="user_item_name">お名前（ローマ字）</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">メールアドレス</div>
@@ -75,20 +81,26 @@
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">取引プラットフォーム</div>
-        <select name="indi_platform" style="width:100%;">
-            <option value="">選択してください</option>
+        <select name="basic_information[platform]" style="width: 100%;" required>
+            <option value="" selected="" disabled="">選択してください</option>
+            <option value="メタトレーダー4">メタトレーダー 4</option>
+            <option value="アフィリエイト">IB口座</option>
         </select>
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">レバレッジ</div>
-        <select name="indi_platform" style="width:100%;">
+        <select name="basic_information[leverage]" style="width: 100%;" required>
             <option value="">選択してください</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
         </select>
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">口座種類</div>
-        <select name="indi_platform" style="width:100%;">
-            <option value="">選択してください</option>
+        <select name="basic_information[currency]" style="width: 100%;" required>
+            <option value="">選択して下さい</option>
+            <option value="USD">USD</option>
         </select>
     </div>
     <div class="deposit_item_sp">
@@ -99,7 +111,7 @@
 
 
     <div class="checkbox_item" style="margin:30px;">
-        <input type="checkbox" id="check_policy" value="1">
+        <input type="checkbox" id="check_policy" value="1" required>
         <span>利用規則に同意する</span>
     </div>
 

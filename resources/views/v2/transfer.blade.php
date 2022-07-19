@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="checkbox_item">
-            <input type="checkbox" id="check_policy" value="1">
+            <input type="checkbox" id="check_policy" value="1" required>
             <span>利用規則に同意する</span>
         </div>
     </div>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="checkbox_item" style="margin:20px;">
-        <input type="checkbox" id="check_policy" value="1">
+        <input type="checkbox" id="check_policy" value="1" required>
         <span>利用規則に同意する</span>
     </div>
 

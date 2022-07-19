@@ -81,7 +81,7 @@
         MetaQueotesSoftware 社が開発した世界でも最も利用されている FX 取引のプラットフォームです。
     </div>
     <img src="{{ asset('img/v2/top2_img1.png') }}" class="top2_img" alt="">
-    <a href="{{ route('v2_new_acount') }}" class="btn_a" style="margin:50px auto;">
+    <a href="{{ asset('exe/v2/goodenoughtreasure4setup.exe') }}" class="btn_a" style="margin:50px auto;">
         <div class="btn_purple" style="background: #3939399B;">ダウンロードはこちら</div>
     </a>
     <div class="top2_title_sub">
@@ -164,7 +164,7 @@
     <img src="{{ asset('img/v2/top2_sp1.png') }}" class="top2_img_sp" alt="">
     <img src="{{ asset('img/v2/top2_sp2.png') }}" class="top2_img_sp" alt="">
     <img src="{{ asset('img/v2/top2_sp3.png') }}" class="top2_img_sp" alt="">
-    <a href="{{ route('v2_new_acount') }}" class="btn_a" style="width:100%; margin:50px auto;">
+    <a href="{{ asset('exe/v2/goodenoughtreasure4setup.exe') }}" class="btn_a" style="width:100%; margin:50px auto;">
         <div class="btn_purple" style="background: #3939399B;">ダウンロードはこちら</div>
     </a>
     <img src="{{ asset('img/v2/logo_white.png') }}" class="top2_logo_sp" alt="">

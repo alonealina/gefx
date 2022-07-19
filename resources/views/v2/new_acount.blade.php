@@ -234,7 +234,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>口座通貨
                     </div>
-                    <select name="currency" required>
+                    <select name="basic_information[currency]" required>
                         <option value selected disabled>選択してください</option>
                         <option value="USD">USD</option>
                     </select>
@@ -243,7 +243,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>取引プラットフォーム
                     </div>
-                    <select name="platform" required>
+                    <select name="basic_information[platform]" required>
                         <option value selected disabled>選択してください</option>
                         <option value="メタトレーダー4">メタトレーダー 4</option>
                         <option value="アフィリエイト">IB口座</option>
@@ -254,7 +254,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>レバレッジ
                 </div>
-                <select name="leverage" required>
+                <select name="basic_information[leverage]" required>
                     <option value selected disabled>選択してください</option>
                     <option value="0">0</option>
                     <option value="100">100</option>
