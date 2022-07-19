@@ -78,6 +78,11 @@
         <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <form name="crypto_withdraw_form" action="{{ route('v2_crypto_withdraw_confirm') }}" method="post">
         @csrf
+            <div class="deposit_item" style="margin: 0 auto 24px;">
+                <div class="user_item_name">出金申請金額</div>
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+            </div>
+
             <div class="deposit_text">お客様の Tether(USDT) アドレスを以下にご入力下さい。</div>
             <div class="t_box">
                 <div style="text-align:left;"><span class="required">＊</span>Tether(USDT) アドレス</div>
@@ -181,6 +186,10 @@
         <img src="{{ asset('img/v2/t_mark.png') }}" class="t_mark" alt="">
         <form name="crypto_withdraw_form" action="{{ route('v2_crypto_withdraw_confirm') }}" method="post">
         @csrf
+            <div class="deposit_item_sp">
+                <div class="user_item_name">出金申請金額</div>
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'deposit_input_text_sp', 'maxlength' => 10, 'placeholder' => '']) }}
+            </div>
             <div class="deposit_text">お客様の Tether(USDT) アドレスを以下にご入力下さい。</div>
             <div class="t_box" style="padding: 10px;width: 100%;">
                 <div style="text-align:left;"><span class="required">＊</span>Tether(USDT) アドレス</div>

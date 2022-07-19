@@ -22,10 +22,6 @@
                 {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'style' => 'width: 83%;']) }}
                 <span style="vertical-align: bottom;">USD</span>
             </div>
-            <div class="deposit_item2">
-                <div class="user_item_name"><span class="required">＊</span>銀行名</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
-            </div>
         </div>
         <div class="checkbox_item">
             <input type="checkbox" id="check_policy" value="1">
@@ -62,10 +58,6 @@
         <div class="user_item_name">移動申請金額</div>
         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
         <span style="float: right;">USD</span>
-    </div>
-    <div class="deposit_item_sp">
-        <div class="user_item_name"><span class="required">＊</span>銀行名</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
     </div>
 
     <div class="checkbox_item" style="margin:20px;">

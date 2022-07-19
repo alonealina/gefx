@@ -13,7 +13,7 @@
             </div>
             <div class="deposit_item2">
                 <div class="user_item_name">メールアドレス</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                <div class="deposit_item_content">example@gmail.com</div>
             </div>
         </div>
         <div class="deposit_item_flex">
@@ -39,7 +39,7 @@
             </div>
             <div class="deposit_item2">
                 <div class="user_item_name">紹介者コード</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                <div class="deposit_item_content">2131905483</div>
             </div>
         </div>
         <div class="checkbox_item">
@@ -71,7 +71,7 @@
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">メールアドレス</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        <div class="deposit_item_content">example@gmail.com</div>
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">取引プラットフォーム</div>
@@ -93,7 +93,7 @@
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">紹介者コード</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        <div class="deposit_item_content">2131905483</div>
     </div>
 
 
