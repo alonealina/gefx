@@ -55,23 +55,23 @@
             <div class="footer_border"></div>
             <footer>
                 <div class="footer_menu">
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX FSG.pdf') }}" class="footer_a">
                         <p class="">金融サービスガイド(FSG)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX PDS.pdf') }}" class="footer_a">
                         <p class="">金融商品開示文書(PDS)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX Terms & conditions.pdf') }}" class="footer_a">
                         <p class="">取引規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX WebsitePrivacyPolicy.pdf') }}" class="footer_a">
                         <p class="">ウェブサイト個人情報保護方針</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX利用規約.pdf') }}" class="footer_a">
                         <p class="">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
@@ -143,19 +143,19 @@
                 <div class="footer_menu_sp">
                     <ul>
                         <li>
-                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
+                            <a href ="{{ asset('pdf/v2/GEFX FSG.pdf') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
+                            <a href ="{{ asset('pdf/v2/GEFX PDS.pdf') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
                         </li>
                         <li>
-                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">取引規約</a>
+                            <a href ="{{ asset('pdf/v2/GEFX Terms & conditions.pdf') }}" class="menu_content_sp">取引規約</a>
                         </li>
                         <li>
-                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
+                            <a href ="{{ asset('pdf/v2/GEFX WebsitePrivacyPolicy.pdf') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
                         </li>
                         <li>
-                            <a href ="{{ route('v2_index') }}" class="menu_content_sp">ウェブサイト利用規約</a>
+                            <a href ="{{ asset('pdf/v2/GEFX利用規約.pdf') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                         </li>
                         <li>
                             <a href ="{{ route('v2_company') }}" class="menu_content_sp">会社概要</a>

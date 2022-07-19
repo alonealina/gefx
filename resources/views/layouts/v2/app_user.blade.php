@@ -79,23 +79,23 @@
             <div class="footer_border"></div>
             <footer>
                 <div class="footer_menu">
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX FSG.pdf') }}" class="footer_a">
                         <p class="">金融サービスガイド(FSG)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX PDS.pdf') }}" class="footer_a">
                         <p class="">金融商品開示文書(PDS)</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX Terms & conditions.pdf') }}" class="footer_a">
                         <p class="">取引規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX WebsitePrivacyPolicy.pdf') }}" class="footer_a">
                         <p class="">ウェブサイト個人情報保護方針</p>
                     </a>
                     <span class="footer_separate">｜</span>
-                    <a href="{{ route('v2_index') }}" class="footer_a">
+                    <a href="{{ asset('pdf/v2/GEFX利用規約.pdf') }}" class="footer_a">
                         <p class="">ウェブサイト利用規約</p>
                     </a>
                     <span class="footer_separate">｜</span>
@@ -139,19 +139,19 @@
                     <div class="menu-content" style="background: transparent linear-gradient(90deg, #6A0DFF 0%, #66008D 100%) 0% 0% no-repeat padding-box;">
                         <ul>
                             <li>
-                                <a href ="{{ route('v2_summary') }}" class="menu_content_header_sp">口座サマリー</a>
+                                <a href ="{{ asset('pdf/v2/GEFX FSG.pdf') }}" class="menu_content_sp">金融サービスガイド(FSG)</a>
                             </li>
                             <li>
-                                <a href ="{{ route('v2_history') }}" class="menu_content_header_sp">履 歴</a>
+                                <a href ="{{ asset('pdf/v2/GEFX PDS.pdf') }}" class="menu_content_sp">金融商品開示文書(PDS)</a>
                             </li>
                             <li>
-                                <a href ="{{ route('v2_deposit') }}" class="menu_content_header_sp">入出金</a>
+                                <a href ="{{ asset('pdf/v2/GEFX Terms & conditions.pdf') }}" class="menu_content_sp">取引規約</a>
                             </li>
                             <li>
-                                <a href ="{{ route('v2_transfer') }}" class="menu_content_header_sp">資金移動</a>
+                                <a href ="{{ asset('pdf/v2/GEFX WebsitePrivacyPolicy.pdf') }}" class="menu_content_sp">ウェブサイト個人情報保護方針</a>
                             </li>
                             <li>
-                                <a href ="{{ route('v2_add_acount') }}" class="menu_content_header_sp">追加口座</a>
+                                <a href ="{{ asset('pdf/v2/GEFX利用規約.pdf') }}" class="menu_content_sp">ウェブサイト利用規約</a>
                             </li>
                             <li>
                                 <a href ="{{ route('v2_setting') }}" class="menu_content_header_sp">設 定</a>
