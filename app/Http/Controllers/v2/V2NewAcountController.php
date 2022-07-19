@@ -6,9 +6,10 @@ use Illuminate\Http\Request;
 
 class V2NewAcountController extends Controller
 {
-    public function new_acount()
+    public function new_acount(Request $request)
     {
-        return view('v2/new_acount');
+        $ref = $request->ref;
+        return view('v2/new_acount', ['ref' => $ref]);
     }
 
     public function indi_confirm(Request $request)

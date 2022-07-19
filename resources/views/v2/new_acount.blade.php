@@ -150,14 +150,14 @@
             <div class="form_line"></div>
             <div class="form_item">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                <input class="form_text" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$">
+                <input class="form_text" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$" value="{{ $ref }}">
             </div>
             <div class="form_item_text">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
                 <span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
             <div class="form_radio_item" style="font-size: 15px;">
-                <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
+                <input type="radio" name="hyouka" value="a" checked> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
             <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
@@ -194,14 +194,14 @@
                 <div class="form_item">
                     <div class="form_item_name">添付書類選択（表面）</div>
                     <label>
-                        <input type="file" accept="image/*" name="doc_id_passport" >ファイルを選択
+                        <input type="file" accept="image/*" name="doc_id_passport" required>ファイルを選択
                     </label>
                     <p class="file_p indi_file_p1">選択されていません</p>
                 </div>
                 <div class="form_item">
                     <div class="form_item_name">添付書類選択</div>
                     <label>
-                        <input type="file" accept="image/*" name="doc_id_residence_permit" >ファイルを選択
+                        <input type="file" accept="image/*" name="doc_id_residence_permit" required>ファイルを選択
                     </label>
                     <p class="file_p indi_file_p2">選択されていません</p>
                     <div class="supplement">運転免許証・身分証明書・マイナンバーカードの場合は裏面、パスポートの<br>場合は住所記載ページを添付して下さい</div>
@@ -210,14 +210,14 @@
             <div class="form_item">
                 <div class="form_item_name">添付書類選択（裏面）</div>
                 <label>
-                    <input type="file" accept="image/*" name="doc_id_passport_ura" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_passport_ura" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p3">選択されていません</p>
                 <div class="supplement">3か月以内発行の住民票、公共料金の請求書 、銀行明細書等</div>
             </div>
 
             <div class="check_text">
-                <input type="checkbox" id="check_indi" value="1">
+                <input type="checkbox" id="check_indi" value="1" required>
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickIndiFormButton()" class="btn_a">
@@ -449,14 +449,14 @@
             <div class="form_line"></div>
             <div class="form_item">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
+                {{ Form::text('extra_information[ib_name]', $ref, ['class' => 'form_text', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_text">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
                 <span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
             <div class="form_radio_item" style="font-size: 15px;">
-                <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
+                <input type="radio" name="hyouka" value="a" checked> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
             <div class="form_radio_item" style="font-size: 15px;">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
@@ -493,14 +493,14 @@
                 <div class="form_item">
                     <div class="form_item_name">法人書類（登記簿謄本）</div>
                     <label>
-                        <input type="file" accept="image/*" name="doc_id_passport" >ファイルを選択
+                        <input type="file" accept="image/*" name="doc_id_passport" required>ファイルを選択
                     </label>
                     <p class="file_p indi_file_p1">選択されていません</p>
                 </div>
                 <div class="form_item">
                     <div class="form_item_name">役員の現住所確認書類</div>
                     <label>
-                        <input type="file" accept="image/*" name="doc_id_residence_permit" >ファイルを選択
+                        <input type="file" accept="image/*" name="doc_id_residence_permit" required>ファイルを選択
                     </label>
                     <p class="file_p indi_file_p2">選択されていません</p>
                     <div class="supplement">3か月以内発行の住民票、公共料金の請求書 、銀行明細書等</div>
@@ -509,7 +509,7 @@
 
 
             <div class="check_text">
-                <input type="checkbox" id="check_indi" value="1">
+                <input type="checkbox" id="check_indi" value="1" required>
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickCorpFormButton()" class="btn_a">
@@ -663,14 +663,14 @@
             <div class="form_line"></div>
             <div class="form_item_sp">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                <input class="form_text_sp" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$">
+                <input class="form_text_sp" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$" value="{{ $ref }}">
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
                 　<span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
             <div class="form_radio_item_sp">
-                <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
+                <input type="radio" name="hyouka" value="a" checked> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
             <div class="form_radio_item_sp">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
@@ -707,14 +707,14 @@
             <div class="form_item_sp">
                 <div class="form_item_name">添付書類選択（表面）</div>
                 <label style="display: block;width: 60%;text-align: center;">
-                    <input type="file" accept="image/*" name="doc_id_passport" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_passport" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p1">選択されていません</p>
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">添付書類選択</div>
                 <label style="display: block;width: 60%;text-align: center;">
-                    <input type="file" accept="image/*" name="doc_id_residence_permit" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_residence_permit" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p2">選択されていません</p>
                 <div class="supplement">運転免許証・身分証明書・マイナンバーカードの場合は裏面、パスポートの場合は住所記載ページを添付して下さい</div>
@@ -723,14 +723,14 @@
             <div class="form_item_sp">
                 <div class="form_item_name">添付書類選択（裏面）</div>
                 <label style="display: block;width: 60%;text-align: center;">
-                    <input type="file" accept="image/*" name="doc_id_passport_ura" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_passport_ura" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p3">選択されていません</p>
                 <div class="supplement">3か月以内発行の住民票、公共料金の請求書 、銀行明細書等</div>
             </div>
 
             <div class="check_text" style="text-indent: -2em;margin-left: 2em;text-align:left;">
-                <input type="checkbox" id="check_indi" value="1">
+                <input type="checkbox" id="check_indi" value="1" required>
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickIndiFormButton()" class="btn_sp_a">
@@ -948,14 +948,14 @@
             <div class="form_line"></div>
             <div class="form_item_sp">
                 <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
-                {{ Form::text('extra_information[ib_name]', old('extra_information[ib_name]'), ['class' => 'form_text_sp', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
+                {{ Form::text('extra_information[ib_name]', $ref, ['class' => 'form_text_sp', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">米国市民権に関する情報：該当するものにチェックを入れてください</div>
             <div class="form_item_name">
                 　<span class="required">＊</span>米国市民権・永住権に関して: 
             </div>
             <div class="form_radio_item_sp">
-                <input type="radio" name="hyouka" value="a"> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
+                <input type="radio" name="hyouka" value="a" checked> (a) 米国市民権・永住権を保持しています (green card holder/ resident under the substantial presence test)
             </div>
             <div class="form_radio_item_sp">
                 <input type="radio" name="hyouka" value="b"> (b) 出生は米国ですが市民権を放棄したため現在は米国籍ではありません ( 証明書の添付が必要となります)
@@ -992,21 +992,21 @@
             <div class="form_item_sp">
                 <div class="form_item_name">法人書類（登記簿謄本）</div>
                 <label style="display: block;width: 60%;text-align: center;">
-                    <input type="file" accept="image/*" name="doc_id_passport" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_passport" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p1">選択されていません</p>
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">役員の現住所確認書類</div>
                 <label style="display: block;width: 60%;text-align: center;">
-                    <input type="file" accept="image/*" name="doc_id_residence_permit" >ファイルを選択
+                    <input type="file" accept="image/*" name="doc_id_residence_permit" required>ファイルを選択
                 </label>
                 <p class="file_p indi_file_p3">選択されていません</p>
                 <div class="supplement">3か月以内発行の住民票、公共料金の請求書 、銀行明細書等</div>
             </div>
 
             <div class="check_text" style="text-indent: -2em;margin-left: 2em;text-align:left;">
-                <input type="checkbox" id="check_indi" value="1">
+                <input type="checkbox" id="check_indi" value="1" required>
                 <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickCorpFormButton()" class="btn_sp_a">

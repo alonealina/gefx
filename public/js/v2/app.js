@@ -59,17 +59,17 @@ corpBtn.addEventListener("click", function () {
     corpForm.hidden = false;
 });
 
-$('input[name="indi_copy_img1"]').on('change', function () {
+$('input[name="doc_id_passport"]').on('change', function () {
     var file = $(this).prop('files')[0];
     $('.indi_file_p1').text(file.name);
 });
 
-$('input[name="indi_copy_img2"]').on('change', function () {
+$('input[name="doc_id_residence_permit"]').on('change', function () {
     var file = $(this).prop('files')[0];
     $('.indi_file_p2').text(file.name);
 });
 
-$('input[name="indi_copy_img3"]').on('change', function () {
+$('input[name="doc_id_passport_ura"]').on('change', function () {
     var file = $(this).prop('files')[0];
     $('.indi_file_p3').text(file.name);
 });
