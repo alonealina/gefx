@@ -300,7 +300,7 @@ p {
 }
 
 .top_bg1 {
-    background-image: url(../../img/v2/top1.png);
+    background-image: url(../../img/v2/top1.jpg);
     height: 1100px;
     background-size: cover;
     background-position: 50%;
@@ -308,7 +308,7 @@ p {
 }
 
 .top_bg1_sp {
-    background-image: url(../../img/v2/top1.png);
+    background-image: url(../../img/v2/top1.jpg);
     height: 800px;
     background-size: cover;
     background-position: 50%;
