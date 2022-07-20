@@ -37,6 +37,7 @@ Route::get('v2/company', [V2CompanyController::class, 'company'])->name('v2_comp
 Route::get('v2/faq', [V2FaqController::class, 'faq'])->name('v2_faq');
 
 
+// 以下ユーザーページ
 Route::get('v2/summary', [V2UserController::class, 'summary'])->name('v2_summary');
 Route::get('v2/history', [V2UserController::class, 'history'])->name('v2_history');
 

@@ -48,15 +48,15 @@
             </header>
             <div class="user_detail" id="user_detail" hidden>
                 口座番号
-                <div class="user_detail_content">2131905483</div>
+                <div class="user_detail_content">{{ $account_number }}</div>
                 口座種類
-                <div class="user_detail_content">USD</div>
+                <div class="user_detail_content">{{ $account_type }}</div>
                 レバレッジ
-                <div class="user_detail_content">0</div>
+                <div class="user_detail_content">{{ $leverage }}</div>
                 メールアドレス
-                <div class="user_detail_content">example@gmail.com</div>
+                <div class="user_detail_content">{{ $mail }}</div>
                 開設日
-                <div class="user_detail_content">2021-09-28 13:09:30</div>
+                <div class="user_detail_content">{{ $opening_date }}</div>
             </div>
 
             <div class="user_content_div header_margin">
@@ -173,15 +173,15 @@
             </div>
             <div class="user_detail_div" id="user_detail_sp" hidden>
                 口座番号
-                <div class="user_detail_content">2131905483</div>
+                <div class="user_detail_content">{{ $account_number }}</div>
                 口座種類
-                <div class="user_detail_content">USD</div>
+                <div class="user_detail_content">{{ $account_type }}</div>
                 レバレッジ
-                <div class="user_detail_content">0</div>
+                <div class="user_detail_content">{{ $leverage }}</div>
                 メールアドレス
-                <div class="user_detail_content">example@gmail.com</div>
+                <div class="user_detail_content">{{ $mail }}</div>
                 開設日
-                <div class="user_detail_content">2021-09-28 13:09:30</div>
+                <div class="user_detail_content">{{ $opening_date }}</div>
             </div>
             <div class="user_content_div_sp padding_sp_2" id="user_content_sp">
                 <div class="user_content_main_sp">
