@@ -41,21 +41,25 @@
                 </div>
                 <div class="deposit_item_flex">
                     <div class="deposit_item">
-                        <div class="user_item_name"><span class="required">＊</span>受取人口座番号</div>
+                        <div class="user_item_name"><span class="required">＊</span>銀行名</div>
                         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
                     </div>
                     <div class="deposit_item">
-                        <div class="user_item_name"><span class="required">＊</span>銀行名</div>
+                        <div class="user_item_name"><span class="required">＊</span>支店名</div>
                         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
                     </div>
                 </div>
                 <div class="deposit_item_flex">
                     <div class="deposit_item">
-                        <div class="user_item_name"><span class="required">＊</span>支店名</div>
-                        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                        <div class="user_item_name"><span class="required">＊</span>口座種類</div>
+                        <select name="withdraw" required style="width: 100%;">
+                            <option value selected disabled>選択してください</option>
+                            <option value="普通">普通</option>
+                            <option value="当座">当座</option>
+                        </select>
                     </div>
                     <div class="deposit_item">
-                        <div class="user_item_name"><span class="required">＊</span>口座種類</div>
+                        <div class="user_item_name"><span class="required">＊</span>銀行口座番号</div>
                         {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
                     </div>
                 </div>
@@ -150,11 +154,6 @@
                     <div class="user_item_name">銀行口座名義人住所</div>
                     {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
                 </div>
-
-                <div class="deposit_item_sp">
-                    <div class="user_item_name"><span class="required">＊</span>受取人口座番号</div>
-                    {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
-                </div>
                 <div class="deposit_item_sp">
                     <div class="user_item_name"><span class="required">＊</span>銀行名</div>
                     {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
@@ -165,6 +164,14 @@
                 </div>
                 <div class="deposit_item_sp">
                     <div class="user_item_name"><span class="required">＊</span>口座種類</div>
+                    <select name="withdraw" required style="width: 100%;">
+                        <option value selected disabled>選択してください</option>
+                        <option value="普通">普通</option>
+                        <option value="当座">当座</option>
+                    </select>
+                </div>
+                <div class="deposit_item_sp">
+                    <div class="user_item_name"><span class="required">＊</span>銀行口座番号</div>
                     {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
                 </div>
             </div>

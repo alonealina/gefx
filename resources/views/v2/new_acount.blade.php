@@ -149,7 +149,7 @@
             <div class="form_item_title">その他の情報</div>
             <div class="form_line"></div>
             <div class="form_item">
-                <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
+                <div class="form_item_name">紹介ブローカーコード</div>
                 <input class="form_text" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$" value="{{ $ref }}">
             </div>
             <div class="form_item_text">米国市民権に関する情報：該当するものにチェックを入れてください</div>
@@ -448,7 +448,7 @@
             <div class="form_item_title">その他の情報</div>
             <div class="form_line"></div>
             <div class="form_item">
-                <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
+                <div class="form_item_name">紹介ブローカーコード</div>
                 {{ Form::text('extra_information[ib_name]', $ref, ['class' => 'form_text', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_text">米国市民権に関する情報：該当するものにチェックを入れてください</div>
@@ -662,7 +662,7 @@
             <div class="form_item_title">その他の情報</div>
             <div class="form_line"></div>
             <div class="form_item_sp">
-                <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
+                <div class="form_item_name">紹介ブローカーコード</div>
                 <input class="form_text_sp" type="text" name="extra_information[ib_name]" pattern="^[0-9A-Za-z\-]+$" value="{{ $ref }}">
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">米国市民権に関する情報：該当するものにチェックを入れてください</div>
@@ -947,7 +947,7 @@
             <div class="form_item_title">その他の情報</div>
             <div class="form_line"></div>
             <div class="form_item_sp">
-                <div class="form_item_name">紹介ブローカー名(ローマ字)</div>
+                <div class="form_item_name">紹介ブローカーコード</div>
                 {{ Form::text('extra_information[ib_name]', $ref, ['class' => 'form_text_sp', 'maxlength' => 30, 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
             </div>
             <div class="form_item_name" style="margin-bottom:20px;">米国市民権に関する情報：該当するものにチェックを入れてください</div>
