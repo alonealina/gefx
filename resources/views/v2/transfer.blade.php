@@ -8,18 +8,18 @@
     <div class="withdraw_box">
         <div class="deposit_item_flex">
             <div class="deposit_item2">
-                <div class="user_item_name">出金元口座番号</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                <div class="user_item_name"><span class="required">＊</span>出金元口座番号</div>
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
             </div>
             <div class="deposit_item2">
-                <div class="user_item_name">移動元口座番号</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+                <div class="user_item_name"><span class="required">＊</span>移動元口座番号</div>
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
             </div>
         </div>
         <div class="deposit_item_flex">
             <div class="deposit_item2">
-                <div class="user_item_name">移動申請金額</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'style' => 'width: 83%;']) }}
+                <div class="user_item_name"><span class="required">＊</span>移動申請金額</div>
+                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required', 'style' => 'width: 83%;']) }}
                 <span style="vertical-align: bottom;">USD</span>
             </div>
         </div>
@@ -47,16 +47,16 @@
 <form id="transfer_form" name="transfer_form" action="{{ route('v2_transfer_confirm') }}" method="post">
 @csrf
     <div class="deposit_item_sp">
-        <div class="user_item_name">出金元口座番号</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        <div class="user_item_name"><span class="required">＊</span>出金元口座番号</div>
+        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
     </div>
     <div class="deposit_item_sp">
-        <div class="user_item_name">移動元口座番号</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        <div class="user_item_name"><span class="required">＊</span>移動元口座番号</div>
+        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
     </div>
     <div class="deposit_item_sp">
-        <div class="user_item_name">移動申請金額</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '']) }}
+        <div class="user_item_name"><span class="required">＊</span>移動申請金額</div>
+        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
         <span style="float: right;">USD</span>
     </div>
 
