@@ -8,7 +8,7 @@
     <div class="acount_div">
         <div class="head_title">お問い合わせを受け付けました。</div>
         <div class="complete_text">３営業日以内にメールにてご連絡致します</div>
-        <a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>
+        <a href="{{ route('v2_index') }}" class="btn_a"><div class="btn_purple" style="margin-top:50px;">TOPページ</div></a>
     </div>
 </div>
 
@@ -25,7 +25,7 @@
     <div class="acount_div_sp">
         <div class="head_title">お問い合わせを受け付けました。</div>
         <div class="complete_text">３営業日以内にメールにてご連絡致します</div>
-        <a href="/v2/" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>
+        <a href="{{ route('v2_index') }}" class="btn_sp_a"><div class="btn_sp" style="margin-top:50px;">TOPページ</div></a>
     </div>
 </div>
 

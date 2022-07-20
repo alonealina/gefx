@@ -5,7 +5,7 @@
 
 <div class="head_title">資金移動を受け付けました。</div>
 <div class="complete_text">３営業日以内に処理を致します。</div>
-<a href="/v2/" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>
+<a href="{{ route('v2_index') }}" class="btn_a"><div class="btn_purple" style="margin-top:50px;">マイページTOP</div></a>
 
 <script src="{{ asset('js/v2/transfer.js') }}"></script>
 @endsection
@@ -19,7 +19,7 @@
 
 <div class="head_title_sp">資金移動を受け付けました。</div>
 <div class="complete_text">３営業日以内に処理を致します。</div>
-<a href="/v2/" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>
+<a href="{{ route('v2_index') }}" class="btn_a_sp"><div class="btn_purple_sp" style="margin-top:50px;">マイページTOP</div></a>
 
 <script src="{{ asset('js/v2/transfer.js') }}"></script>
 @endsection
