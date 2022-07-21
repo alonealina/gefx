@@ -81,19 +81,22 @@ function clickIndiFormButton() {
     indiFile3 = $("#indi_file3").val().length;
 	
 	if(indiFile1 == 0){
+		$(".indi_error1").empty();
 		$(".indi_error1").append('ファイルを選択してください');
 	} else {
-        $(".indi_error1").append('');
+        $(".indi_error1").empty();
     }
 	if(indiFile2 == 0){
+		$(".indi_error2").empty();
 		$(".indi_error2").append('ファイルを選択してください');
 	} else {
-        $(".indi_error2").append('');
+        $(".indi_error2").empty();
     }
 	if(indiFile3 == 0){
+		$(".indi_error3").empty();
 		$(".indi_error3").append('ファイルを選択してください');
 	} else {
-        $(".indi_error3").append('');
+        $(".indi_error3").empty();
     }
     
     if (! indiForm.reportValidity()) {
@@ -107,14 +110,16 @@ function clickCorpFormButton() {
     corpFile2 = $("#corp_file2").val().length;
 	
 	if(corpFile1 == 0){
+        $(".corp_error1").empty();
 		$(".corp_error1").append('ファイルを選択してください');
 	} else {
-        $(".corp_error1").append('');
+        $(".corp_error1").empty();
     }
 	if(corpFile2 == 0){
+        $(".corp_error2").empty();
 		$(".corp_error2").append('ファイルを選択してください');
 	} else {
-        $(".corp_error2").append('');
+        $(".corp_error2").empty();
     }
 
     if (! corpForm.reportValidity()) {
