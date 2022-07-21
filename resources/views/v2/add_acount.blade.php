@@ -9,7 +9,7 @@
         <div class="deposit_item_flex">
             <div class="deposit_item2">
                 <div class="user_item_name">お名前（ローマ字）</div>
-                {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
+                <div class="deposit_item_content">{{ $name }}</div>
             </div>
             <div class="deposit_item2">
                 <div class="user_item_name">メールアドレス</div>
@@ -73,7 +73,7 @@
 @csrf
     <div class="deposit_item_sp">
         <div class="user_item_name">お名前（ローマ字）</div>
-        {{ Form::text('withdraw', old('withdraw'), ['class' => 'withdraw_input_text', 'maxlength' => 10, 'placeholder' => '', 'required']) }}
+        <div class="deposit_item_content">{{ $name }}</div>
     </div>
     <div class="deposit_item_sp">
         <div class="user_item_name">メールアドレス</div>

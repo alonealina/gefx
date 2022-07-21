@@ -14,6 +14,7 @@ class V2AddAcountController extends Controller
             "leverage" => "0",
             "mail" => "example@gmail.com",
             "opening_date" => "2021-09-28 13:09:30",
+            "name" => "Name Test",
         ]);
     }
 
