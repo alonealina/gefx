@@ -9,7 +9,7 @@
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 
         <div class="login_item_name">MT4口座番号</div>
-        {{ Form::text('accountnum', old('accountnum'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
+        {{ Form::text('accountnum', old('name'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
         <div class="login_item_name">パスワード</div>
         {{ Form::text('password', old('password'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
         <div class="login_item_name"> ワンタイムパスワード</div>
@@ -37,7 +37,7 @@
         <div class="login_text">ようこそ。GOOD ENOUGH FXへ</div>
 
         <div class="login_item_name">MT4口座番号</div>
-        {{ Form::text('accountnum', old('accountnum'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
+        {{ Form::text('accountnum', old('name'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
         <div class="login_item_name">パスワード</div>
         {{ Form::text('password', old('password'), ['class' => 'login_form_text', 'maxlength' => 30, 'placeholder' => '']) }}
         <div class="login_item_name">ワンタイムパスワード</div>
