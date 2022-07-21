@@ -218,7 +218,7 @@
 
             <div class="check_text">
                 <input type="checkbox" id="check_indi" value="1" required>
-                <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
+                <span>利用規則・プライバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickIndiFormButton()" class="btn_a">
                 <div class="btn_purple" style="margin-top:50px;">個人口座を申し込む</div>
@@ -510,7 +510,7 @@
 
             <div class="check_text">
                 <input type="checkbox" id="check_indi" value="1" required>
-                <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
+                <span>利用規則・プライバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickCorpFormButton()" class="btn_a">
                 <div class="btn_purple" style="margin-top:50px;">法人口座を申し込む</div>
@@ -731,7 +731,7 @@
 
             <div class="check_text" style="text-indent: -2em;margin-left: 2em;text-align:left;">
                 <input type="checkbox" id="check_indi" value="1" required>
-                <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
+                <span>利用規則・プライバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickIndiFormButton()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">個人口座を申し込む</div>
@@ -1007,7 +1007,7 @@
 
             <div class="check_text" style="text-indent: -2em;margin-left: 2em;text-align:left;">
                 <input type="checkbox" id="check_indi" value="1" required>
-                <span>利用規則・プラバシーポリシー・リスク同意書を確認し承認した。</span>
+                <span>利用規則・プライバシーポリシー・リスク同意書を確認し承認した。</span>
             </div>
             <a onclick="clickCorpFormButton()" class="btn_sp_a">
                 <div class="btn_sp" style="margin-top:30px;">法人口座を申し込む</div>
