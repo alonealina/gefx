@@ -76,6 +76,26 @@ $('input[name="doc_id_passport_ura"]').on('change', function () {
 
 // 仮処理
 function clickIndiFormButton() {
+    indiFile1 = $("#indi_file1").val().length;
+    indiFile2 = $("#indi_file2").val().length;
+    indiFile3 = $("#indi_file3").val().length;
+	
+	if(indiFile1 == 0){
+		$(".indi_error1").append('ファイルを選択してください');
+	} else {
+        $(".indi_error1").append('');
+    }
+	if(indiFile2 == 0){
+		$(".indi_error2").append('ファイルを選択してください');
+	} else {
+        $(".indi_error2").append('');
+    }
+	if(indiFile3 == 0){
+		$(".indi_error3").append('ファイルを選択してください');
+	} else {
+        $(".indi_error3").append('');
+    }
+    
     if (! indiForm.reportValidity()) {
         return false;
     }
@@ -83,6 +103,20 @@ function clickIndiFormButton() {
 }
 
 function clickCorpFormButton() {
+    corpFile1 = $("#corp_file1").val().length;
+    corpFile2 = $("#corp_file2").val().length;
+	
+	if(corpFile1 == 0){
+		$(".corp_error1").append('ファイルを選択してください');
+	} else {
+        $(".corp_error1").append('');
+    }
+	if(corpFile2 == 0){
+		$(".corp_error2").append('ファイルを選択してください');
+	} else {
+        $(".corp_error2").append('');
+    }
+
     if (! corpForm.reportValidity()) {
         return false;
     }
