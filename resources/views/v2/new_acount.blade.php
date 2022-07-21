@@ -10,7 +10,7 @@
             <div class="acount_btn indi_btn">個人口座</div>
             <div class="acount_btn corp_btn not">法人口座</div>
         </div>
-        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post">
+        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
@@ -225,7 +225,7 @@
             </a>
         </form>
 
-        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" hidden>
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" enctype="multipart/form-data" hidden>
         @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
@@ -532,7 +532,7 @@
     <div class="acount_div_sp">
         <div class="acount_btn_sp indi_btn">個人口座</div>
         <div class="acount_btn_sp corp_btn not">法人口座</div>
-        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post">
+        <form id="indi_form" name="indi_form" action="{{ route('v2_indi_confirm') }}" method="post" enctype="multipart/form-data">
         @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
@@ -738,7 +738,7 @@
             </a>
         </form>
 
-        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" hidden>
+        <form id="corp_form"  name="corp_form" action="{{ route('v2_corp_confirm') }}" method="post" enctype="multipart/form-data" hidden>
         @csrf
             <div class="form_item_title">口座設定</div>
             <div class="form_line"></div>
