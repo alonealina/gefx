@@ -79,6 +79,7 @@ function clickIndiFormButton() {
     indiFile1 = $("#indi_file1").val().length;
     indiFile2 = $("#indi_file2").val().length;
     indiFile3 = $("#indi_file3").val().length;
+    indiIbName = $("#indi_ib_name").val();
 	
 	if(indiFile1 == 0){
 		$(".indi_error1").empty();
@@ -98,7 +99,15 @@ function clickIndiFormButton() {
 	} else {
         $(".indi_error3").empty();
     }
-    
+
+	if(!(indiIbName == 'test' || indiIbName == '')){
+		$(".indi_ib_error").empty();
+		$(".indi_ib_error").append('紹介者コードが不正です');
+        return false;
+	} else {
+        $(".indi_ib_error").empty();
+    }
+
     if (! indiForm.reportValidity()) {
         return false;
     }
@@ -108,6 +117,7 @@ function clickIndiFormButton() {
 function clickCorpFormButton() {
     corpFile1 = $("#corp_file1").val().length;
     corpFile2 = $("#corp_file2").val().length;
+    corpIbName = $("#corp_ib_name").val();
 	
 	if(corpFile1 == 0){
         $(".corp_error1").empty();
@@ -120,6 +130,14 @@ function clickCorpFormButton() {
 		$(".corp_error2").append('ファイルを選択してください');
 	} else {
         $(".corp_error2").empty();
+    }
+
+    if(!(corpIbName == 'test' || corpIbName == '')){
+		$(".corp_ib_error").empty();
+		$(".corp_ib_error").append('紹介者コードが不正です');
+        return false;
+	} else {
+        $(".corp_ib_error").empty();
     }
 
     if (! corpForm.reportValidity()) {

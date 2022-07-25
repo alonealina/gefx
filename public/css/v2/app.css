@@ -2019,6 +2019,6 @@ li {
     transition-delay: .6s;
 }
 
-.indi_error1, .indi_error2, .indi_error3, .corp_error1, .corp_error2 {
+.indi_error1, .indi_error2, .indi_error3, .corp_error1, .corp_error2, .indi_ib_error, .corp_ib_error {
     color: red;
 }
