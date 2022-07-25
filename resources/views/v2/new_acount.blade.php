@@ -346,7 +346,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>メールアドレス
                 </div>
-                <input class="form_text" type="text" name="company[email]" placeholder="半角英数字(taro@fefx.com)" required pattern="^[0-9A-Za-z\-@.]+$">
+                <input class="form_text" type="text" name="company[email]" placeholder="半角英数字(taro@fefx.com)" required pattern="^[a-zA-Z0-9_.+-]+@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$">
             </div>
 
             <div class="form_item_title">役員情報</div>
@@ -661,7 +661,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>メールアドレス
                 </div>
-                <input class="form_text_sp" type="text" name="primary_holder[email]" placeholder="半角英数字(taro@fefx.com)" required pattern="^[0-9A-Za-z\-@.]+$">
+                <input class="form_text_sp" type="text" name="primary_holder[email]" placeholder="半角英数字(taro@fefx.com)" required pattern="^[a-zA-Z0-9_.+-]+@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$">
             </div>
 
             <div class="form_item_title">その他の情報</div>
