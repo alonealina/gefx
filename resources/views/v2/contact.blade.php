@@ -19,7 +19,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>お名前（ローマ字）
                     </div>
-                    {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
+                    {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-\s]+$" ]) }}
                 </div>
             </div>
             <div class="form_flex">
@@ -81,7 +81,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>お名前（ローマ字）
                 </div>
-                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-]+$" ]) }}
+                {{ Form::text('name_romazi', old('name_romazi'), ['class' => 'form_text_sp', 'maxlength' => 30, 'required', 'pattern' => "^[0-9A-Za-z\-\s]+$" ]) }}
             </div>
 
             <div class="form_item_sp">
@@ -96,6 +96,13 @@
                 </div>
                 <select name="category" style="width:100%;" required>
                     <option value="">選択してください</option>
+                    <option value="口座開設について">口座開設について</option>
+                    <option value="入出金について">入出金について</option>
+                    <option value="登録情報変更について">登録情報変更について</option>
+                    <option value="システムについて">システムについて</option>
+                    <option value="口座解約について">口座解約について</option>
+                    <option value="ログインID・パスワードについて">ログインID・パスワードについて</option>
+                    <option value="その他">その他</option>
                 </select>
             </div>
 
