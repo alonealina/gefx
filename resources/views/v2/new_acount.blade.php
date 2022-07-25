@@ -836,15 +836,15 @@
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">市区町村</div>
-                <input class="form_text_sp" type="text" name="company[address2]" placeholder="半角英字(Tokyo-to)" pattern="^[0-9A-Za-z\-]+$" required>
+                <input class="form_text_sp" type="text" name="company[address2]" placeholder="半角英字(minato-ku)" pattern="^[0-9A-Za-z\-]+$" required>
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">番地</div>
-                <input class="form_text_sp" type="text" name="company[address3]" placeholder="半角英字(Tokyo-to)" pattern="^[0-9A-Za-z\-]+$" required>
+                <input class="form_text_sp" type="text" name="company[address3]" placeholder="半角英数字(1-2-10)" pattern="^[0-9A-Za-z\-]+$" required>
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name_sub">郵便番号</div>
-                <input class="form_text_sp" type="text" name="company[address4]" placeholder="半角英字(Tokyo-to)" pattern="^[0-9A-Za-z\-]+$" required>
+                <input class="form_text_sp" type="text" name="company[address4]" placeholder="半角数字(123-4567)" pattern="^[0-9A-Za-z\-]+$" required>
             </div>
 
             <div class="form_item_sp">
@@ -1010,7 +1010,7 @@
                 <label style="display: block;width: 60%;text-align: center;">
                     <input type="file" id="corp_file2" accept="image/*" name="doc_id_residence_permit" required>ファイルを選択
                 </label>
-                <p class="file_p indi_file_p3">選択されていません</p>
+                <p class="file_p indi_file_p2">選択されていません</p>
                 <div class="corp_error2"></div>
                 <div class="supplement">3か月以内発行の住民票、公共料金の請求書 、銀行明細書等</div>
             </div>
