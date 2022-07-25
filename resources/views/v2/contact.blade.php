@@ -27,7 +27,7 @@
                     <div class="form_item_name">
                         <span class="required">＊</span>メールアドレス
                     </div>
-                    {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[0-9A-Za-z\-@.]+$" ]) }}
+                    {{ Form::text('email', old('email'), ['class' => 'form_text', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[a-zA-Z0-9_.+-]+@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$" ]) }}
                 </div>
                 <div class="form_item">
                     <div class="form_item_name">
@@ -88,7 +88,7 @@
                 <div class="form_item_name">
                     <span class="required">＊</span>メールアドレス
                 </div>
-                {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[0-9A-Za-z\-@.]+$" ]) }}
+                {{ Form::text('email', old('email'), ['class' => 'form_text_sp', 'maxlength' => 30, 'placeholder' => '半角英数字(taro@fefx.com)', 'required', 'pattern' => "^[a-zA-Z0-9_.+-]+@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$" ]) }}
             </div>
             <div class="form_item_sp">
                 <div class="form_item_name">
