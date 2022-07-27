@@ -28,17 +28,6 @@ class V2UserController extends Controller
         ]);
     }
 
-    public function deposit()
-    {
-        return view('v2/deposit')->with([
-            "account_number" => "2131905483",
-            "account_type" => "USD",
-            "leverage" => "0",
-            "mail" => "example@gmail.com",
-            "opening_date" => "2021-09-28 13:09:30",
-        ]);
-    }
-
     public function setting()
     {
         return view('v2/setting')->with([

@@ -28,6 +28,7 @@ Route::get('v2/demo_acount_complete', [V2DemoAcountController::class, 'demo_acou
 Route::get('v2/login', [V2LoginController::class, 'login'])->name('v2_login');
 Route::post('v2/login_function', [V2LoginController::class, 'login_function'])->name('v2_login_function');
 Route::get('v2/login2', [V2LoginController::class, 'login2'])->name('v2_login2');
+Route::get('v2/logout', [V2LoginController::class, 'logout'])->name('v2_logout');
 
 Route::get('v2/contact', [V2ContactController::class, 'contact'])->name('v2_contact');
 Route::post('v2/contact_confirm', [V2ContactController::class, 'contact_confirm'])->name('v2_contact_confirm');

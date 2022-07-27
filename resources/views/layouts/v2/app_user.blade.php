@@ -29,7 +29,7 @@
                     <a href="{{ route('v2_faq') }}" class="header_a">
                         <p class="menu_name" style="width: 105px;">よくあるご質問</p>
                     </a>
-                    <a href="{{ route('v2_login') }}" class="header_a header_btn1">
+                    <a href="{{ route('v2_logout') }}" class="header_a header_btn1">
                         <p class="menu_name" style="width: 90px;">Logout</p>
                     </a>
                     <select class="header_a header_btn3">
@@ -158,7 +158,7 @@
                             </li>
                         </ul>
                         <a href ="{{ route('v2_index') }}" class="menu_content_sp" style="text-align:center">よくあるご質問</a>
-                        <a href="{{ route('v2_demo_acount') }}" class="header_a_sp header_btn2_sp">
+                        <a href="{{ route('v2_logout') }}" class="header_a_sp header_btn2_sp">
                             <p class="menu_btn_name_sp">Logout</p>
                         </a>
                     </div>

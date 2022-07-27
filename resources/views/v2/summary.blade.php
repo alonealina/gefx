@@ -5,7 +5,7 @@
 <div class="user_item_flex">
     <div class="user_item">
         <div class="user_item_name">口座番号</div>
-        <div class="user_item_content">2131905483</div>
+        <div class="user_item_content">{{$account_number}}</div>
     </div>
     <div class="user_item">
         <div class="user_item_name">口座残高</div>
@@ -53,7 +53,7 @@
 
 <div class="user_item_sp">
     <div class="user_item_name">口座番号</div>
-    <div class="user_item_content_sp">2131905483</div>
+    <div class="user_item_content_sp">{{$account_number}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">口座残高</div>
