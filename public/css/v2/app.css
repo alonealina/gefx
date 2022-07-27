@@ -680,7 +680,7 @@ p {
 
 .user_name {
     margin-left: 10px;
-    margin-right: 40px;
+    margin-right: auto;
 }
 
 .user_span {

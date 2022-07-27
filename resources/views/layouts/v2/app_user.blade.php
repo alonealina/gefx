@@ -40,7 +40,7 @@
                 <label for="user_detail_check" class="user_detail_label_pc">
                     <div class="user_div">
                     <img src="{{ asset('img/v2/human.png') }}" class="" alt="">
-                    <span class="user_span user_name">test test</span>
+                    <span class="user_span user_name">{{ $name }}</span>
                     <span class="user_span user_tab" id="user_detail_span">▼</span>
                     </div>
                 </label>
@@ -166,7 +166,7 @@
             </header>
             <div class="user_div_sp header_margin_sp">
                 <img src="{{ asset('img/v2/human.png') }}" class="" alt="">
-                <span class="user_span user_name">test test</span>
+                <span class="user_span user_name">{{ $name }}</span>
                 <span class="user_span user_tab" style="float: right;" id="user_detail_span_sp">▼</span>
                 <input type="checkbox" id="user_detail_check_sp" class="user_detail_check" hidden>
                 <label for="user_detail_check_sp" class="user_detail_label"></label>
