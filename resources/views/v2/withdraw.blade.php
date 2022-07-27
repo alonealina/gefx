@@ -21,7 +21,7 @@
             <div class="deposit_item_flex">
                 <div class="deposit_item">
                     <div class="user_item_name" style="text-align: right; padding-right: 86px;">出金元口座番号</div>
-                    <div class="deposit_item_content" style="text-align: right;">2131905483</div>
+                    <div class="deposit_item_content" style="text-align: right;">{{ $account_number }}</div>
                 </div>
                 <div class="deposit_item">
                     <div class="user_item_name">出金申請金額</div>
@@ -137,7 +137,7 @@
 
             <div class="deposit_item_sp">
                 <div class="user_item_name">出金元口座番号</div>
-                <div class="deposit_item_content">2131905483</div>
+                <div class="deposit_item_content">{{ $account_number }}</div>
             </div>
             <div class="deposit_item_sp">
                 <div class="user_item_name">出金申請金額</div>

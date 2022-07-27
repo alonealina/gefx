@@ -20,11 +20,11 @@
         <div class="deposit_item_flex">
             <div class="deposit_item">
                 <div class="user_item_name">トレード口座</div>
-                <div class="deposit_item_content">2131905483</div>
+                <div class="deposit_item_content">{{ $account_number }}</div>
             </div>
             <div class="deposit_item">
                 <div class="user_item_name">メールアドレス</div>
-                <div class="deposit_item_content">example@gmail.com</div>
+                <div class="deposit_item_content">{{ $mail }}</div>
             </div>
         </div>
         <div class="deposit_item_flex">
@@ -89,11 +89,11 @@
 
         <div class="deposit_item_sp">
             <div class="user_item_name">トレード口座</div>
-            <div class="deposit_item_content">2131905483</div>
+            <div class="deposit_item_content">{{ $account_number }}</div>
         </div>
         <div class="deposit_item_sp">
             <div class="user_item_name">メールアドレス</div>
-            <div class="deposit_item_content">example@gmail.com</div>
+            <div class="deposit_item_content">{{ $mail }}</div>
         </div>
         <div class="deposit_item_sp">
             <div class="user_item_name">ご入金方法</div>
