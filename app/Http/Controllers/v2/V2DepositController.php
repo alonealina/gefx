@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\v2;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use App\Models\V2\BFF;
 
 class V2DepositController extends Controller
