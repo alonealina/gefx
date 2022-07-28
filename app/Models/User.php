@@ -41,6 +41,11 @@ class User extends Authenticatable
             "surplus_margin" => "4000.00",
             "margin_rate" => "100",
             "status" => 1,
+            "peyment" => "2573.88",
+            "withdraw" => "-480",
+            "adj" => "0",
+            "swap" => "-67.51",
+            "fixed_pl" => "1470.32",
         ];
     }
 

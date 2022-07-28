@@ -203,19 +203,19 @@
     <div class="history_item">
 
         <div class="history_item_name" style="bottom: 360px;">ご入金</div>
-        <div class="history_item_content"style="bottom: 320px;">2573.88</div>
+        <div class="history_item_content"style="bottom: 320px;">{{$peyment}}</div>
 
         <div class="history_item_name" style="bottom: 280px;">出金額</div>
-        <div class="history_item_content"style="bottom: 240px;">-480</div>
+        <div class="history_item_content"style="bottom: 240px;">{{$withdraw}}</div>
 
         <div class="history_item_name" style="bottom: 200px;">ADJ</div>
-        <div class="history_item_content"style="bottom: 160px;">0</div>
+        <div class="history_item_content"style="bottom: 160px;">{{$adj}}</div>
 
         <div class="history_item_name" style="bottom: 120px;">スワップ</div>
-        <div class="history_item_content"style="bottom: 80px;">-67.51</div>
+        <div class="history_item_content"style="bottom: 80px;">{{$swap}}</div>
 
         <div class="history_item_name" style="bottom: 40px;">確定損益</div>
-        <div class="history_item_content"style="bottom: 0px;">1470.32</div>
+        <div class="history_item_content"style="bottom: 0px;">{{$fixed_pl}}</div>
 
     </div>
 
@@ -342,23 +342,23 @@
 
 <div class="user_item_sp">
     <div class="user_item_name">ご入金</div>
-    <div class="user_item_content_sp">2573.88</div>
+    <div class="user_item_content_sp">{{$peyment}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">出金額</div>
-    <div class="user_item_content_sp">-480</div>
+    <div class="user_item_content_sp">{{$withdraw}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">ADJ</div>
-    <div class="user_item_content_sp">0</div>
+    <div class="user_item_content_sp">{{$adj}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">スワップ</div>
-    <div class="user_item_content_sp">-67.51</div>
+    <div class="user_item_content_sp">{{$swap}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">確定損益</div>
-    <div class="user_item_content_sp">1470.32</div>
+    <div class="user_item_content_sp">{{$fixed_pl}}</div>
 </div>
 
 
