@@ -18,7 +18,7 @@
     </div>
     <div class="bank_detail">
         <div>銀行名<br>支店名<br>口座種類<br>口座番号<br>口座名義<br>振込名義</div>
-        <div>住信ＳＢＩネット銀行<br>法人第一支店（106)<br>普通預金<br>1387680<br>グッドイナフトレジャー(カ<br>21310000000 test test</div>
+        <div>住信ＳＢＩネット銀行<br>法人第一支店（106)<br>普通預金<br>1387680<br>グッドイナフトレジャー(カ<br>{{ $account_number }} {{ $name }}</div>
     </div>
     <div class="bank_text" style="width:470px; margin-bottom:60px;">
         ※反映までの時間 : 最大３営業日<br>
@@ -59,7 +59,7 @@
     </div>
     <div class="bank_detail" style="width: 100%;padding: 30px 10px;">
         <div>銀行名<br>支店名<br>口座種類<br>口座番号<br>口座名義<br>振込名義</div>
-        <div>住信ＳＢＩネット銀行<br>法人第一支店（106)<br>普通預金<br>1387680<br>グッドイナフトレジャー(カ<br>21310000000 test test</div>
+        <div>住信ＳＢＩネット銀行<br>法人第一支店（106)<br>普通預金<br>1387680<br>グッドイナフトレジャー(カ<br>{{ $account_number }} {{ $name }}</div>
     </div>
     <div class="bank_text" style="width:100%; margin-bottom:60px;">
         ※反映までの時間 : 最大３営業日<br>
