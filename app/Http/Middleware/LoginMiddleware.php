@@ -11,7 +11,7 @@ class LoginMiddleware
     {
         // 未ログイン
         if(!session()->has('login_id')){
-            return redirect('v2/login');
+            return redirect(route('v2_login'));
         }
 
         return $next($request);

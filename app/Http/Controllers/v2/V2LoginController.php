@@ -19,13 +19,13 @@ class V2LoginController extends Controller
     public function login_function(Request $request)
     {
         session(['login_id' => 1]);
-        return redirect('v2/summary'); 
+        return redirect(route('v2_summary')); 
     }
 
     public function logout(Request $request)
     {
         session()->forget('login_id');
-        return redirect('v2/login'); 
+        return redirect(route('v2_login')); 
     }
 
 }
