@@ -19,186 +19,25 @@
             <div class="history_column_item swap">スワ<br>ップ</div>
             <div class="history_column_item profit">Profit</div>
         </div>
+        @foreach($closedOrders as $closedOrder)
+        
         <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
+            <div class="history_column_item order_number">{{$closedOrder['order']}}</div>
+            <div class="history_column_item order_time">{{$closedOrder['open_time']}}</div>
+            <div class="history_column_item order_type">{{$closedOrder['type']}}</div>
+            <div class="history_column_item order_size">{{$closedOrder['volume']}}</div>
+            <div class="history_column_item order_brand">{{$closedOrder['symbol']}}</div>
+            <div class="history_column_item order_price">{{$closedOrder['open_price']}}</div>
+            <div class="history_column_item s_l">{{$closedOrder['SL']}}</div>
+            <div class="history_column_item t_p">{{$closedOrder['TP']}}</div>
+            <div class="history_column_item settle_time">{{$closedOrder['close_time']}}</div>
+            <div class="history_column_item settle_price">{{$closedOrder['close_price']}}</div>
+            <div class="history_column_item commission">{{$closedOrder['commission']}}</div>
+            <div class="history_column_item swap">{{$closedOrder['swap']}}</div>
+            <div class="history_column_item profit">{{$closedOrder['profit']}}</div>
         </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
-        <div class="history_column">
-            <div class="history_column_item order_number">20132650</div>
-            <div class="history_column_item order_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item order_type">BUY</div>
-            <div class="history_column_item order_size">0.02</div>
-            <div class="history_column_item order_brand">XAUUSD</div>
-            <div class="history_column_item order_price">1910.45</div>
-            <div class="history_column_item s_l">1870.45</div>
-            <div class="history_column_item t_p">1913.45</div>
-            <div class="history_column_item settle_time">2022-02-21 23:30:01</div>
-            <div class="history_column_item settle_price">1912.92</div>
-            <div class="history_column_item commission">0.00</div>
-            <div class="history_column_item swap">0.00</div>
-            <div class="history_column_item profit">4.96</div>
-        </div>
+
+        @endforeach
     </div>
     <div class="history_item">
 
