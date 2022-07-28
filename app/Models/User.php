@@ -27,7 +27,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function outputDetail() {
+    public static function outputDetail() {
         return [
             "account_number" => "2131905483",
             "account_type" => "USD",
