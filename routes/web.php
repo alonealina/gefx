@@ -39,28 +39,28 @@ Route::get('v2/faq', [V2FaqController::class, 'faq'])->name('v2_faq');
 
 
 // 以下ユーザーページ
-Route::get('v2/summary', [V2UserController::class, 'summary'])->name('v2_summary');
-Route::get('v2/history', [V2UserController::class, 'history'])->name('v2_history');
+Route::get('v2/summary', [V2UserController::class, 'summary'])->name('v2_summary')->middleware('login');
+Route::get('v2/history', [V2UserController::class, 'history'])->name('v2_history')->middleware('login');
 
-Route::get('v2/deposit', [V2DepositController::class, 'deposit'])->name('v2_deposit');
-Route::get('v2/crypto_payment', [V2DepositController::class, 'crypto_payment'])->name('v2_crypto_payment');
-Route::post('v2/crypto_payment_confirm', [V2DepositController::class, 'crypto_payment_confirm'])->name('v2_crypto_payment_confirm');
-Route::get('v2/txid', [V2DepositController::class, 'txid'])->name('v2_txid');
-Route::post('v2/txid_confirm', [V2DepositController::class, 'txid_confirm'])->name('v2_txid_confirm');
-Route::get('v2/payment_complete', [V2DepositController::class, 'payment_complete'])->name('v2_payment_complete');
-Route::get('v2/withdraw', [V2DepositController::class, 'withdraw'])->name('v2_withdraw');
-Route::post('v2/bank_withdraw_confirm', [V2DepositController::class, 'bank_withdraw_confirm'])->name('v2_bank_withdraw_confirm');
-Route::post('v2/crypto_withdraw_confirm', [V2DepositController::class, 'crypto_withdraw_confirm'])->name('v2_crypto_withdraw_confirm');
-Route::get('v2/withdraw_complete', [V2DepositController::class, 'withdraw_complete'])->name('v2_withdraw_complete');
+Route::get('v2/deposit', [V2DepositController::class, 'deposit'])->name('v2_deposit')->middleware('login');
+Route::get('v2/crypto_payment', [V2DepositController::class, 'crypto_payment'])->name('v2_crypto_payment')->middleware('login');
+Route::post('v2/crypto_payment_confirm', [V2DepositController::class, 'crypto_payment_confirm'])->name('v2_crypto_payment_confirm')->middleware('login');
+Route::get('v2/txid', [V2DepositController::class, 'txid'])->name('v2_txid')->middleware('login');
+Route::post('v2/txid_confirm', [V2DepositController::class, 'txid_confirm'])->name('v2_txid_confirm')->middleware('login');
+Route::get('v2/payment_complete', [V2DepositController::class, 'payment_complete'])->name('v2_payment_complete')->middleware('login');
+Route::get('v2/withdraw', [V2DepositController::class, 'withdraw'])->name('v2_withdraw')->middleware('login');
+Route::post('v2/bank_withdraw_confirm', [V2DepositController::class, 'bank_withdraw_confirm'])->name('v2_bank_withdraw_confirm')->middleware('login');
+Route::post('v2/crypto_withdraw_confirm', [V2DepositController::class, 'crypto_withdraw_confirm'])->name('v2_crypto_withdraw_confirm')->middleware('login');
+Route::get('v2/withdraw_complete', [V2DepositController::class, 'withdraw_complete'])->name('v2_withdraw_complete')->middleware('login');
 
 
-Route::get('v2/transfer', [V2TransferController::class, 'transfer'])->name('v2_transfer');
-Route::post('v2/transfer_confirm', [V2TransferController::class, 'transfer_confirm'])->name('v2_transfer_confirm');
-Route::get('v2/transfer_complete', [V2TransferController::class, 'transfer_complete'])->name('v2_transfer_complete');
+Route::get('v2/transfer', [V2TransferController::class, 'transfer'])->name('v2_transfer')->middleware('login');
+Route::post('v2/transfer_confirm', [V2TransferController::class, 'transfer_confirm'])->name('v2_transfer_confirm')->middleware('login');
+Route::get('v2/transfer_complete', [V2TransferController::class, 'transfer_complete'])->name('v2_transfer_complete')->middleware('login');
 
-Route::get('v2/add_acount', [V2AddAcountController::class, 'add_acount'])->name('v2_add_acount');
-Route::post('v2/add_confirm', [V2AddAcountController::class, 'add_confirm'])->name('v2_add_confirm');
-Route::get('v2/add_acount_complete', [V2AddAcountController::class, 'add_acount_complete'])->name('v2_add_acount_complete');
+Route::get('v2/add_acount', [V2AddAcountController::class, 'add_acount'])->name('v2_add_acount')->middleware('login');
+Route::post('v2/add_confirm', [V2AddAcountController::class, 'add_confirm'])->name('v2_add_confirm')->middleware('login');
+Route::get('v2/add_acount_complete', [V2AddAcountController::class, 'add_acount_complete'])->name('v2_add_acount_complete')->middleware('login');
 
-Route::get('v2/setting', [V2UserController::class, 'setting'])->name('v2_setting');
-Route::get('v2/setting2', [V2UserController::class, 'setting2'])->name('v2_setting2');
+Route::get('v2/setting', [V2UserController::class, 'setting'])->name('v2_setting')->middleware('login');
+Route::get('v2/setting2', [V2UserController::class, 'setting2'])->name('v2_setting2')->middleware('login');

@@ -18,14 +18,14 @@ class V2LoginController extends Controller
 
     public function login_function(Request $request)
     {
-        $request;
-        exit;
+        session(['login_id' => 1]);
+        return redirect('v2/summary'); 
     }
 
     public function logout(Request $request)
     {
-        $request;
-        exit;
+        session()->forget('login_id');
+        return redirect('v2/login'); 
     }
 
 }
