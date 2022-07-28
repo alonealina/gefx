@@ -9,33 +9,33 @@
     </div>
     <div class="user_item">
         <div class="user_item_name">口座残高</div>
-        <div class="user_item_content">3496.69</div>
+        <div class="user_item_content">{{$account_balance}}</div>
     </div>
 </div>
 <div class="user_item_flex">
     <div class="user_item">
         <div class="user_item_name">有効証拠金</div>
-        <div class="user_item_content">3496.69</div>
+        <div class="user_item_content">{{$effective_margin}}</div>
     </div>
     <div class="user_item">
         <div class="user_item_name">必要証拠金</div>
-        <div class="user_item_content">0.00</div>
+        <div class="user_item_content">{{$margin_required}}</div>
     </div>
 </div>
 <div class="user_item_flex">
     <div class="user_item">
         <div class="user_item_name">余剰証拠金</div>
-        <div class="user_item_content">3496.69</div>
+        <div class="user_item_content">{{$surplus_margin}}</div>
     </div>
     <div class="user_item">
         <div class="user_item_name">証拠金維持率</div>
-        <div class="user_item_content">100</div>
+        <div class="user_item_content">{{$margin_rate}}</div>
     </div>
 </div>
 <div class="user_item_flex">
     <div class="user_item">
         <div class="user_item_name">ステータス</div>
-        <div class="user_item_content">Active</div>
+        <div class="user_item_content">@if($status) Active @else No Active @endif</div>
     </div>
     <div class="user_item">
     </div>
@@ -57,27 +57,27 @@
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">口座残高</div>
-    <div class="user_item_content_sp">3496.69</div>
+    <div class="user_item_content_sp">{{$account_balance}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">有効証拠金</div>
-    <div class="user_item_content_sp">3496.69</div>
+    <div class="user_item_content_sp">{{$effective_margin}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">必要証拠金</div>
-    <div class="user_item_content_sp">0.00</div>
+    <div class="user_item_content_sp">{{$margin_required}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">余剰証拠金</div>
-    <div class="user_item_content_sp">3496.69</div>
+    <div class="user_item_content_sp">{{$surplus_margin}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">証拠金維持率</div>
-    <div class="user_item_content_sp">100</div>
+    <div class="user_item_content_sp">{{$margin_rate}}</div>
 </div>
 <div class="user_item_sp">
     <div class="user_item_name">ステータス</div>
-    <div class="user_item_content_sp">Active</div>
+    <div class="user_item_content_sp">@if($status) Active @else No Active @endif</div>
 </div>
 
 
