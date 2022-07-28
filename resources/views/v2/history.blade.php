@@ -221,7 +221,7 @@
 
 </div>
 
-<div class="pagenate"><< <span class="page_current">1</span>.2.3 >></div>
+<div class="pagenate"><< <span class="page_current">1</span>.<a href="?page=2">2</a>.<a href="?page=3">3</a> >></div>
 
 @endsection
 
