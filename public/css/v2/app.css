@@ -679,8 +679,12 @@ p {
 }
 
 .user_name {
+    width: 120px;
+    display: inline-block;
     margin-left: 10px;
-    margin-right: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .user_span {
@@ -711,6 +715,9 @@ p {
     background: #F5F5F5 0% 0% no-repeat padding-box;
     border: 0.6px solid #222222;
     margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .user_content_div {
