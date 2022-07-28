@@ -29,6 +29,7 @@ class BFF
             "fixed_pl" => "1470.32",
 
             "closedOrders" => json_decode($closedOrdersExampleJson, true),
+            "closedOrdersAreMore" => true,
         ];
     }
 }
