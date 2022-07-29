@@ -14,7 +14,9 @@ class V2UserController extends Controller
 
     public function history(Request $request)
     {
-        return view('v2/history')->with(BFF::outputDetail($request));
+        $page = isset($request->page) ? $request->page : 1;
+
+        return view('v2/history')->with(BFF::outputDetail($page));
     }
 
     public function setting()

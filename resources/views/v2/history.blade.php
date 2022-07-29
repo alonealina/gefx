@@ -60,7 +60,12 @@
 
 </div>
 
-<div class="pagenate"><< <span class="page_current">1</span>.<a href="?page=2">2</a>.<a href="?page=3">3</a> >></div>
+<div class="pagenate"><< 
+    @if ($page > 1) <a href="?page={{ $page - 1 }}">{{ $page - 1 }}</a>. @endif
+    <span class="page_current">{{ $page }}</span>.
+    @if ($closedOrdersAreMore) <a href="?page={{ $page + 1 }}">{{ $page + 1 }}</a> @endif
+     >>
+</div>
 
 @endsection
 
