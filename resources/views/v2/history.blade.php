@@ -182,7 +182,12 @@
         <div class="history_column_item order_price_sp">1910.45</div>
     </div>
 </div>
-<div class="pagenate_sp"><< <span class="page_current">1</span>.　2.　3 >></div>
+<div class="pagenate_sp"><<
+    @if ($page > 1) <a href="?page={{ $page - 1 }}">{{ $page - 1 }}</a>. @endif
+    <span class="page_current">{{ $page }}</span>.
+    @if ($closedOrdersAreMore) <a href="?page={{ $page + 1 }}">{{ $page + 1 }}</a> @endif
+     >>    
+</div>
 
 <div class="user_item_sp">
     <div class="user_item_name">ご入金</div>
